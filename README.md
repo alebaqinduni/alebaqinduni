@@ -1,5 +1,3 @@
-#  Welcome to My GitHub Profile 👋
-
 **Areeba Chandni Cheema** | AI-Focused Developer | Lahore, Pakistan
 
 ---
@@ -126,10 +124,10 @@ University of Engineering and Technology, Lahore
 I'm passionate about AI-focused development and building scalable solutions. Currently studying computer science while contributing to open-source projects and developing full-stack applications. I love experimenting with new technologies and sharing my learning journey with the community.I like turning messy data into working intelligence.
 
 **Current Focus:**
--  AI/ML-driven projects 🤖
--  Full-stack web development 🌐
--  Data visualization and analytics 📊 
--  Open-source contributions 🔧
+-  AI/ML-driven projects 
+-  Full-stack web development 
+-  Data visualization and analytics 
+-  Open-source contributions 
 
 ---
 
