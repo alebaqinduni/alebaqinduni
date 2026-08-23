@@ -19,7 +19,7 @@
 <br/>
 ---
 
-## 📊 GitHub Statistics
+##  GitHub Statistics 📊
 
 <div align="center">
 
@@ -33,7 +33,7 @@
 
 ---
 
-## 🐍 Contribution Graph
+##  Contribution Graph 🐍
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/projects/output/snake-dark.svg">
@@ -43,17 +43,29 @@
 
 ---
 
-## 🌐 Connect With Me
+##  Connect with Me 🔗
 
-[![GitHub](https://img.shields.io/badge/GitHub-alebaqinduni-0A101F?style=for-the-badge&logo=github&logoColor=E0E7FF)](https://github.com/alebaqinduni)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aleba%20Qinduni-0891B2?style=for-the-badge&logo=linkedin&logoColor=E0E7FF)](https://www.linkedin.com/in/aleba-qinduni-585a121b6/)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-10B981?style=for-the-badge&logo=gmail&logoColor=E0E7FF)](mailto:alebaqinduni@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-areeba.likesyou.org-A78BFA?style=for-the-badge&logo=globe&logoColor=E0E7FF)](https://areeba.likesyou.org/)
-[![Instagram](https://img.shields.io/badge/Instagram-@areeba__chandni-0A101F?style=for-the-badge&logo=instagram&logoColor=E0E7FF)](https://instagram.com/areeba_chandni)
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alebaqinduni@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aleba-qinduni-585a121b6/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/areeba_chandni)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://areeba.likesyou.org)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alebaqinduni)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=alebaqinduni&color=a78bfa&style=for-the-badge&label=PROFILE+VIEWS)
+
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack 🛠️
 
 ### Core Languages
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
@@ -82,7 +94,7 @@
 
 ---
 
-## 📚 Featured Projects
+##  Featured Projects 📚
 
 ### 💱 Lahore Exchange — Currency Board
 A full-stack currency converter with a static frontend and Express API backend.
@@ -101,7 +113,7 @@ A full-stack currency converter with a static frontend and Express API backend.
 
 ---
 
-## 🎓 Education
+##  Education 🎓
 
 **BS Computer Science**  
 University of Engineering and Technology, Lahore  
@@ -109,19 +121,19 @@ University of Engineering and Technology, Lahore
 
 ---
 
-## 📝 About Me
+##  About Me 📝
 
 I'm passionate about AI-focused development and building scalable solutions. Currently studying computer science while contributing to open-source projects and developing full-stack applications. I love experimenting with new technologies and sharing my learning journey with the community.I like turning messy data into working intelligence.
 
 **Current Focus:**
-- 🤖 AI/ML-driven projects
-- 🌐 Full-stack web development
-- 📊 Data visualization and analytics
-- 🔧 Open-source contributions
+-  AI/ML-driven projects 🤖
+-  Full-stack web development 🌐
+-  Data visualization and analytics 📊 
+-  Open-source contributions 🔧
 
 ---
 
-## 📈 Latest Activity
+##  Latest Activity 📈
 
 Check out my contributions above! 
 
@@ -133,24 +145,3 @@ Last updated: August 23, 2026
 
 
 
-## 🔗 Connect with Me
-
-<div align="center">
-
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alebaqinduni@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aleba-qinduni-585a121b6/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/areeba_chandni)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://areeba.likesyou.org)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alebaqinduni)
-
-</div>
-
-<br/>
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=alebaqinduni&color=a78bfa&style=for-the-badge&label=PROFILE+VIEWS)
-
-</div>
-
-<br/>
