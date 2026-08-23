@@ -97,7 +97,7 @@ A full-stack currency converter with a static frontend and Express API backend.
 
 **BS Computer Science**  
 University of Engineering and Technology, Lahore  
-*2023 - Present*
+*2025 - Present*
 
 ---
 
