@@ -7,9 +7,9 @@
 ## 🎨 Profile Banner
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/projects/main/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/projects/main/light.svg">
-  <img alt="Areeba's profile banner" src="https://raw.githubusercontent.com/alebaqinduni/projects/main/dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/light.svg">
+  <img alt="Areeba's profile banner" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/dark.svg">
 </picture>
 
 ---
