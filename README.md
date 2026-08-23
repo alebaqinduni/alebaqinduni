@@ -33,14 +33,6 @@
 
 ##  Contribution Graph 🐍
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/projects/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/projects/output/snake-light.svg">
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/alebaqinduni/projects/output/snake-dark.svg">
-</picture>
-
-
-
 
 <div align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/projects/output/snake-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/projects/output/snake-light.svg"> <img alt="Contribution snake" src="https://raw.githubusercontent.com/alebaqinduni/projects/output/snake-dark.svg" width="100%"> </picture> </div>
 
