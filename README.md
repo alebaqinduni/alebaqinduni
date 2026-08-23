@@ -127,9 +127,6 @@ Last updated: August 23, 2026
 
 
 
-
-
-
 <div align="center">
 
 <picture>
@@ -184,16 +181,13 @@ Last updated: August 23, 2026
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=alebaqinduni&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alebaqinduni&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages"/>
-</div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=alebaqinduni&theme=github-dark-blue&hide_border=true" alt="GitHub Streak"/>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="stats-light.svg">
+  <img alt="GitHub stats" src="stats-dark.svg" width="100%">
+</picture>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=alebaqinduni&theme=darkhub&no-frame=true&margin-w=8&row=1" alt="Trophies"/>
 </div>
 
 <br/>
@@ -207,6 +201,14 @@ Last updated: August 23, 2026
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/areeba_chandni)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://areeba.likesyou.org)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alebaqinduni)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=alebaqinduni&color=a78bfa&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
 
