@@ -1,0 +1,130 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes fadeIn {
+        0% { opacity: 0; transform: scale(0.8); }
+        100% { opacity: 1; transform: scale(1); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.5; }
+      }
+      .portrait-dot { fill: #A78BFA; animation: fadeIn 2.5s ease-out forwards; }
+      .live-badge { animation: pulse 2s infinite; }
+      .info-text { font-family: "Courier New", monospace; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0A101F"/>
+
+  <!-- Terminal Frame -->
+  <rect x="20" y="30" width="1140" height="550" fill="none" stroke="#0891B2" stroke-width="2" rx="8"/>
+  
+  <!-- Title Bar -->
+  <rect x="20" y="30" width="1140" height="35" fill="#0891B2" rx="8" ry="8"/>
+  <text x="35" y="52" font-size="12" class="info-text" font-weight="bold" fill="#E0E7FF">
+    ▌ profile.sh --live
+  </text>
+
+  <!-- Portrait Section Label -->
+  <text x="50" y="85" font-size="9" class="info-text" fill="#10B981" opacity="0.7">
+    VISUAL.MAP
+  </text>
+
+  <!-- Portrait Grid - Dithered from Areeba's photo -->
+  <!-- Head region with dense dots -->
+  <circle cx="70" cy="110" r="3" class="portrait-dot" style="animation-delay: 0.05s"/>
+  <circle cx="85" cy="105" r="3" class="portrait-dot" style="animation-delay: 0.08s"/>
+  <circle cx="100" cy="108" r="3" class="portrait-dot" style="animation-delay: 0.11s"/>
+  <circle cx="115" cy="112" r="3" class="portrait-dot" style="animation-delay: 0.14s"/>
+  <circle cx="128" cy="115" r="3" class="portrait-dot" style="animation-delay: 0.17s"/>
+  <circle cx="140" cy="110" r="3" class="portrait-dot" style="animation-delay: 0.20s"/>
+  
+  <!-- Face details - eyes and features -->
+  <circle cx="75" cy="125" r="2.5" class="portrait-dot" style="animation-delay: 0.23s"/>
+  <circle cx="135" cy="125" r="2.5" class="portrait-dot" style="animation-delay: 0.26s"/>
+  <circle cx="105" cy="130" r="2" class="portrait-dot" style="animation-delay: 0.29s"/>
+  <circle cx="105" cy="140" r="2.5" class="portrait-dot" style="animation-delay: 0.32s"/>
+  
+  <!-- Facial structure -->
+  <circle cx="70" cy="135" r="2.5" class="portrait-dot" style="animation-delay: 0.35s"/>
+  <circle cx="80" cy="138" r="2.5" class="portrait-dot" style="animation-delay: 0.38s"/>
+  <circle cx="95" cy="142" r="3" class="portrait-dot" style="animation-delay: 0.41s"/>
+  <circle cx="115" cy="138" r="2.5" class="portrait-dot" style="animation-delay: 0.44s"/>
+  <circle cx="130" cy="135" r="2.5" class="portrait-dot" style="animation-delay: 0.47s"/>
+  
+  <!-- Lips and mouth area -->
+  <circle cx="85" cy="150" r="2" class="portrait-dot" style="animation-delay: 0.50s"/>
+  <circle cx="105" cy="152" r="2.5" class="portrait-dot" style="animation-delay: 0.53s"/>
+  <circle cx="125" cy="150" r="2" class="portrait-dot" style="animation-delay: 0.56s"/>
+  
+  <!-- Chin and jaw -->
+  <circle cx="75" cy="160" r="2.5" class="portrait-dot" style="animation-delay: 0.59s"/>
+  <circle cx="95" cy="165" r="2.5" class="portrait-dot" style="animation-delay: 0.62s"/>
+  <circle cx="115" cy="165" r="2.5" class="portrait-dot" style="animation-delay: 0.65s"/>
+  <circle cx="135" cy="160" r="2.5" class="portrait-dot" style="animation-delay: 0.68s"/>
+  
+  <!-- Hair area - denser dots -->
+  <circle cx="60" cy="100" r="3" class="portrait-dot" style="animation-delay: 0.71s"/>
+  <circle cx="65" cy="95" r="3" class="portrait-dot" style="animation-delay: 0.74s"/>
+  <circle cx="80" cy="92" r="3" class="portrait-dot" style="animation-delay: 0.77s"/>
+  <circle cx="100" cy="88" r="3" class="portrait-dot" style="animation-delay: 0.80s"/>
+  <circle cx="120" cy="90" r="3" class="portrait-dot" style="animation-delay: 0.83s"/>
+  <circle cx="140" cy="95" r="3" class="portrait-dot" style="animation-delay: 0.86s"/>
+  <circle cx="150" cy="105" r="3" class="portrait-dot" style="animation-delay: 0.89s"/>
+  
+  <!-- Shoulder and clothing -->
+  <circle cx="55" cy="170" r="2.5" class="portrait-dot" style="animation-delay: 0.92s"/>
+  <circle cx="75" cy="175" r="2.5" class="portrait-dot" style="animation-delay: 0.95s"/>
+  <circle cx="105" cy="178" r="2.5" class="portrait-dot" style="animation-delay: 0.98s"/>
+  <circle cx="135" cy="175" r="2.5" class="portrait-dot" style="animation-delay: 1.01s"/>
+  <circle cx="155" cy="170" r="2.5" class="portrait-dot" style="animation-delay: 1.04s"/>
+
+  <!-- System Info Section -->
+  <text x="370" y="75" font-size="9" class="info-text" fill="#10B981" opacity="0.7">
+    SYSTEM.INFO
+  </text>
+
+  <!-- Info Panel -->
+  <text x="370" y="105" font-size="10" class="info-text" font-weight="bold" fill="#10B981">Subject</text>
+  <text x="1100" y="105" font-size="10" class="info-text" fill="#E0E7FF" text-anchor="end">AREEBA CHANDNI</text>
+
+  <text x="370" y="130" font-size="10" class="info-text" font-weight="bold" fill="#10B981">Role</text>
+  <text x="1100" y="130" font-size="10" class="info-text" fill="#E0E7FF" text-anchor="end">AI-Focused Developer</text>
+
+  <text x="370" y="155" font-size="10" class="info-text" font-weight="bold" fill="#10B981">Origin</text>
+  <text x="1100" y="155" font-size="10" class="info-text" fill="#E0E7FF" text-anchor="end">Lahore, Pakistan</text>
+
+  <text x="370" y="180" font-size="10" class="info-text" font-weight="bold" fill="#10B981">Education</text>
+  <text x="1100" y="180" font-size="10" class="info-text" fill="#E0E7FF" text-anchor="end">BS CS, UET LAHORE</text>
+
+  <text x="370" y="205" font-size="10" class="info-text" font-weight="bold" fill="#10B981">Status</text>
+  <text x="1100" y="205" font-size="10" class="info-text" fill="#E0E7FF" text-anchor="end">Studying • Building</text>
+
+  <text x="370" y="235" font-size="10" class="info-text" font-weight="bold" fill="#10B981">Core.Lang</text>
+  <text x="1100" y="235" font-size="10" class="info-text" fill="#E0E7FF" text-anchor="end">Python • C++ • JS</text>
+
+  <text x="370" y="260" font-size="10" class="info-text" font-weight="bold" fill="#10B981">Frontend</text>
+  <text x="1100" y="260" font-size="10" class="info-text" fill="#E0E7FF" text-anchor="end">React • HTML5 • Tailwind</text>
+
+  <text x="370" y="285" font-size="10" class="info-text" font-weight="bold" fill="#10B981">Backend</text>
+  <text x="1100" y="285" font-size="10" class="info-text" fill="#E0E7FF" text-anchor="end">Node.js • Django • PHP</text>
+
+  <text x="370" y="310" font-size="10" class="info-text" font-weight="bold" fill="#10B981">Database</text>
+  <text x="1100" y="310" font-size="10" class="info-text" fill="#E0E7FF" text-anchor="end">MySQL • Firebase</text>
+
+  <text x="370" y="335" font-size="10" class="info-text" font-weight="bold" fill="#10B981">Infra</text>
+  <text x="1100" y="335" font-size="10" class="info-text" fill="#E0E7FF" text-anchor="end">Vercel • Docker • GitHub</text>
+
+  <!-- Live Badge -->
+  <rect x="1020" y="445" width="80" height="28" fill="#EF4444" rx="6" class="live-badge" opacity="0.9"/>
+  <text x="1060" y="467" font-size="12" class="info-text" font-weight="bold" fill="#FFFFFF" text-anchor="middle" class="live-badge">
+    ● ONLINE
+  </text>
+
+  <!-- Footer -->
+  <text x="590" y="575" font-size="9" class="info-text" fill="#0891B2" opacity="0.5" text-anchor="middle">
+    github.com/alebaqinduni • alebaqinduni@gmail.com
+  </text>
+</svg>
