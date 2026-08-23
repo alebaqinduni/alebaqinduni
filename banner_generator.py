@@ -527,3 +527,13 @@ def main():
 if __name__ == '__main__':
     svg_dark, svg_light = main()
     print("\n💾 SVGs generated and ready for upload!")
+
+
+## 📊 GitHub Statistics
+
+![GitHub Streak](https://github-readme-stats-one-jade-66.vercel.app/api/streak-stats?user=alebaqinduni&theme=dark&hide_border=true&background=0A101F&stroke=0891B2&ring=A78BFA&fire=10B981&currStreakLabel=E0E7FF)
+
+<div align="center">
+  <img src="https://github-readme-stats-one-jade-66.vercel.app/api?username=alebaqinduni&show_icons=true&hide_rank=true&theme=dark&bg_color=0A101F&title_color=A78BFA&text_color=E0E7FF&icon_color=10B981&border_color=0891B2&hide_border=true" alt="Areeba's GitHub Stats" width="49%" />
+  <img src="https://github-readme-stats-one-jade-66.vercel.app/api/top-langs/?username=alebaqinduni&layout=compact&theme=dark&bg_color=0A101F&title_color=A78BFA&text_color=E0E7FF&border_color=0891B2&hide_border=true" alt="Top Languages" width="49%" />
+</div>
