@@ -7,11 +7,6 @@
     <clipPath id="portraitClip-light">
       <rect x="60" y="150" width="420" height="480.6" rx="10"/>
     </clipPath>
-    <clipPath id="titleReveal-light">
-      <rect x="0" y="0" width="0" height="30">
-        <animate attributeName="width" from="0" to="520" dur="1.8s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
-      </rect>
-    </clipPath>
   </defs>
 
   <rect width="1180" height="702" rx="16" fill="url(#bg-light)" stroke="#d8d2f0" stroke-width="1.5"/>
@@ -19,9 +14,7 @@
   <circle cx="34" cy="32" r="6.5" fill="#ff5f56"/>
   <circle cx="58" cy="32" r="6.5" fill="#ffbd2e"/>
   <circle cx="82" cy="32" r="6.5" fill="#27c93f"/>
-  <g clip-path="url(#titleReveal-light)">
-    <text x="118" y="37" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="14" fill="#5b5470">alebaqinduni@gmail.com — % ./profile.sh --live</text>
-  </g>
+  <text x="118" y="37" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="14" fill="#8b93a1">alebaqinduni@gmail.com — % ./profile.sh --live</text>
   <line x1="0" y1="58" x2="1180" y2="58" stroke="#d8d2f0" stroke-width="1"/>
 
   <text x="60" y="88" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="13" letter-spacing="2" fill="#5b5470">VISUAL.MAP</text>
@@ -29,7 +22,7 @@
     <circle cx="446" cy="83" r="4" fill="#dc2626">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
     </circle>
-    <text x="456" y="87" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="12" fill="#dc2626">LIVE</text>
+    <text x="456" y="87" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="12" fill="#5b5470">LIVE</text>
   </g>
 
   <rect x="58" y="148" width="424" height="484.6" rx="12" fill="#faf9ff" stroke="#6d28d9" stroke-width="1.5" opacity="0.55"/>
