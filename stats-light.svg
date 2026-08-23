@@ -1,0 +1,77 @@
+<svg width="1180" height="300" viewBox="0 0 1180 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="statsbg-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f6f4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1180" height="300" rx="16" fill="url(#statsbg-light)" stroke="#d8d2f0" stroke-width="1.5"/>
+
+  <circle cx="34" cy="32" r="6.5" fill="#ff5f56"/>
+  <circle cx="58" cy="32" r="6.5" fill="#ffbd2e"/>
+  <circle cx="82" cy="32" r="6.5" fill="#27c93f"/>
+  <text x="118" y="37" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="14" fill="#5b5470">% ./stats.sh --live</text>
+  <line x1="0" y1="58" x2="1180" y2="58" stroke="#d8d2f0" stroke-width="1"/>
+
+  <text x="60" y="90" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="13" letter-spacing="2" fill="#5b5470">GITHUB.STATS</text>
+  
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.30s" fill="freeze"/>
+      <text x="192.5" y="150" text-anchor="middle" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="40" font-weight="700" fill="#241b3a">93</text>
+      <text x="192.5" y="178" text-anchor="middle" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="13" fill="#5b5470">Total Contributions</text>
+    </g><line x1="325.0" y1="115" x2="325.0" y2="185" stroke="#d8d2f0" stroke-width="1"/>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.45s" fill="freeze"/>
+      <text x="457.5" y="150" text-anchor="middle" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="40" font-weight="700" fill="#241b3a">2</text>
+      <text x="457.5" y="178" text-anchor="middle" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="13" fill="#5b5470">Current Streak</text>
+    </g><line x1="590.0" y1="115" x2="590.0" y2="185" stroke="#d8d2f0" stroke-width="1"/>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.60s" fill="freeze"/>
+      <text x="722.5" y="150" text-anchor="middle" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="40" font-weight="700" fill="#241b3a">2</text>
+      <text x="722.5" y="178" text-anchor="middle" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="13" fill="#5b5470">Longest Streak</text>
+    </g><line x1="855.0" y1="115" x2="855.0" y2="185" stroke="#d8d2f0" stroke-width="1"/>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.75s" fill="freeze"/>
+      <text x="987.5" y="150" text-anchor="middle" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="40" font-weight="700" fill="#241b3a">5</text>
+      <text x="987.5" y="178" text-anchor="middle" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="13" fill="#5b5470">Public Repos</text>
+    </g>
+
+  <text x="60" y="220" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="13" letter-spacing="2" fill="#5b5470">TOP.LANGUAGES</text>
+  
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.20s" fill="freeze"/>
+      <rect x="60.0" y="228" width="94" height="34" rx="17" fill="#faf9ff" stroke="#d8d2f0" stroke-width="1.2"/>
+      <circle cx="80.0" cy="245" r="5" fill="#00599C"/>
+      <text x="94.0" y="249.5" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="14" fill="#241b3a">C++</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.30s" fill="freeze"/>
+      <rect x="168.0" y="228" width="118" height="34" rx="17" fill="#faf9ff" stroke="#d8d2f0" stroke-width="1.2"/>
+      <circle cx="188.0" cy="245" r="5" fill="#3572A5"/>
+      <text x="202.0" y="249.5" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="14" fill="#241b3a">Python</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.40s" fill="freeze"/>
+      <rect x="300.0" y="228" width="94" height="34" rx="17" fill="#faf9ff" stroke="#d8d2f0" stroke-width="1.2"/>
+      <circle cx="320.0" cy="245" r="5" fill="#4F5D95"/>
+      <text x="334.0" y="249.5" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="14" fill="#241b3a">PHP</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.50s" fill="freeze"/>
+      <rect x="408.0" y="228" width="102" height="34" rx="17" fill="#faf9ff" stroke="#d8d2f0" stroke-width="1.2"/>
+      <circle cx="428.0" cy="245" r="5" fill="#e34c26"/>
+      <text x="442.0" y="249.5" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="14" fill="#241b3a">HTML</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.60s" fill="freeze"/>
+      <rect x="524.0" y="228" width="94" height="34" rx="17" fill="#faf9ff" stroke="#d8d2f0" stroke-width="1.2"/>
+      <circle cx="544.0" cy="245" r="5" fill="#563d7c"/>
+      <text x="558.0" y="249.5" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="14" fill="#241b3a">CSS</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.70s" fill="freeze"/>
+      <rect x="632.0" y="228" width="102" height="34" rx="17" fill="#faf9ff" stroke="#d8d2f0" stroke-width="1.2"/>
+      <circle cx="652.0" cy="245" r="5" fill="#b07219"/>
+      <text x="666.0" y="249.5" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="14" fill="#241b3a">Java</text>
+    </g>
+</svg>
