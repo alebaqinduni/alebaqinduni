@@ -2,11 +2,8 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    # Run every 12 hours
     - cron: '0 */12 * * *'
-  # Allow manual trigger
   workflow_dispatch:
-  # Run on push to main
   push:
     branches:
       - main
@@ -25,15 +22,21 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: alebaqinduni
+          # IMPORTANT: default GITHUB_TOKEN usually can't read the GraphQL
+          # contribution calendar. Use a personal access token instead
+          # (create one with 'read:user' scope, save it as a repo secret
+          # named GH_PAT, then reference it here).
+          github_token: ${{ secrets.GH_PAT }}
           outputs: |
-            dist/snake-dark.svg?palette=dark&color_dots=0A101F,10B981,0891B2,A78BFA,E0E7FF
+            dist/snake-dark.svg?palette=dark&color_dots=161B22,10B981,0891B2,A78BFA,E0E7FF
 
       - name: Generate snake SVG (Light Mode)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: alebaqinduni
+          github_token: ${{ secrets.GH_PAT }}
           outputs: |
-            dist/snake-light.svg?palette=light&color_dots=FFFFFF,10B981,0891B2,A78BFA,0A101F
+            dist/snake-light.svg?palette=light&color_dots=EBEDF0,10B981,0891B2,A78BFA,4C1D95
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
