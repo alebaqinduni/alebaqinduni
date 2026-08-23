@@ -1,0 +1,44 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    # Run every 12 hours
+    - cron: '0 */12 * * *'
+  # Allow manual trigger
+  workflow_dispatch:
+  # Run on push to main
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate snake SVG (Dark Mode)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: alebaqinduni
+          outputs: |
+            dist/snake-dark.svg?palette=dark&color_dots=0A101F,10B981,0891B2,A78BFA,E0E7FF
+
+      - name: Generate snake SVG (Light Mode)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: alebaqinduni
+          outputs: |
+            dist/snake-light.svg?palette=light&color_dots=FFFFFF,10B981,0891B2,A78BFA,0A101F
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
