@@ -19,12 +19,7 @@
   <line x1="0" y1="58" x2="1180" y2="58" stroke="#2a3140" stroke-width="1"/>
 
   <text x="60" y="88" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="13" letter-spacing="2" fill="#8b93a1">VISUAL.MAP</text>
-  <g>
-    <circle cx="446" cy="83" r="4" fill="#ff6b6b">
-      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
-    </circle>
-    <text x="456" y="87" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="12" fill="#ff6b6b">LIVE</text>
-  </g>
+  
 
   <rect x="58" y="148" width="424" height="484.6" rx="12" fill="#0b0f17" stroke="#a78bfa" stroke-width="1.5" opacity="0.55"/>
   <image x="60" y="150" width="420" height="480.6" preserveAspectRatio="xMidYMid slice"
