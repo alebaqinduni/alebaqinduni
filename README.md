@@ -1,26 +1,34 @@
-# 👋 Welcome to My GitHub Profile
+#  Welcome to My GitHub Profile 👋
 
 **Areeba Chandni Cheema** | AI-Focused Developer | Lahore, Pakistan
 
 ---
 
-## 🎨 Profile Banner
+##  Profile Banner 🎨
+
+<div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/light.svg">
-  <img alt="Areeba's profile banner" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="light.svg">
+  <img alt="Areeba Chandni Cheema — system dashboard" src="dark.svg" width="100%">
 </picture>
 
+</div>
+
+<br/>
 ---
 
 ## 📊 GitHub Statistics
 
-![GitHub Streak](https://github-readme-stats-one-jade-66.vercel.app/api/streak-stats?user=alebaqinduni&theme=dark&hide_border=true&background=0A101F&stroke=0891B2&ring=A78BFA&fire=10B981&currStreakLabel=E0E7FF)
-
 <div align="center">
-  <img src="https://github-readme-stats-one-jade-66.vercel.app/api?username=alebaqinduni&show_icons=true&hide_rank=true&theme=dark&bg_color=0A101F&title_color=A78BFA&text_color=E0E7FF&icon_color=10B981&border_color=0891B2&hide_border=true" alt="Areeba's GitHub Stats" width="49%" />
-  <img src="https://github-readme-stats-one-jade-66.vercel.app/api/top-langs/?username=alebaqinduni&layout=compact&theme=dark&bg_color=0A101F&title_color=A78BFA&text_color=E0E7FF&border_color=0891B2&hide_border=true" alt="Top Languages" width="49%" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="stats-light.svg">
+  <img alt="GitHub stats" src="stats-dark.svg" width="100%">
+</picture>
+
 </div>
 
 ---
@@ -103,7 +111,7 @@ University of Engineering and Technology, Lahore
 
 ## 📝 About Me
 
-I'm passionate about AI-focused development and building scalable solutions. Currently studying computer science while contributing to open-source projects and developing full-stack applications. I love experimenting with new technologies and sharing my learning journey with the community.
+I'm passionate about AI-focused development and building scalable solutions. Currently studying computer science while contributing to open-source projects and developing full-stack applications. I love experimenting with new technologies and sharing my learning journey with the community.I like turning messy data into working intelligence.
 
 **Current Focus:**
 - 🤖 AI/ML-driven projects
@@ -115,7 +123,7 @@ I'm passionate about AI-focused development and building scalable solutions. Cur
 
 ## 📈 Latest Activity
 
-Check out my contributions above! 🐍
+Check out my contributions above! 
 
 ---
 
@@ -124,73 +132,6 @@ Check out my contributions above! 🐍
 Last updated: August 23, 2026
 
 
-
-
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="light.svg">
-  <img alt="Areeba Chandni Cheema — system dashboard" src="dark.svg" width="100%">
-</picture>
-
-</div>
-
-<br/>
-
-## 👋 About Me
-
-- 🤖 **AI-focused developer** — I like turning messy data into working intelligence.
-- 🎓 Computer Science student at **UET Lahore**.
-- 🌱 Currently building, learning, and shipping — always deep in an ML or LLM project.
-- 📍 Based in Lahore, Pakistan.
-
-<br/>
-
-## 🛠️ Tech Stack
-
-<div align="left">
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**AI / ML**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-
-**Tools**
-
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-
-</div>
-
-<br/>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="stats-light.svg">
-  <img alt="GitHub stats" src="stats-dark.svg" width="100%">
-</picture>
-
-</div>
-
-<br/>
 
 ## 🔗 Connect with Me
 
@@ -213,9 +154,3 @@ Last updated: August 23, 2026
 </div>
 
 <br/>
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=alebaqinduni&color=a78bfa&style=for-the-badge&label=PROFILE+VIEWS)
-
-</div>
