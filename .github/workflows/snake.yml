@@ -1,4 +1,4 @@
-name: Generate Profile Graphics 🐍📊
+name: Generate Profile Graphics 🐇📊
 
 on:
   schedule:
@@ -27,15 +27,12 @@ jobs:
           OUTPUT_DIR: dist
         run: python3 scripts/generate_profile_graphics.py
 
-      - name: Generate contribution snake 🐍
-        uses: Platane/snk@v3
-        with:
-          github_user_name: alebaqinduni
-          outputs: |
-            dist/snake.svg?palette=github-light&color_snake=4C1D95&color_dots=EBEDF0,9BE9A8,40C463,30A14E,216E39
-            dist/snake-dark.svg?palette=github-dark&color_snake=A78BFA&color_dots=161B22,0E4429,006D32,26A641,39D353
+      - name: Add pink bunny contribution garden 🐇
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: alebaqinduni
+          OUTPUT_DIR: dist
+        run: python3 scripts/generate_bunny_contribution_graph.py
 
       - name: Publish profile graphics 🚀
         uses: crazy-max/ghaction-github-pages@v4
