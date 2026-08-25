@@ -66,97 +66,67 @@ A currency conversion project focused on exchange-rate utilities and a practical
 
 ## Project Roadmap
 <div align="center">
-<sub>the route from an idea to the next release</sub>
-</div>
-
-```mermaid
-flowchart LR
-    I([IDEA]):::idea --> B([BUILD]):::build --> P([POLISH]):::polish --> S([SHIP]):::ship
-    B -.-> C[CONVERTLY]:::project
-    B -.-> M[CURRENCY APP]:::project
-    P -.-> U[STRONGER UI]:::future
-    S -.-> A[AI + AUTOMATION]:::future
-    classDef idea fill:#0C4A6E,stroke:#38BDF8,color:#F8FAFC,stroke-width:3px;
-    classDef build fill:#312E81,stroke:#A78BFA,color:#F8FAFC,stroke-width:3px;
-    classDef polish fill:#831843,stroke:#F472B6,color:#F8FAFC,stroke-width:3px;
-    classDef ship fill:#065F46,stroke:#34D399,color:#F8FAFC,stroke-width:3px;
-    classDef project fill:#111827,stroke:#38BDF8,color:#F8FAFC,stroke-width:2px;
-    classDef future fill:#1E1B4B,stroke:#C4B5FD,color:#F8FAFC,stroke-width:2px;
-```
-
-<div align="center">
+<sub>a quiet path from idea to release</sub>
+<br><br>
 <table width="94%">
 <tr>
-<td align="center" width="25%"><sub>01</sub><br><strong>IDEA</strong><br><sub>spot a useful problem</sub></td>
-<td align="center" width="25%"><sub>02</sub><br><strong>BUILD</strong><br><sub>make the first real version</sub></td>
-<td align="center" width="25%"><sub>03</sub><br><strong>POLISH</strong><br><sub>clarity, motion, detail</sub></td>
-<td align="center" width="25%"><sub>04</sub><br><strong>SHIP</strong><br><sub>learn and iterate</sub></td>
+<td align="center" width="25%"><img src="https://img.shields.io/badge/01-38BDF8?style=for-the-badge&labelColor=0F172A" alt="01"><br><br><strong>IDEA</strong><br><sub>spot a useful problem</sub></td>
+<td align="center" width="25%"><img src="https://img.shields.io/badge/02-A78BFA?style=for-the-badge&labelColor=0F172A" alt="02"><br><br><strong>BUILD</strong><br><sub>make the first real version</sub></td>
+<td align="center" width="25%"><img src="https://img.shields.io/badge/03-F472B6?style=for-the-badge&labelColor=0F172A" alt="03"><br><br><strong>POLISH</strong><br><sub>clarity, motion, detail</sub></td>
+<td align="center" width="25%"><img src="https://img.shields.io/badge/04-34D399?style=for-the-badge&labelColor=0F172A" alt="04"><br><br><strong>SHIP</strong><br><sub>learn and iterate</sub></td>
+</tr>
+</table>
+<br>
+<table width="82%">
+<tr>
+<td align="center"><sub>BUILT</sub><br><strong>CONVERTLY</strong></td>
+<td align="center"><sub>BUILT</sub><br><strong>CURRENCY APP</strong></td>
+<td align="center"><sub>NEXT</sub><br><strong>STRONGER UI</strong></td>
+<td align="center"><sub>EXPLORE</sub><br><strong>AI + AUTOMATION</strong></td>
 </tr>
 </table>
 </div>
 
 ## Current Focus
 <div align="center">
-<table width="94%">
+<br>
+<table width="78%">
 <tr>
-<td width="24%" align="center" valign="middle">
-<img src="https://img.shields.io/badge/NOW-7C3AED?style=for-the-badge&labelColor=111827" alt="Current focus">
-<br><br><strong>BUILD MODE</strong>
-<br><sub>what is getting attention now</sub>
-</td>
-<td width="19%" align="center"><strong>WEB</strong><br><br><img src="https://img.shields.io/badge/BUILD-0891B2?style=flat-square" alt="Web build"><br><sub>useful apps</sub></td>
-<td width="19%" align="center"><strong>CODE</strong><br><br><img src="https://img.shields.io/badge/PRACTICE-2563EB?style=flat-square" alt="Code practice"><br><sub>Python · C++ · JS</sub></td>
-<td width="19%" align="center"><strong>AI</strong><br><br><img src="https://img.shields.io/badge/EXPLORE-7C3AED?style=flat-square" alt="AI exploration"><br><sub>experiment</sub></td>
-<td width="19%" align="center"><strong>UI</strong><br><br><img src="https://img.shields.io/badge/POLISH-EC4899?style=flat-square" alt="UI polish"><br><sub>motion · clarity</sub></td>
+<td align="center" colspan="4"><img src="https://img.shields.io/badge/BUILDING%20NOW-7C3AED?style=for-the-badge&labelColor=111827" alt="Building now"></td>
+</tr>
+<tr>
+<td align="center" width="25%"><br><strong>WEB</strong><br><br><img src="https://img.shields.io/badge/BUILD-0891B2?style=flat-square" alt="Build"><br><sub>useful apps</sub><br><br></td>
+<td align="center" width="25%"><br><strong>CODE</strong><br><br><img src="https://img.shields.io/badge/PRACTICE-2563EB?style=flat-square" alt="Practice"><br><sub>Python · C++ · JS</sub><br><br></td>
+<td align="center" width="25%"><br><strong>AI</strong><br><br><img src="https://img.shields.io/badge/EXPLORE-7C3AED?style=flat-square" alt="Explore"><br><sub>experiment</sub><br><br></td>
+<td align="center" width="25%"><br><strong>UI</strong><br><br><img src="https://img.shields.io/badge/POLISH-EC4899?style=flat-square" alt="Polish"><br><sub>motion · clarity</sub><br><br></td>
 </tr>
 </table>
 <br>
-<table width="88%">
-<tr>
-<td align="center"><sub>WEB</sub><br><strong>BUILD → TEST → IMPROVE</strong></td>
-<td align="center"><sub>CODE</sub><br><strong>LEARN → PRACTICE → SHIP</strong></td>
-<td align="center"><sub>AI</sub><br><strong>EXPLORE → PROTOTYPE</strong></td>
-<td align="center"><sub>UI</sub><br><strong>DESIGN → POLISH</strong></td>
-</tr>
-</table>
+<sub>build useful things · practice deliberately · explore AI · make interfaces feel alive</sub>
 </div>
 
 ## Education
 <div align="center">
-<table width="92%">
+<br>
+<table width="82%">
 <tr>
-<td width="18%" align="center" valign="middle">
-<img src="https://img.shields.io/badge/2025-2563EB?style=for-the-badge&labelColor=111827" alt="Started in 2025">
-<br><br><sub>THE START</sub>
-</td>
-<td width="4%" align="center"><strong>→</strong></td>
-<td width="34%" align="center" valign="middle">
-<img src="https://img.shields.io/badge/BS%20COMPUTER%20SCIENCE-7C3AED?style=for-the-badge&labelColor=111827" alt="BS Computer Science">
-<br><br><strong>University of Engineering and Technology, Lahore</strong>
-<br><sub>learning the foundations of computing</sub>
-</td>
-<td width="4%" align="center"><strong>→</strong></td>
-<td width="18%" align="center" valign="middle">
-<img src="https://img.shields.io/badge/BUILD-EC4899?style=for-the-badge&labelColor=111827" alt="Learning by building">
-<br><br><sub>LEARN BY MAKING</sub>
-</td>
-<td width="4%" align="center"><strong>→</strong></td>
-<td width="18%" align="center" valign="middle">
-<img src="https://img.shields.io/badge/PRESENT-10B981?style=for-the-badge&labelColor=111827" alt="Present">
-<br><br><sub>STILL EXPLORING</sub>
-</td>
+<td align="center" width="18%"><img src="https://img.shields.io/badge/2025-38BDF8?style=for-the-badge&labelColor=0F172A" alt="2025"><br><br><sub>START</sub></td>
+<td align="center" width="5%"><strong>→</strong></td>
+<td align="center" width="42%"><img src="https://img.shields.io/badge/BS%20COMPUTER%20SCIENCE-A78BFA?style=for-the-badge&labelColor=0F172A" alt="BS Computer Science"><br><br><strong>University of Engineering and Technology, Lahore</strong><br><sub>learning the foundations of computing</sub></td>
+<td align="center" width="5%"><strong>→</strong></td>
+<td align="center" width="30%"><img src="https://img.shields.io/badge/PRESENT-34D399?style=for-the-badge&labelColor=0F172A" alt="Present"><br><br><sub>LEARNING BY BUILDING</sub></td>
 </tr>
 </table>
 <br>
-<table width="80%">
+<table width="60%">
 <tr>
-<td align="center"><strong>LEARN</strong><br><sub>concepts</sub></td>
-<td align="center">+</td>
-<td align="center"><strong>BUILD</strong><br><sub>projects</sub></td>
-<td align="center">+</td>
-<td align="center"><strong>CREATE</strong><br><sub>experiments</sub></td>
-<td align="center">+</td>
-<td align="center"><strong>EXPLORE</strong><br><sub>what comes next</sub></td>
+<td align="center"><strong>LEARN</strong></td>
+<td align="center">·</td>
+<td align="center"><strong>BUILD</strong></td>
+<td align="center">·</td>
+<td align="center"><strong>CREATE</strong></td>
+<td align="center">·</td>
+<td align="center"><strong>EXPLORE</strong></td>
 </tr>
 </table>
 </div>
