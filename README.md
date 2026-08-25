@@ -18,7 +18,7 @@
 <!-- Soft purple wave: replaces the old blue line -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=48&section=footer&animation=twinkling" alt="Soft purple wave" width="100%">
 
-<sub>૮ ˶ᵔ ᵕ ᵔ˶ ა &nbsp; welcome to my little corner of GitHub ✦</sub>
+<sub>૮ ˶ᵔ ᵕ ᔾ˶ ა &nbsp; welcome to my little corner of GitHub ✦</sub>
 
 </div>
 
@@ -44,7 +44,7 @@
 </picture>
 
 <br>
-<sub>૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა&nbsp; the bunny visits when there is something new to show</sub>
+<sub>૮₍ ˶ᵔ ᵕ ᔾ˶ ₎ა&nbsp; the bunny visits when there is something new to show</sub>
 </div>
 
 ## Activity Graph
@@ -72,10 +72,6 @@
 
 <br>
 <a href="https://github.com/alebaqinduni"><img src="https://img.shields.io/badge/%E2%97%8F%20LIVE-0891B2?style=for-the-badge&logoColor=white" alt="Live GitHub profile"></a>
-</div>
-
-<div align="center">
-<img src="project-particles.svg" alt="Animated project system particles" width="100%">
 </div>
 
 ## Project System
@@ -254,7 +250,7 @@ flowchart LR
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0891B2&height=70&section=footer&animation=twinkling&fontColor=A78BFA" alt="Animated blue purple divider" width="100%">
 <br>
-<sub>૮ ˶ᵔ ᵕ ᵔ˶ ა&nbsp; building quietly, learning constantly, and keeping things a little bit pretty.</sub>
+<sub>૮ ˶ᵔ ᵕ ᔾ˶ ა&nbsp; building quietly, learning constantly, and keeping things a little bit pretty.</sub>
 <br><br>
 <sub>Thanks for hopping by. ✦</sub>
 </div>
