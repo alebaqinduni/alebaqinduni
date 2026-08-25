@@ -100,21 +100,39 @@ A currency conversion project focused on exchange-rate utilities and a practical
 
 ## About Me
 <div align="center">
-<br>
+<table width="92%">
+<tr>
+<td width="36%" align="left" valign="top">
+<sub>ABOUT / 01</sub><br><br>
+<strong>A curious builder who likes turning small ideas into useful things.</strong>
+<br><br>
+<sub>CS STUDENT · DEVELOPER · EXPLORER</sub>
+</td>
+<td width="64%" align="left" valign="top">
 <pre>
-╭────────────────────────────────────────────────────────────╮
-│                         A R E E B A                        │
-│                                                            │
-│   curious builder  /  CS student  /  detail chaser        │
-│                                                            │
-│   I learn by making things.                                │
-│   I turn small ideas into useful apps.                     │
-│   I enjoy the moment when code starts to feel alive.       │
-│                                                            │
-│   BUILD      →      LEARN      →      NOTICE      →  REFINE │
-╰────────────────────────────────────────────────────────────╯
+$ whoami
+areeba@builder:~$ cat mindset.txt
+
+learn by making
+build with curiosity
+notice the details
+refine until it feels right
+
+status: still exploring...
 </pre>
-<sub>not a résumé · more like a little developer note</sub>
+</td>
+</tr>
+</table>
+<br>
+<table width="72%">
+<tr>
+<td align="center"><sub>IDEAS</sub><br><strong>→</strong></td>
+<td align="center"><sub>CODE</sub><br><strong>→</strong></td>
+<td align="center"><sub>DESIGN</sub><br><strong>→</strong></td>
+<td align="center"><sub>USEFUL</sub><br><strong>→</strong></td>
+<td align="center"><sub>BETTER</sub></td>
+</tr>
+</table>
 </div>
 
 ## Education
