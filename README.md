@@ -155,94 +155,107 @@ I'm a Computer Science student interested in AI-focused development, full-stack 
 
 ---
 
-# ✦ AI LAB
+# AI LAB
 
 <div align="center">
 
-### Building ideas that feel a little too ambitious — then making them real.
+### Building ambitious ideas and turning them into useful systems.
 
-| 🧠 AI Experiments | 🎨 Creative Systems | ⚡ Intelligent Apps |
+| AI Experiments | Creative Systems | Intelligent Apps |
 |:---:|:---:|:---:|
 | Models · prompts · agents | UI · media · generative ideas | automation · APIs · smart tools |
 
-</div>
+<br>
 
-> **AI Lab status:** `ACTIVE` · **Mode:** `BUILD → TEST → SHIP` · **Next:** more intelligent, useful, playful systems
+<sub><code>ACTIVE</code> &nbsp;·&nbsp; <code>BUILD → TEST → SHIP</code> &nbsp;·&nbsp; intelligent, useful, playful systems</sub>
+
+</div>
 
 ---
 
-# 🚀 CURRENT PROJECTS
+# CURRENT PROJECTS
 
 <div align="center">
 
 | Project | What I'm building | Status |
 |---|---|:---:|
-| 🤖 AI Applications | AI-powered tools and experiences | 🟢 Active |
-| 🌙 Wakeup Alarm | Smart alarm / wake-up experience | 🟡 Evolving |
-| 💱 Lahore Exchange | Currency conversion + PWA | 🟢 Deploy-ready |
-| ✨ Profile System | Animated GitHub identity + live stats | 🟢 Active |
+| AI Applications | AI-powered tools and experiences | Active |
+| Wakeup Alarm | Smart alarm / wake-up experience | Evolving |
+| Lahore Exchange | Currency conversion + PWA | Deploy-ready |
+| Profile System | Animated GitHub identity + live stats | Active |
 
 </div>
 
 ---
 
-# 🔭 PROJECT FORECAST
+# PROJECT FORECAST
 
 <div align="center">
 
 **NOW** ───────── **NEXT** ───────── **SOON**
 
-🧠 AI Apps → 🤖 Smarter Agents → 🎬 AI Media → 🌐 Bigger Full-Stack Systems
+AI Apps → Smarter Agents → AI Media → Larger Full-Stack Systems
 
-<br>
+<br><br>
 
-`████████░░` AI Building  ·  `███████░░░` Full-Stack  ·  `██████░░░░` Open Source  ·  `█████░░░░░` Experiments
+<code>████████░░</code> AI Building &nbsp; <code>███████░░░</code> Full-Stack &nbsp; <code>██████░░░░</code> Open Source &nbsp; <code>█████░░░░░</code> Experiments
 
 </div>
 
 ---
 
-# 📊 PROJECT OVERVIEW
+# PROJECT OVERVIEW
 
 <div align="center">
 
 | Area | Focus |
 |:---|:---|
-| 🧠 Artificial Intelligence | AI apps, agents, automation, experimentation |
-| 💻 Software Engineering | Full-stack products and clean architecture |
-| 🎨 Creative Tech | Beautiful interfaces, interactive experiences, media |
-| 📈 Data | Visualization, analytics and useful dashboards |
-| 🌱 Open Source | Learning in public and shipping projects |
+| Artificial Intelligence | AI apps, agents, automation, experimentation |
+| Software Engineering | Full-stack products and clean architecture |
+| Creative Tech | Beautiful interfaces, interactive experiences, media |
+| Data | Visualization, analytics and useful dashboards |
+| Open Source | Learning in public and shipping projects |
 
 </div>
 
 ---
 
-# 🎧 CURRENTLY PLAYING
+# CURRENTLY LISTENING
 
 <div align="center">
 
-<a href="https://open.spotify.com/">
-<img src="https://img.shields.io/badge/♫%20Spotify-Listen%20with%20me-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify — currently playing">
+<a href="https://open.spotify.com/search/Learn%20to%20Meow">
+<img src="https://img.shields.io/badge/Spotify-Learn%20to%20Meow-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Currently listening to Learn to Meow on Spotify">
 </a>
 
 <br><br>
 
-<sub>♪ A little music while the code compiles ♡</sub>
+<table>
+<tr>
+<td align="center" width="120">
+<img src="https://img.shields.io/badge/♫-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify">
+</td>
+<td align="left">
+<b>Learn to Meow</b><br>
+<sub>currently listening · Spotify</sub><br>
+<sub>♪ a little music while the code compiles</sub>
+</td>
+</tr>
+</table>
 
 </div>
 
 ---
 
-## ✦ More About My Build Style
+## Build Style
 
 <div align="center">
 
-`IDEATE` → `DESIGN` → `CODE` → `BREAK` → `FIX` → `POLISH` → `SHIP` ✦
+<code>IDEATE</code> → <code>DESIGN</code> → <code>CODE</code> → <code>BREAK</code> → <code>FIX</code> → <code>POLISH</code> → <code>SHIP</code>
 
 <br><br>
 
-<sub>✨ Curious about AI · obsessed with polished details · always building something new</sub>
+<sub>Curious about AI · focused on polished details · always building something new</sub>
 
 </div>
 
