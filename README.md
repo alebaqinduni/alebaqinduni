@@ -55,7 +55,9 @@
 
 ## Achievements
 
-<div align="center"><img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/achievements.svg?v=20260826" alt="Live GitHub achievements" width="100%"></div>
+<div align="center">
+<a href="https://github.com/alebaqinduni"><img src="achievements.svg?v=20260826" alt="Live GitHub achievements" width="100%"></a>
+</div>
 
 ---
 
