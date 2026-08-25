@@ -66,16 +66,16 @@ A currency conversion project focused on exchange-rate utilities and a practical
 
 ## Project Roadmap
 <div align="center">
-<sub>idea → build → polish → ship → explore</sub>
+<sub>the route from an idea to the next release</sub>
 </div>
 
 ```mermaid
 flowchart LR
     I([IDEA]):::idea --> B([BUILD]):::build --> P([POLISH]):::polish --> S([SHIP]):::ship
-    B --> C[CONVERTLY]:::project
-    B --> M[CURRENCY APP]:::project
-    P --> U[STRONGER UI]:::future
-    S --> A[AI + AUTOMATION]:::future
+    B -.-> C[CONVERTLY]:::project
+    B -.-> M[CURRENCY APP]:::project
+    P -.-> U[STRONGER UI]:::future
+    S -.-> A[AI + AUTOMATION]:::future
     classDef idea fill:#0C4A6E,stroke:#38BDF8,color:#F8FAFC,stroke-width:3px;
     classDef build fill:#312E81,stroke:#A78BFA,color:#F8FAFC,stroke-width:3px;
     classDef polish fill:#831843,stroke:#F472B6,color:#F8FAFC,stroke-width:3px;
@@ -87,71 +87,78 @@ flowchart LR
 <div align="center">
 <table width="94%">
 <tr>
-<td align="center" width="25%"><sub>01</sub><br><strong>IDEA</strong><br><sub>find a useful problem</sub></td>
-<td align="center" width="25%"><sub>02</sub><br><strong>BUILD</strong><br><sub>turn it into something real</sub></td>
+<td align="center" width="25%"><sub>01</sub><br><strong>IDEA</strong><br><sub>spot a useful problem</sub></td>
+<td align="center" width="25%"><sub>02</sub><br><strong>BUILD</strong><br><sub>make the first real version</sub></td>
 <td align="center" width="25%"><sub>03</sub><br><strong>POLISH</strong><br><sub>clarity, motion, detail</sub></td>
-<td align="center" width="25%"><sub>04</sub><br><strong>SHIP</strong><br><sub>learn from the result</sub></td>
+<td align="center" width="25%"><sub>04</sub><br><strong>SHIP</strong><br><sub>learn and iterate</sub></td>
 </tr>
 </table>
 </div>
 
 ## Current Focus
 <div align="center">
-<sub>the active layer of the build system</sub>
-</div>
-
-```mermaid
-flowchart TB
-    CORE((CURRENT)):::core
-    CORE --> WEB[WEB APPS<br/>useful + practical]:::web
-    CORE --> CODE[CODE<br/>Python · C++ · JavaScript]:::code
-    CORE --> AI[AI<br/>explore + experiment]:::ai
-    CORE --> UI[UI<br/>motion + clarity]:::ui
-    WEB --> W[BUILD → TEST → IMPROVE]:::small
-    CODE --> C[LEARN → PRACTICE → SHIP]:::small
-    AI --> A[EXPLORE → PROTOTYPE]:::small
-    UI --> U[DESIGN → POLISH]:::small
-    classDef core fill:#7C3AED,stroke:#E9D5FF,color:#fff,stroke-width:4px;
-    classDef web fill:#075985,stroke:#38BDF8,color:#fff,stroke-width:3px;
-    classDef code fill:#9A3412,stroke:#FB923C,color:#fff,stroke-width:3px;
-    classDef ai fill:#581C87,stroke:#C084FC,color:#fff,stroke-width:3px;
-    classDef ui fill:#9D174D,stroke:#F472B6,color:#fff,stroke-width:3px;
-    classDef small fill:#111827,stroke:#64748B,color:#F8FAFC,stroke-width:2px;
-```
-
-## Education
-<div align="center">
-<sub>2025 → present</sub>
-</div>
-
-```mermaid
-flowchart LR
-    Y([2025]):::year --> D[BS COMPUTER SCIENCE]:::degree --> U[UET LAHORE]:::uni --> N([NOW]):::now
-    D --> L[LEARN]:::learn
-    D --> B[BUILD]:::build
-    D --> C[CREATE]:::create
-    D --> E[EXPLORE]:::explore
-    classDef year fill:#0C4A6E,stroke:#38BDF8,color:#fff,stroke-width:3px;
-    classDef degree fill:#312E81,stroke:#A78BFA,color:#fff,stroke-width:3px;
-    classDef uni fill:#172554,stroke:#60A5FA,color:#fff,stroke-width:3px;
-    classDef now fill:#065F46,stroke:#34D399,color:#fff,stroke-width:3px;
-    classDef learn fill:#075985,stroke:#38BDF8,color:#fff,stroke-width:2px;
-    classDef build fill:#4C1D95,stroke:#C4B5FD,color:#fff,stroke-width:2px;
-    classDef create fill:#9D174D,stroke:#F472B6,color:#fff,stroke-width:2px;
-    classDef explore fill:#064E3B,stroke:#6EE7B7,color:#fff,stroke-width:2px;
-```
-
-<div align="center">
-<table width="88%">
+<table width="94%">
 <tr>
-<td align="center" width="20%"><strong>2025</strong><br><sub>START</sub></td>
-<td align="center" width="30%"><strong>BS COMPUTER SCIENCE</strong><br><sub>FOUNDATIONS</sub></td>
-<td align="center" width="30%"><strong>UET LAHORE</strong><br><sub>LEARNING BY BUILDING</sub></td>
-<td align="center" width="20%"><strong>NOW</strong><br><sub>IN PROGRESS</sub></td>
+<td width="24%" align="center" valign="middle">
+<img src="https://img.shields.io/badge/NOW-7C3AED?style=for-the-badge&labelColor=111827" alt="Current focus">
+<br><br><strong>BUILD MODE</strong>
+<br><sub>what is getting attention now</sub>
+</td>
+<td width="19%" align="center"><strong>WEB</strong><br><br><img src="https://img.shields.io/badge/BUILD-0891B2?style=flat-square" alt="Web build"><br><sub>useful apps</sub></td>
+<td width="19%" align="center"><strong>CODE</strong><br><br><img src="https://img.shields.io/badge/PRACTICE-2563EB?style=flat-square" alt="Code practice"><br><sub>Python · C++ · JS</sub></td>
+<td width="19%" align="center"><strong>AI</strong><br><br><img src="https://img.shields.io/badge/EXPLORE-7C3AED?style=flat-square" alt="AI exploration"><br><sub>experiment</sub></td>
+<td width="19%" align="center"><strong>UI</strong><br><br><img src="https://img.shields.io/badge/POLISH-EC4899?style=flat-square" alt="UI polish"><br><sub>motion · clarity</sub></td>
 </tr>
 </table>
 <br>
-<sub>learn → build → create → explore</sub>
+<table width="88%">
+<tr>
+<td align="center"><sub>WEB</sub><br><strong>BUILD → TEST → IMPROVE</strong></td>
+<td align="center"><sub>CODE</sub><br><strong>LEARN → PRACTICE → SHIP</strong></td>
+<td align="center"><sub>AI</sub><br><strong>EXPLORE → PROTOTYPE</strong></td>
+<td align="center"><sub>UI</sub><br><strong>DESIGN → POLISH</strong></td>
+</tr>
+</table>
+</div>
+
+## Education
+<div align="center">
+<table width="92%">
+<tr>
+<td width="18%" align="center" valign="middle">
+<img src="https://img.shields.io/badge/2025-2563EB?style=for-the-badge&labelColor=111827" alt="Started in 2025">
+<br><br><sub>THE START</sub>
+</td>
+<td width="4%" align="center"><strong>→</strong></td>
+<td width="34%" align="center" valign="middle">
+<img src="https://img.shields.io/badge/BS%20COMPUTER%20SCIENCE-7C3AED?style=for-the-badge&labelColor=111827" alt="BS Computer Science">
+<br><br><strong>University of Engineering and Technology, Lahore</strong>
+<br><sub>learning the foundations of computing</sub>
+</td>
+<td width="4%" align="center"><strong>→</strong></td>
+<td width="18%" align="center" valign="middle">
+<img src="https://img.shields.io/badge/BUILD-EC4899?style=for-the-badge&labelColor=111827" alt="Learning by building">
+<br><br><sub>LEARN BY MAKING</sub>
+</td>
+<td width="4%" align="center"><strong>→</strong></td>
+<td width="18%" align="center" valign="middle">
+<img src="https://img.shields.io/badge/PRESENT-10B981?style=for-the-badge&labelColor=111827" alt="Present">
+<br><br><sub>STILL EXPLORING</sub>
+</td>
+</tr>
+</table>
+<br>
+<table width="80%">
+<tr>
+<td align="center"><strong>LEARN</strong><br><sub>concepts</sub></td>
+<td align="center">+</td>
+<td align="center"><strong>BUILD</strong><br><sub>projects</sub></td>
+<td align="center">+</td>
+<td align="center"><strong>CREATE</strong><br><sub>experiments</sub></td>
+<td align="center">+</td>
+<td align="center"><strong>EXPLORE</strong><br><sub>what comes next</sub></td>
+</tr>
+</table>
 </div>
 
 ## About Me
@@ -191,7 +198,7 @@ I learn by building — experimenting with code, exploring new technologies, and
 
 ### Backend & Data
 [![Node.js](https://img.shields.io/badge/Node.js-2563EB?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Django](https://img.shields.io/badge/Django-4F46E5?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com/)
+[![Django](https://img.shields.io/badge/Django-4F46E4?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![PHP](https://img.shields.io/badge/PHP-7C3AED?style=flat-square&logo=php&logoColor=white)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-2563EB?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Firebase](https://img.shields.io/badge/Firebase-4F46E4?style=flat-square&logo=firebase&logoColor=white)](https://firebase.google.com/)
