@@ -1,4 +1,4 @@
-**Areeba Chandni Cheema** 
+
 <div align="center">
 
 <img src="animated-profile.svg" alt="Animated developer profile" width="100%">
