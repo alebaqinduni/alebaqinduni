@@ -32,8 +32,7 @@
   <img alt="Live GitHub statistics" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/stats-dark.svg?v=20260826" width="100%">
 </picture>
 
-<br>
-<br>
+<br><br>
 
 <img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/languages.svg?v=20260826" alt="Live repository language statistics" width="100%">
 
@@ -152,108 +151,22 @@ I'm a Computer Science student interested in AI-focused development, full-stack 
 
 ---
 
-# AI LAB
-
 <div align="center">
-
-### Building ambitious ideas and turning them into useful systems.
-
-| AI Experiments | Creative Systems | Intelligent Apps |
-|:---:|:---:|:---:|
-| Models · prompts · agents | UI · media · generative ideas | automation · APIs · smart tools |
+<img src="profile-showcase.svg?v=20260826" alt="Visual dashboard showing AI Lab, current projects, project forecast and build style" width="100%">
+</div>
 
 <br>
 
-<sub><code>ACTIVE</code> &nbsp;·&nbsp; <code>BUILD → TEST → SHIP</code> &nbsp;·&nbsp; intelligent, useful, playful systems</sub>
-
+<div align="center">
+<img src="project-overview.svg?v=20260826" alt="Visual project overview showing current development focus" width="100%">
 </div>
 
----
-
-# CURRENT PROJECTS
+<br>
 
 <div align="center">
-
-| Project | What I'm building | Status |
-|---|---|:---:|
-| AI Applications | AI-powered tools and experiences | Active |
-| Wakeup Alarm | Smart alarm / wake-up experience | Evolving |
-| Lahore Exchange | Currency conversion + PWA | Deploy-ready |
-| Profile System | Animated GitHub identity + live stats | Active |
-
-</div>
-
----
-
-# PROJECT FORECAST
-
-<div align="center">
-
-**NOW** ───────── **NEXT** ───────── **SOON**
-
-AI Apps → Smarter Agents → AI Media → Larger Full-Stack Systems
-
-<br><br>
-
-<code>████████░░</code> AI Building &nbsp; <code>███████░░░</code> Full-Stack &nbsp; <code>██████░░░░</code> Open Source &nbsp; <code>█████░░░░░</code> Experiments
-
-</div>
-
----
-
-# PROJECT OVERVIEW
-
-<div align="center">
-
-| Area | Focus |
-|:---|:---|
-| Artificial Intelligence | AI apps, agents, automation, experimentation |
-| Software Engineering | Full-stack products and clean architecture |
-| Creative Tech | Beautiful interfaces, interactive experiences, media |
-| Data | Visualization, analytics and useful dashboards |
-| Open Source | Learning in public and shipping projects |
-
-</div>
-
----
-
-# CURRENTLY LISTENING
-
-<div align="center">
-
 <a href="https://open.spotify.com/search/Learn%20to%20Meow">
-<img src="https://img.shields.io/badge/Spotify-Learn%20to%20Meow-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Currently listening to Learn to Meow on Spotify">
+<img src="currently-listening.svg?v=20260826" alt="Currently listening to Learn to Meow on Spotify" width="100%">
 </a>
-
-<br><br>
-
-<table>
-<tr>
-<td align="center" width="120">
-<img src="https://img.shields.io/badge/♫-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify">
-</td>
-<td align="left">
-<b>Learn to Meow</b><br>
-<sub>currently listening · Spotify</sub><br>
-<sub>♪ a little music while the code compiles</sub>
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## Build Style
-
-<div align="center">
-
-<code>IDEATE</code> → <code>DESIGN</code> → <code>CODE</code> → <code>BREAK</code> → <code>FIX</code> → <code>POLISH</code> → <code>SHIP</code>
-
-<br><br>
-
-<sub>Curious about AI · focused on polished details · always building something new</sub>
-
 </div>
 
 ---
