@@ -2,13 +2,13 @@
 
 <img src="animated-profile.svg" alt="Areeba Chandni Cheema profile animation" width="100%">
 
-<img src="https://camo.githubusercontent.com/b9a3a9b285feff25ffdb3119d340d7be5fcba1367f147d94099c90c13dd84e0b/68747470733a2f2f726561646d652d747970696e672d7376672e64656d6f6c61622e636f6d3f666f6e743d466972612b436f6465267765696768743d3630302673697a653d3231266475726174696f6e3d333230302670617573653d39303026636f6c6f723d413738424641266261636b67726f756e643d30443131313730302663656e7465723d74727565267643656e7465723d747275652Z0nd0a" alt="Animated introduction" width="100%">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=900&color=A78BFA&background=0D111700&center=true&vCenter=true&width=720&lines=building+small+ideas+into+useful+apps;learning+%E2%80%A2+coding+%E2%80%A2+designing+%E2%80%A2+exploring;blue+%2B+purple+%2B+a+little+bit+of+magic" alt="Animated introduction" width="100%">
 
 <sub>૮ ˶ᵔ ᵕ ᵔ˶ ა &nbsp; welcome to my little corner of GitHub</sub>
 
 <br><br>
 
-<img src="https://camo.githubusercontent.com/7e8942dfa0aa9b4c86bd0f0b5fcb9e3e8ff8d9f58b1a1d758272e290a2b8e87d/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d7265637426636f6c6f723d304431313146266865696768743d332673656374696f6e3d68656164657226616e696d6174696f6e3d7477696e6b6c696e6726726576657273616c3d66616c7365" alt="Animated divider" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0D111F&height=3&section=header&animation=twinkling&reversal=false" alt="Animated divider" width="100%">
 
 </div>
 
@@ -24,7 +24,8 @@
 </picture>
 
 <br><br>
-<img src="https://camo.githubusercontent.com/6c2c38c61e0289d5f988a5a837cc84dd92c7e748d4f3da61d3794655872392bf/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d776176696e6726636f6c6f723d304431313146266865696768743d37302673656374696f6e3d666f6f74657226616e696d6174696f6e3d7477696e6b6c696e6726666f6e74436f6c6f723d413738424641" alt="Animated blue purple divider" width="100%">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0D111F&height=70&section=footer&animation=twinkling&fontColor=A78BFA" alt="Animated blue purple divider" width="100%">
 </div>
 
 ---
@@ -37,7 +38,9 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/stats-light.svg?v=20260826">
   <img alt="Live GitHub statistics" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/stats-dark.svg?v=20260826" width="100%">
 </picture>
+
 <br><br>
+
 <img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/languages.svg?v=20260826" alt="Live repository language statistics" width="100%">
 </div>
 
@@ -51,6 +54,9 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph-light.svg?v=20260826">
   <img alt="Contribution garden" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph-dark.svg?v=20260826" width="100%">
 </picture>
+
+<br>
+
 <sub>૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა&nbsp; the bunny visits when there is something new to show</sub>
 </div>
 
@@ -58,7 +64,9 @@
 
 ## Activity Graph
 
-<div align="center"><img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/activity-graph.svg?v=20260826" alt="Live GitHub activity graph" width="100%"></div>
+<div align="center">
+<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/activity-graph.svg?v=20260826" alt="Live GitHub activity graph" width="100%">
+</div>
 
 ---
 
@@ -66,23 +74,28 @@
 
 <table width="100%">
 <tr>
-<td width="78%" valign="middle">
+<td width="82%" valign="middle">
 
 ### GITHUB ACHIEVEMENTS
 
-Live profile snapshot with the current repository, star, contribution and follower counts.
+<sub>Live profile snapshot</sub>
 
-<br>
+<br><br>
 
-| Repositories | Stars | Contributions | Followers |
-|:---:|:---:|:---:|:---:|
-| **3** | **0** | **138** | **3** |
+<table width="100%">
+<tr>
+<td align="center" width="25%"><strong>REPOSITORIES</strong><br><br><h2>3</h2><sub>public projects</sub></td>
+<td align="center" width="25%"><strong>STARS</strong><br><br><h2>0</h2><sub>repository stars</sub></td>
+<td align="center" width="25%"><strong>CONTRIBUTIONS</strong><br><br><h2>138</h2><sub>past year</sub></td>
+<td align="center" width="25%"><strong>FOLLOWERS</strong><br><br><h2>3</h2><sub>GitHub followers</sub></td>
+</tr>
+</table>
 
 </td>
-<td width="22%" align="right" valign="top">
+<td width="18%" align="right" valign="top">
 
 <a href="https://github.com/alebaqinduni">
-<img src="https://img.shields.io/badge/%E2%97%8F%20LIVE-%230891B2?style=for-the-badge&logoColor=white" alt="Live GitHub profile">
+<img src="https://img.shields.io/badge/%E2%97%8F%20LIVE-0891B2?style=for-the-badge&logoColor=white" alt="Live GitHub profile">
 </a>
 
 </td>
@@ -92,7 +105,7 @@ Live profile snapshot with the current repository, star, contribution and follow
 ---
 
 <div align="center">
-<img src="https://camo.githubusercontent.com/b34d08cca770326d5c835c73dd03530bcca94999c1d6b6f60cdd1183ca2a1ebd/68747470733a2f2f726561646d652d747970696e672d7376672e64656d6f6c61622e636f6d3f666f6e743d466972612b436f6465267765696768743d3530302673697a653d3136266475726174696f6e3d323830302670617573653d3132303026636f6c6f723d303839314232266261636b67726f756e643d30443131313730302663656e7465723d74727565267643656e7465723d747275652Z0nd0a" alt="Animated project system label" width="100%">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2800&pause=1200&color=0891B2&background=0D111700&center=true&vCenter=true&width=620&lines=PROJECT+SYSTEM+%2F%2F+what+I%27m+building+right+now;no+fictional+projects+%E2%80%94+just+the+real+ones" alt="Animated project system label" width="100%">
 </div>
 
 ## Project System
@@ -103,15 +116,23 @@ Live profile snapshot with the current repository, star, contribution and follow
 
 ### CURRENT PROJECTS
 
-#### Convertly
-A conversion-focused web project with a clean, practical interface.
+<br>
 
-<a href="https://github.com/alebaqinduni/projects/tree/main/convertly"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="View Convertly repository"></a>
+#### Convertly
+
+A conversion-focused web project with a clean, practical interface.
 
 <br><br>
 
+<a href="https://github.com/alebaqinduni/projects/tree/main/convertly"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="View Convertly repository"></a>
+
+<br><br><br>
+
 #### Currency App
+
 A currency conversion project focused on exchange-rate utilities and a practical user experience.
+
+<br><br>
 
 <a href="https://github.com/alebaqinduni/projects/tree/main/currency-app"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View Currency App repository"></a>
 
@@ -120,18 +141,28 @@ A currency conversion project focused on exchange-rate utilities and a practical
 
 ### BUILD DIRECTION
 
-**NOW**  →  practical web applications  
-**NEXT** →  stronger interfaces and useful tools  
+<br>
+
+**NOW**  →  practical web applications
+
+**NEXT** →  stronger interfaces and useful tools
+
 **EXPLORE** →  AI, automation and new technologies
 
-<br>
+<br><br>
 
 ### BUILD STYLE
 
-**IDEATE** → **DESIGN** → **CODE** → **POLISH**
+<br>
 
-Clean enough to understand.  
-Useful enough to keep.  
+**IDEATE**  →  **DESIGN**  →  **CODE**  →  **POLISH**
+
+<br>
+
+Clean enough to understand.
+
+Useful enough to keep.
+
 Personal enough to remember.
 
 </td>
@@ -146,8 +177,10 @@ Personal enough to remember.
 
 ### PROJECT OVERVIEW
 
+<br>
+
 | Area | Focus |
-|---|---:|
+|:---|---:|
 | Web Development | **40%** |
 | Programming | **30%** |
 | Creative / UI | **20%** |
@@ -158,14 +191,22 @@ Personal enough to remember.
 
 ### CURRENT FOCUS
 
+<br>
+
 **Web Development**  
 Building practical, polished applications.
+
+<br>
 
 **AI Exploration**  
 Learning and experimenting before calling something a project.
 
+<br>
+
 **Programming**  
 Python · C++ · JavaScript
+
+<br>
 
 **UI & Visual Design**  
 Making projects feel as good as they work.
@@ -180,8 +221,8 @@ Making projects feel as good as they work.
 
 <div align="center">
 
-![BS Computer Science](https://img.shields.io/badge/BS%20Computer%20Science-1d4ed8?style=for-the-badge&logo=bookstack&logoColor=white)
-![2025–Present](https://img.shields.io/badge/2025%E2%80%93Present-7c3aed?style=for-the-badge&logoColor=white)
+![BS Computer Science](https://img.shields.io/badge/BS%20Computer%20Science-2563EB?style=for-the-badge&logo=bookstack&logoColor=white)
+![2025–Present](https://img.shields.io/badge/2025%E2%80%93Present-7C3AED?style=for-the-badge&logoColor=white)
 
 ### University of Engineering and Technology, Lahore
 
@@ -270,7 +311,7 @@ Making projects feel as good as they work.
 
 <div align="center">
 
-<img src="https://camo.githubusercontent.com/6c2c38c61e0289d5f988a5a837cc84dd92c7e748d4f3da61d3794655872392bf/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d776176696e6726636f6c6f723d304431313146266865696768743d37302673656374696f6e3d666f6f74657226616e696d6174696f6e3d7477696e6b6c696e6726666f6e74436f6c6f723d413738424641" alt="Animated blue purple divider" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0D111F&height=70&section=footer&animation=twinkling&fontColor=A78BFA" alt="Animated blue purple divider" width="100%">
 
 <sub>૮ ˶ᵔ ᵕ ᵔ˶ ა&nbsp; building quietly, learning constantly, and keeping things a little bit pretty.</sub>
 
