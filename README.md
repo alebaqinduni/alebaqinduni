@@ -26,11 +26,7 @@
 
 ## Contribution Garden
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph-dark.svg?v=20260826">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph-light.svg?v=20260826">
-  <img alt="Contribution garden" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph-dark.svg?v=20260826" width="100%">
-</picture>
+<img src="contribution-garden-rabbit.svg?v=2" alt="Animated contribution garden with a prominent walking rabbit" width="100%">
 <br>
 <sub>the garden grows when there is something new to show</sub>
 </div>
