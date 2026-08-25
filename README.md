@@ -36,13 +36,11 @@
 
 <br/>
 
-<a href="https://github.com/alebaqinduni">
-  <img src="https://streak-stats.demolab.com?user=alebaqinduni&theme=transparent&hide_border=true&ring=A78BFA&fire=10B981&currStreakLabel=A78BFA&sideLabels=E0E7FF&currStreakNum=E0E7FF&sideNums=E0E7FF&dates=94A3B8" alt="GitHub contribution streak" width="49%">
-</a>
+<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/streak.svg?v=20260826" alt="GitHub contribution streak" width="100%">
 
-<a href="https://github.com/alebaqinduni">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alebaqinduni&layout=compact&langs_count=8&hide_border=true&bg_color=0A101F&title_color=A78BFA&text_color=E0E7FF&icon_color=10B981" alt="Top languages" width="49%">
-</a>
+<br/>
+
+<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/languages.svg?v=20260826" alt="Technology and language statistics" width="100%">
 
 </div>
 
@@ -52,11 +50,15 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake.svg" alt="GitHub contribution snake" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake-dark.svg?v=20260826">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake.svg?v=20260826">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake-dark.svg?v=20260826" width="100%">
+</picture>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake.gif" alt="Animated GitHub contribution snake" width="100%">
+<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake.gif?v=20260826" alt="Animated GitHub contribution snake" width="100%">
 
 </div>
 
@@ -66,7 +68,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=alebaqinduni&bg_color=0A101F&color=E0E7FF&line=A78BFA&point=10B981&area=true&hide_border=true" alt="GitHub activity graph" width="100%">
+<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/activity-graph.svg?v=20260826" alt="GitHub activity graph" width="100%">
 
 </div>
 
@@ -76,7 +78,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=alebaqinduni&theme=onedark&no-frame=true&no-bg=true&margin-w=8&column=4" alt="GitHub profile trophies" width="100%">
+<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/achievements.svg?v=20260826" alt="GitHub achievements" width="100%">
 
 </div>
 
@@ -180,4 +182,4 @@ Check out my contributions above!
 
 **Thanks for visiting!** Feel free to reach out via the links above. 💚
 
-Last updated: August 25, 2026
+Last updated: August 26, 2026
