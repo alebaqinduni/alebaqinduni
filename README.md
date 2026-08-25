@@ -97,90 +97,50 @@ A currency conversion project focused on exchange-rate utilities and a practical
 
 ### PROJECT ROADMAP
 <div align="center">
-
 <table width="96%">
 <tr>
-<td align="center" width="24%">
-<img src="https://img.shields.io/badge/01-2563EB?style=for-the-badge&labelColor=111827" alt="Stage 01">
-<br><sub>LIVE BUILD</sub>
-<br><strong>CONVERTLY</strong>
-<br><sub>build · refine · ship</sub>
-</td>
-<td align="center" width="2%"><strong>◆</strong></td>
-<td align="center" width="24%">
-<img src="https://img.shields.io/badge/02-7C3AED?style=for-the-badge&labelColor=111827" alt="Stage 02">
-<br><sub>LIVE BUILD</sub>
-<br><strong>CURRENCY APP</strong>
-<br><sub>simple · useful · practical</sub>
-</td>
-<td align="center" width="2%"><strong>◆</strong></td>
-<td align="center" width="24%">
-<img src="https://img.shields.io/badge/03-4F46E5?style=for-the-badge&labelColor=111827" alt="Stage 03">
-<br><sub>NEXT LAYER</sub>
-<br><strong>STRONGER UI</strong>
-<br><sub>motion · polish · clarity</sub>
-</td>
-<td align="center" width="2%"><strong>◆</strong></td>
-<td align="center" width="24%">
-<img src="https://img.shields.io/badge/04-0891B2?style=for-the-badge&labelColor=111827" alt="Stage 04">
-<br><sub>OPEN HORIZON</sub>
-<br><strong>AI + AUTOMATION</strong>
-<br><sub>experiment · learn · build</sub>
-</td>
+<td align="center" width="23%"><img src="https://img.shields.io/badge/01-2563EB?style=for-the-badge&labelColor=111827" alt="Stage 01"><br><sub>LIVE BUILD</sub><br><strong>CONVERTLY</strong><br><sub>build · refine · ship</sub></td>
+<td align="center" width="2%"><img src="https://img.shields.io/badge/→-F59E0B?style=flat-square&labelColor=111827" alt="next"></td>
+<td align="center" width="23%"><img src="https://img.shields.io/badge/02-7C3AED?style=for-the-badge&labelColor=111827" alt="Stage 02"><br><sub>LIVE BUILD</sub><br><strong>CURRENCY APP</strong><br><sub>simple · useful · practical</sub></td>
+<td align="center" width="2%"><img src="https://img.shields.io/badge/→-F59E0B?style=flat-square&labelColor=111827" alt="next"></td>
+<td align="center" width="23%"><img src="https://img.shields.io/badge/03-EC4899?style=for-the-badge&labelColor=111827" alt="Stage 03"><br><sub>NEXT LAYER</sub><br><strong>STRONGER UI</strong><br><sub>motion · polish · clarity</sub></td>
+<td align="center" width="2%"><img src="https://img.shields.io/badge/→-F59E0B?style=flat-square&labelColor=111827" alt="next"></td>
+<td align="center" width="23%"><img src="https://img.shields.io/badge/04-10B981?style=for-the-badge&labelColor=111827" alt="Stage 04"><br><sub>OPEN HORIZON</sub><br><strong>AI + AUTOMATION</strong><br><sub>experiment · learn · build</sub></td>
 </tr>
 </table>
-
 <br>
-<table width="82%">
-<tr>
-<td align="center"><img src="https://img.shields.io/badge/IDEA-2563EB?style=flat-square&labelColor=111827" alt="Idea"></td>
-<td align="center"><img src="https://img.shields.io/badge/BUILD-7C3AED?style=flat-square&labelColor=111827" alt="Build"></td>
-<td align="center"><img src="https://img.shields.io/badge/POLISH-4F46E5?style=flat-square&labelColor=111827" alt="Polish"></td>
-<td align="center"><img src="https://img.shields.io/badge/EXPLORE-0891B2?style=flat-square&labelColor=111827" alt="Explore"></td>
-</tr>
-</table>
-<sub>Each stage feeds the next — small ideas, real builds, better versions.</sub>
+<img src="https://img.shields.io/badge/IDEA-2563EB?style=flat-square&labelColor=111827" alt="Idea">
+<img src="https://img.shields.io/badge/BUILD-7C3AED?style=flat-square&labelColor=111827" alt="Build">
+<img src="https://img.shields.io/badge/POLISH-EC4899?style=flat-square&labelColor=111827" alt="Polish">
+<img src="https://img.shields.io/badge/EXPLORE-10B981?style=flat-square&labelColor=111827" alt="Explore">
+<img src="https://img.shields.io/badge/SHIP-F59E0B?style=flat-square&labelColor=111827" alt="Ship">
+<br><sub>idea → build → polish → explore → ship</sub>
 </div>
 
 ### PROJECT OVERVIEW
 <div align="center">
-
 <table width="94%">
 <tr>
 <td width="25%" align="center"><img src="https://img.shields.io/badge/WEB-40%25-2563EB?style=for-the-badge&labelColor=111827" alt="Web 40 percent"><br><sub>APPLICATIONS</sub></td>
 <td width="25%" align="center"><img src="https://img.shields.io/badge/CODE-30%25-7C3AED?style=for-the-badge&labelColor=111827" alt="Code 30 percent"><br><sub>PROGRAMMING</sub></td>
-<td width="25%" align="center"><img src="https://img.shields.io/badge/UI-20%25-4F46E5?style=for-the-badge&labelColor=111827" alt="UI 20 percent"><br><sub>INTERFACE</sub></td>
-<td width="25%" align="center"><img src="https://img.shields.io/badge/TOOLS-10%25-0891B2?style=for-the-badge&labelColor=111827" alt="Tools 10 percent"><br><sub>EXPERIMENTS</sub></td>
+<td width="25%" align="center"><img src="https://img.shields.io/badge/UI-20%25-EC4899?style=for-the-badge&labelColor=111827" alt="UI 20 percent"><br><sub>INTERFACE</sub></td>
+<td width="25%" align="center"><img src="https://img.shields.io/badge/TOOLS-10%25-10B981?style=for-the-badge&labelColor=111827" alt="Tools 10 percent"><br><sub>EXPERIMENTS</sub></td>
 </tr>
 </table>
-
 <br>
 <table width="90%">
-<tr>
-<td width="16%"><strong>WEB</strong></td>
-<td><img src="https://img.shields.io/badge/████████████████████-40%25-2563EB?style=flat-square&labelColor=111827" alt="Web signal"></td>
-</tr>
-<tr>
-<td><strong>CODE</strong></td>
-<td><img src="https://img.shields.io/badge/███████████████-30%25-7C3AED?style=flat-square&labelColor=111827" alt="Code signal"></td>
-</tr>
-<tr>
-<td><strong>UI</strong></td>
-<td><img src="https://img.shields.io/badge/██████████-20%25-4F46E5?style=flat-square&labelColor=111827" alt="UI signal"></td>
-</tr>
-<tr>
-<td><strong>TOOLS</strong></td>
-<td><img src="https://img.shields.io/badge/█████-10%25-0891B2?style=flat-square&labelColor=111827" alt="Tools signal"></td>
-</tr>
+<tr><td width="16%"><strong>WEB</strong></td><td><img src="https://img.shields.io/badge/████████████████████-40%25-2563EB?style=flat-square&labelColor=111827" alt="Web signal"></td></tr>
+<tr><td><strong>CODE</strong></td><td><img src="https://img.shields.io/badge/███████████████-30%25-7C3AED?style=flat-square&labelColor=111827" alt="Code signal"></td></tr>
+<tr><td><strong>UI</strong></td><td><img src="https://img.shields.io/badge/██████████-20%25-EC4899?style=flat-square&labelColor=111827" alt="UI signal"></td></tr>
+<tr><td><strong>TOOLS</strong></td><td><img src="https://img.shields.io/badge/█████-10%25-10B981?style=flat-square&labelColor=111827" alt="Tools signal"></td></tr>
 </table>
-
 <br>
-<sub>BUILD PROFILE</sub>
-<br>
+<sub>BUILD PROFILE</sub><br>
 <img src="https://img.shields.io/badge/WEB-40%25-2563EB?style=flat-square&labelColor=111827" alt="Web 40">
 <img src="https://img.shields.io/badge/CODE-30%25-7C3AED?style=flat-square&labelColor=111827" alt="Code 30">
-<img src="https://img.shields.io/badge/UI-20%25-4F46E5?style=flat-square&labelColor=111827" alt="UI 20">
-<img src="https://img.shields.io/badge/TOOLS-10%25-0891B2?style=flat-square&labelColor=111827" alt="Tools 10">
+<img src="https://img.shields.io/badge/UI-20%25-EC4899?style=flat-square&labelColor=111827" alt="UI 20">
+<img src="https://img.shields.io/badge/TOOLS-10%25-10B981?style=flat-square&labelColor=111827" alt="Tools 10">
+<img src="https://img.shields.io/badge/SHIP-READY-F59E0B?style=flat-square&labelColor=111827" alt="Ship ready">
 </div>
 
 ### CURRENT FOCUS
@@ -197,10 +157,22 @@ A currency conversion project focused on exchange-rate utilities and a practical
 
 ## Education
 <div align="center">
-![BS Computer Science](https://img.shields.io/badge/BS%20Computer%20Science-2563EB?style=for-the-badge&logo=bookstack&logoColor=white)
-![2025–Present](https://img.shields.io/badge/2025%E2%80%93Present-7C3AED?style=for-the-badge&logoColor=white)
-### University of Engineering and Technology, Lahore
-*BS Computer Science · 2025 – Present*
+<img src="https://img.shields.io/badge/BS%20COMPUTER%20SCIENCE-2563EB?style=for-the-badge&logo=bookstack&logoColor=white" alt="BS Computer Science">
+<img src="https://img.shields.io/badge/2025-7C3AED?style=for-the-badge&label=STARTED&labelColor=111827" alt="Started 2025">
+<img src="https://img.shields.io/badge/PRESENT-EC4899?style=for-the-badge&labelColor=111827" alt="Present">
+<br><br>
+<table width="88%">
+<tr>
+<td width="20%" align="center"><img src="https://img.shields.io/badge/01-2563EB?style=for-the-badge&labelColor=111827" alt="Education stage 1"></td>
+<td width="55%" align="left"><strong>University of Engineering and Technology, Lahore</strong><br><sub>BS Computer Science · 2025 – Present</sub></td>
+<td width="25%" align="center"><img src="https://img.shields.io/badge/IN%20PROGRESS-F59E0B?style=flat-square&labelColor=111827" alt="In progress"></td>
+</tr>
+</table>
+<br>
+<img src="https://img.shields.io/badge/LEARN-2563EB?style=flat-square&labelColor=111827" alt="Learn">
+<img src="https://img.shields.io/badge/BUILD-7C3AED?style=flat-square&labelColor=111827" alt="Build">
+<img src="https://img.shields.io/badge/CREATE-EC4899?style=flat-square&labelColor=111827" alt="Create">
+<img src="https://img.shields.io/badge/GROW-10B981?style=flat-square&labelColor=111827" alt="Grow">
 </div>
 
 ---
