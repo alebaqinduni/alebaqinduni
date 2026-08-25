@@ -95,115 +95,105 @@ A currency conversion project focused on exchange-rate utilities and a practical
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=34&section=footer&animation=twinkling" alt="Animated project wave" width="100%">
 </div>
 
-## ✦ PROJECT ROADMAP · BUILD CONSTELLATION
-<div align="center">
+## ✦ PROJECT ROADMAP
 
-```text
-                 ◌  NEXT HORIZON
-                ╱
-       ◌───────◉───────◌
-      /       NOW        \
-   ◌─╯                    ╰─◌
- IDEA → BUILD → POLISH → SHIP
-   │        │        │       │
-   01       02       03      04
+```mermaid
+flowchart LR
+    A([💡 IDEA]):::idea --> B([⚡ BUILD]):::build
+    B --> C([✨ POLISH]):::polish
+    C --> D([🚀 SHIP]):::ship
+    B --> E[Convertly]:::project
+    B --> F[Currency App]:::project
+    C --> G[Stronger UI]:::future
+    D --> H[AI + Automation]:::explore
+    classDef idea fill:#2563EB,stroke:#60A5FA,color:#fff,stroke-width:3px;
+    classDef build fill:#7C3AED,stroke:#A78BFA,color:#fff,stroke-width:3px;
+    classDef polish fill:#DB2777,stroke:#F472B6,color:#fff,stroke-width:3px;
+    classDef ship fill:#059669,stroke:#34D399,color:#fff,stroke-width:3px;
+    classDef project fill:#172554,stroke:#38BDF8,color:#fff,stroke-width:2px;
+    classDef future fill:#4C1D95,stroke:#C4B5FD,color:#fff,stroke-width:2px;
+    classDef explore fill:#064E3B,stroke:#6EE7B7,color:#fff,stroke-width:2px;
 ```
 
+<div align="center">
 <table width="96%">
 <tr>
-<td align="center" width="25%"><strong>01</strong><br><sub>LIVE</sub><br><br>◉<br><strong>CONVERTLY</strong><br><sub>small idea → useful app</sub></td>
-<td align="center" width="25%"><strong>02</strong><br><sub>LIVE</sub><br><br>◈<br><strong>CURRENCY APP</strong><br><sub>simple · practical · clean</sub></td>
-<td align="center" width="25%"><strong>03</strong><br><sub>NEXT</sub><br><br>◇<br><strong>STRONGER UI</strong><br><sub>motion · clarity · polish</sub></td>
-<td align="center" width="25%"><strong>04</strong><br><sub>EXPLORE</sub><br><br>✦<br><strong>AI + AUTOMATION</strong><br><sub>experiment · learn · build</sub></td>
+<td align="center" width="25%"><sub>01 · LIVE</sub><br><br><strong>💠 CONVERTLY</strong><br><sub>small idea → useful app</sub></td>
+<td align="center" width="25%"><sub>02 · LIVE</sub><br><br><strong>🪐 CURRENCY APP</strong><br><sub>simple → practical</sub></td>
+<td align="center" width="25%"><sub>03 · NEXT</sub><br><br><strong>🌌 STRONGER UI</strong><br><sub>motion → clarity → polish</sub></td>
+<td align="center" width="25%"><sub>04 · EXPLORE</sub><br><br><strong>🔮 AI + AUTOMATION</strong><br><sub>learn → experiment → build</sub></td>
 </tr>
 </table>
-
-`● LIVE` &nbsp;&nbsp; `◐ IN PROGRESS` &nbsp;&nbsp; `○ NEXT` &nbsp;&nbsp; `✦ EXPLORE`
-
 </div>
 
-## ◒ PROJECT OVERVIEW · BUILD DNA
-<div align="center">
+## ◒ PROJECT OVERVIEW
 
-```text
-                 PROJECT DNA
-              ╭──────────────╮
-          ╭───┤   40% WEB    ├───╮
-          │   ╰──────────────╯   │
-      30% CODE                 20% UI
-          │                       │
-          ╰────── 10% TOOLS ─────╯
-
-        ◔  WEB     ◕  CODE     ◑  UI     ◓  TOOLS
+```mermaid
+pie showData
+    title ✦ BUILD DNA
+    "Web Apps" : 40
+    "Programming" : 30
+    "UI / UX" : 20
+    "Tools & Experiments" : 10
 ```
 
-<table width="94%">
+<div align="center">
+<table width="90%">
 <tr>
-<td align="center" width="25%"><strong>◔</strong><br><strong>40%</strong><br><sub>WEB APPS</sub></td>
-<td align="center" width="25%"><strong>◕</strong><br><strong>30%</strong><br><sub>CODE</sub></td>
-<td align="center" width="25%"><strong>◑</strong><br><strong>20%</strong><br><sub>UI / UX</sub></td>
-<td align="center" width="25%"><strong>◓</strong><br><strong>10%</strong><br><sub>TOOLS / EXPERIMENTS</sub></td>
+<td align="center"><strong>40%</strong><br>🌊 WEB</td>
+<td align="center"><strong>30%</strong><br>⚡ CODE</td>
+<td align="center"><strong>20%</strong><br>💜 UI / UX</td>
+<td align="center"><strong>10%</strong><br>🧪 TOOLS</td>
 </tr>
 </table>
 <br>
-`████████████████████` WEB 40%  &nbsp; `███████████████` CODE 30%  &nbsp; `██████████` UI 20%  &nbsp; `█████` TOOLS 10%
-
-<sub>from far away: web → code → interface → experiments</sub>
+<sub>the visual mix is a design language, not a claim about repository statistics</sub>
 </div>
 
-## ⌁ CURRENT FOCUS · SIGNAL BOARD
-<div align="center">
+## ⌁ CURRENT FOCUS
 
-```text
-╭────────────────────────────────────────────────────────────╮
-│  ◉ WEB          ◈ AI          ◇ CODE          ✦ UI        │
-│  BUILD          EXPLORE       PRACTICE        POLISH       │
-│  apps           ideas         Python          feel         │
-│  useful         experiments   C++             motion       │
-│                 not projects   JavaScript      clarity      │
-╰────────────────────────────────────────────────────────────╯
+```mermaid
+flowchart TB
+    CORE((CURRENT)):::core
+    CORE --> WEB[🌊 WEB<br/>build useful apps]:::web
+    CORE --> AI[🔮 AI<br/>explore + learn]:::ai
+    CORE --> CODE[⚡ CODE<br/>Python · C++ · JavaScript]:::code
+    CORE --> UI[✨ UI<br/>motion · clarity · feel]:::ui
+    WEB --> SHIP([build → test → improve]):::small
+    AI --> EXP([experiment before project]):::small
+    CODE --> PRACTICE([learn by making]):::small
+    UI --> DETAIL([make it feel alive]):::small
+    classDef core fill:#7C3AED,stroke:#E9D5FF,color:#fff,stroke-width:4px;
+    classDef web fill:#075985,stroke:#38BDF8,color:#fff,stroke-width:3px;
+    classDef ai fill:#581C87,stroke:#C084FC,color:#fff,stroke-width:3px;
+    classDef code fill:#9A3412,stroke:#FB923C,color:#fff,stroke-width:3px;
+    classDef ui fill:#9D174D,stroke:#F472B6,color:#fff,stroke-width:3px;
+    classDef small fill:#111827,stroke:#6B7280,color:#fff;
 ```
-
-<table width="92%">
-<tr>
-<td align="center" width="25%"><strong>◉ WEB</strong><br><sub>practical polished applications</sub></td>
-<td align="center" width="25%"><strong>◈ AI</strong><br><sub>learning + experimenting</sub></td>
-<td align="center" width="25%"><strong>◇ CODE</strong><br><sub>Python · C++ · JavaScript</sub></td>
-<td align="center" width="25%"><strong>✦ UI</strong><br><sub>making projects feel alive</sub></td>
-</tr>
-</table>
-</div>
 
 ---
 
-## ◎ EDUCATION · LEARNING PATH
-<div align="center">
+## ◎ EDUCATION
 
-```text
-              ╭───────────────╮
-              │  BS COMPUTER  │
-              │    SCIENCE    │
-              ╰───────┬───────╯
-                      │
-          2025 ───────●─────── PRESENT
-                      │
-                      ▼
-              LEARN → BUILD → CREATE
-                      │
-                      ▼
-                GROW → EXPLORE
+```mermaid
+timeline
+    title 🎓 Learning Journey
+    2025 : Started BS Computer Science
+         : University of Engineering and Technology, Lahore
+    2025 → Present : Learn
+                   : Build
+                   : Create
+                   : Explore
 ```
 
-<table width="90%">
+<div align="center">
+<table width="92%">
 <tr>
-<td align="center" width="18%"><strong>01</strong><br>◉</td>
-<td width="57%"><strong>University of Engineering and Technology, Lahore</strong><br><sub>BS Computer Science · 2025 – Present</sub></td>
-<td align="center" width="25%"><strong>IN PROGRESS</strong><br><sub>learning by building</sub></td>
+<td align="center" width="18%"><strong>🎓</strong><br><sub>2025</sub></td>
+<td width="58%"><strong>University of Engineering and Technology, Lahore</strong><br><sub>BS Computer Science · 2025 – Present</sub></td>
+<td align="center" width="24%"><strong>IN PROGRESS</strong><br><sub>learning by building</sub></td>
 </tr>
 </table>
-
-`LEARN` ──→ `BUILD` ──→ `CREATE` ──→ `GROW`
-
 </div>
 
 ---
@@ -265,28 +255,11 @@ I like taking a small idea, giving it a clear purpose, and turning it into somet
 
 ---
 
-## Projects · VISUAL INDEX
+## Projects
 <div align="center">
-
-```text
-             ┌──────────── PROJECT MAP ────────────┐
-             │                                     │
-             │   ◉ CONVERTLY   ────→   ◈ CURRENCY │
-             │       │                     │       │
-             │       └───────┬─────────────┘       │
-             │               ▼                     │
-             │        ✦ MORE TO BUILD              │
-             └─────────────────────────────────────┘
-```
-
-<table width="88%">
-<tr>
-<td align="center" width="50%"><strong>◉ CONVERTLY</strong><br><sub>conversion-focused web project</sub><br><br><a href="https://github.com/alebaqinduni/projects/tree/main/convertly">OPEN →</a></td>
-<td align="center" width="50%"><strong>◈ CURRENCY APP</strong><br><sub>currency conversion + exchange utilities</sub><br><br><a href="https://github.com/alebaqinduni/projects/tree/main/currency-app">OPEN →</a></td>
-</tr>
-</table>
-<br>
-<sub>◉ BUILT &nbsp;&nbsp; ◈ PRACTICAL &nbsp;&nbsp; ✦ NEXT IDEAS</sub>
+<a href="https://github.com/alebaqinduni/projects/tree/main/convertly"><img src="https://img.shields.io/badge/Convertly-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Convertly"></a>
+&nbsp;
+<a href="https://github.com/alebaqinduni/projects/tree/main/currency-app"><img src="https://img.shields.io/badge/Currency%20App-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Currency App"></a>
 </div>
 
 ---
