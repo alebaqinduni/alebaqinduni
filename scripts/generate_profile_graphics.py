@@ -86,6 +86,70 @@ def shell(width, height, title, subtitle):
 <text x="30" y="60" fill="#94A3B8" font-family="Arial,sans-serif" font-size="12">{esc(subtitle)}</text>'''
 
 
+# Contribution graph: a GitHub-style contribution calendar generated locally.
+# Explicit SVG fills are used instead of CSS variables so GitHub's image
+# sanitizer/theme handling cannot turn the cells black or white.
+week_start = today - datetime.timedelta(days=today.weekday() + 1)
+week_start -= datetime.timedelta(weeks=52)
+cell = 13
+gap = 4
+left = 42
+top = 78
+cols = 53
+rows = 7
+width = left + cols * (cell + gap) + 30
+height = top + rows * (cell + gap) + 38
+
+svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
+<defs>
+ <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="snakeGlow" x1="0" x2="1"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#10B981"/></linearGradient>
+</defs>
+<rect width="{width}" height="{height}" rx="18" fill="#0A101F" stroke="#273449"/>
+<text x="24" y="30" fill="#E0E7FF" font-family="Arial,sans-serif" font-size="17" font-weight="700">CONTRIBUTION ACTIVITY</text>
+<text x="24" y="51" fill="#94A3B8" font-family="Arial,sans-serif" font-size="11">Last 12 months • {cc["contributionCalendar"]["totalContributions"]} contributions</text>
+'''
+
+levels = [
+    (0, "#161B22"),
+    (1, "#0E4429"),
+    (3, "#006D32"),
+    (6, "#26A641"),
+    (10, "#39D353"),
+]
+
+def level_color(count):
+    chosen = levels[0][1]
+    for threshold, color in levels:
+        if count >= threshold:
+            chosen = color
+    return chosen
+
+for col in range(cols):
+    for row in range(rows):
+        date = week_start + datetime.timedelta(days=col * 7 + row)
+        count = days.get(date.isoformat(), 0) if date <= today else 0
+        x = left + col * (cell + gap)
+        y = top + row * (cell + gap)
+        fill = level_color(count)
+        svg += f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="3" fill="{fill}" stroke="#0B1220" stroke-width="1"><title>{esc(date.isoformat())}: {count} contribution(s)</title></rect>'
+
+# Animated highlight that travels along the contribution calendar without
+# changing the actual contribution colors.
+path_y = top + rows * (cell + gap) + 10
+svg += f'''<path d="M {left} {path_y} H {left + (cols-1)*(cell+gap) + cell}" fill="none" stroke="url(#snakeGlow)" stroke-width="2" stroke-linecap="round" opacity="0.75" stroke-dasharray="7 13">
+ <animate attributeName="stroke-dashoffset" from="0" to="-120" dur="3s" repeatCount="indefinite"/>
+</path>
+<circle cx="{left + (cols-1)*(cell+gap) + cell/2}" cy="{top + 3*(cell+gap) + cell/2}" r="3.5" fill="#A78BFA" filter="url(#softGlow)">
+ <animate attributeName="opacity" values="0.35;1;0.35" dur="1.4s" repeatCount="indefinite"/>
+</circle>
+<text x="{left}" y="{height-12}" fill="#64748B" font-family="Arial,sans-serif" font-size="10">Less</text>
+<rect x="{left+34}" y="{height-22}" width="11" height="11" rx="2" fill="#161B22"/><rect x="{left+50}" y="{height-22}" width="11" height="11" rx="2" fill="#0E4429"/><rect x="{left+66}" y="{height-22}" width="11" height="11" rx="2" fill="#006D32"/><rect x="{left+82}" y="{height-22}" width="11" height="11" rx="2" fill="#26A641"/><rect x="{left+98}" y="{height-22}" width="11" height="11" rx="2" fill="#39D353"/>
+<text x="{left+116}" y="{height-12}" fill="#64748B" font-family="Arial,sans-serif" font-size="10">More</text>
+</svg>'''
+open(os.path.join(OUT, "contribution-graph.svg"), "w", encoding="utf-8").write(svg)
+
+
 # Activity graph: real GitHub contribution data for the last 31 days.
 last31 = [days.get((today - datetime.timedelta(days=i)).isoformat(), 0) for i in range(30, -1, -1)]
 max_value = max(last31) or 1
