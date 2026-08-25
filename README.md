@@ -1,3 +1,10 @@
+
+<div align="center">
+<img src="animated-profile.svg" alt="Areeba Chandni Cheema profile animation" width="100%">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=850&color=A78BFA&background=00000000&center=true&vCenter=true&width=720&lines=building+small+ideas+into+useful+apps;turning+little+ideas+into+real+projects;learning+%E2%80%A2+coding+%E2%80%A2+designing+%E2%80%A2+exploring" alt="Building small ideas animation" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=48&section=footer&animation=twinkling" alt="Soft purple wave" width="100%">
+<sub>welcome to my little corner of GitHub</sub>
+</div>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="light.svg">
@@ -5,12 +12,6 @@
 </picture>
 <br>
 <br>
-<div align="center">
-<img src="animated-profile.svg" alt="Areeba Chandni Cheema profile animation" width="100%">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=850&color=A78BFA&background=00000000&center=true&vCenter=true&width=720&lines=building+small+ideas+into+useful+apps;turning+little+ideas+into+real+projects;learning+%E2%80%A2+coding+%E2%80%A2+designing+%E2%80%A2+exploring" alt="Building small ideas animation" width="100%">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=48&section=footer&animation=twinkling" alt="Soft purple wave" width="100%">
-<sub>welcome to my little corner of GitHub</sub>
-</div>
 
 ## GitHub Pulse
 <div align="center">
