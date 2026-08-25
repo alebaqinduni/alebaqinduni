@@ -78,17 +78,15 @@
 
 ## Project System
 
-<table width="100%">
-<tr>
-<td width="58%" valign="top">
-
-### CURRENT PROJECTS
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2200&pause=700&color=A78BFA&background=00000000&center=true&vCenter=true&width=650&lines=BUILDING+SMALL+IDEAS;IDEATE+%E2%86%92+DESIGN+%E2%86%92+CODE+%E2%86%92+POLISH;REAL+PROJECTS+%E2%80%A2+REAL+PROGRESS" alt="Animated project system view" width="100%">
+</div>
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-**CONVERTLY**
+### CONVERTLY
 
 <img src="https://img.shields.io/badge/ACTIVE-0891B2?style=flat-square&logoColor=white" alt="Convertly active">
 
@@ -97,9 +95,9 @@ A conversion-focused web project with a clean, practical interface.
 <a href="https://github.com/alebaqinduni/projects/tree/main/convertly"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="View Convertly repository"></a>
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-**CURRENCY APP**
+### CURRENCY APP
 
 <img src="https://img.shields.io/badge/ACTIVE-7C3AED?style=flat-square&logoColor=white" alt="Currency App active">
 
@@ -108,35 +106,25 @@ A currency conversion project focused on exchange-rate utilities and a practical
 <a href="https://github.com/alebaqinduni/projects/tree/main/currency-app"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View Currency App repository"></a>
 
 </td>
-</tr>
-</table>
-
-</td>
-<td width="42%" valign="top">
+<td width="34%" valign="top">
 
 ### BUILD DIRECTION
 
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=2400&pause=700&color=0891B2&background=0D111700&center=true&vCenter=true&width=430&lines=NOW+%E2%86%92+web+apps;NEXT+%E2%86%92+better+interfaces;EXPLORE+%E2%86%92+AI+%2B+automation" alt="Animated build direction" width="100%">
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=13&duration=2200&pause=650&color=0891B2&background=00000000&center=true&vCenter=true&width=360&lines=NOW+%E2%86%92+web+apps;NEXT+%E2%86%92+better+interfaces;EXPLORE+%E2%86%92+AI+%2B+automation" alt="Animated build direction" width="100%">
 
-**NOW**  ·  practical web applications  
-**NEXT** ·  stronger interfaces and useful tools  
-**EXPLORE** ·  AI, automation and new technologies
-
-<br>
-
-### BUILD STYLE
+**NOW** · practical web applications  
+**NEXT** · stronger interfaces and useful tools  
+**EXPLORE** · AI, automation and new technologies
 
 `IDEATE` → `DESIGN` → `CODE` → `POLISH`
-
-Clean enough to understand.  
-Useful enough to keep.  
-Personal enough to remember.
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=34&section=footer&animation=twinkling" alt="Animated project wave" width="100%">
+</div>
 
 ### PROJECT ROADMAP
 
@@ -260,8 +248,6 @@ flowchart LR
 <br><br>
 ![Profile Views](https://komarev.com/ghpvc/?username=alebaqinduni&color=6366f1&style=for-the-badge&label=PROFILE+VIEWS)
 </div>
-
----
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0891B2&height=70&section=footer&animation=twinkling&fontColor=A78BFA" alt="Animated blue purple divider" width="100%">
