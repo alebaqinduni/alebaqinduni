@@ -1,4 +1,4 @@
-name: Generate Contribution Snake 🐍
+name: Generate Profile Graphics 🐍📊
 
 on:
   schedule:
@@ -12,14 +12,25 @@ permissions:
   contents: write
 
 jobs:
-  generate-snake:
+  generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     steps:
-      - name: Generate snake animation 🐍
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate live profile graphs 📊
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: alebaqinduni
+          OUTPUT_DIR: dist
+        run: python3 scripts/generate_profile_graphics.py
+
+      - name: Generate contribution snake 🐍
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: alebaqinduni
           outputs: |
             dist/snake.svg?palette=github-light&color_snake=A78BFA&color_dots=EBEDF0,D8B4FE,A78BFA,8B5CF6,4C1D95
             dist/snake-dark.svg?palette=github-dark&color_snake=A78BFA&color_dots=161B22,6EE7B7,10B981,0891B2,A78BFA
@@ -27,12 +38,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish generated animations 🚀
-        uses: crazy-max/ghaction-github-pages@v5
+      - name: Publish profile graphics 🚀
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
-          keep_history: true
           jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
