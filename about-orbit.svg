@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300">
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset=".5" stop-color="#A78BFA"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1000" height="300" rx="24" fill="#0B1120"/>
+<circle cx="500" cy="150" r="72" fill="#111827" stroke="url(#g)" stroke-width="2" filter="url(#glow)"/>
+<text x="500" y="143" text-anchor="middle" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="22" font-weight="700">AREEBA</text>
+<text x="500" y="166" text-anchor="middle" fill="#94A3B8" font-family="Arial, sans-serif" font-size="11">CS STUDENT · DEVELOPER</text>
+<ellipse cx="500" cy="150" rx="190" ry="105" fill="none" stroke="#1E293B" stroke-width="2"/>
+<ellipse cx="500" cy="150" rx="300" ry="130" fill="none" stroke="#172033" stroke-width="2" stroke-dasharray="5 9"/>
+<g font-family="Arial, sans-serif" font-size="13" font-weight="700">
+ <g><rect x="86" y="52" width="118" height="34" rx="17" fill="#0F172A" stroke="#38BDF8"/><text x="145" y="74" text-anchor="middle" fill="#38BDF8">BUILD</text></g>
+ <g><rect x="796" y="52" width="118" height="34" rx="17" fill="#0F172A" stroke="#A78BFA"/><text x="855" y="74" text-anchor="middle" fill="#A78BFA">LEARN</text></g>
+ <g><rect x="82" y="214" width="126" height="34" rx="17" fill="#0F172A" stroke="#F472B6"/><text x="145" y="236" text-anchor="middle" fill="#F472B6">DESIGN</text></g>
+ <g><rect x="792" y="214" width="126" height="34" rx="17" fill="#0F172A" stroke="#34D399"/><text x="855" y="236" text-anchor="middle" fill="#34D399">EXPLORE</text></g>
+</g>
+<g fill="#E2E8F0" font-family="Arial, sans-serif" font-size="11">
+ <text x="145" y="104" text-anchor="middle">small ideas → useful apps</text>
+ <text x="855" y="104" text-anchor="middle">new tools → new skills</text>
+ <text x="145" y="268" text-anchor="middle">clarity → polished details</text>
+ <text x="855" y="268" text-anchor="middle">experiments → what's next</text>
+</g>
+<circle r="5" fill="#38BDF8" filter="url(#glow)"><animateMotion dur="7s" repeatCount="indefinite" path="M145,69 C290,0 710,0 855,69 C710,300 290,300 145,231 C290,150 710,150 855,69"/></circle>
+<circle r="4" fill="#F472B6" filter="url(#glow)"><animateMotion dur="9s" repeatCount="indefinite" path="M855,231 C710,300 290,300 145,231 C290,0 710,0 855,69"/></circle>
+</svg>
