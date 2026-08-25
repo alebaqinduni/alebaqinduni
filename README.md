@@ -1,4 +1,10 @@
-**Areeba Chandni Cheema** | AI-Focused Developer | Lahore, Pakistan
+**Areeba Chandni Cheema** 
+<div align="center">
+
+<img src="animated-profile.svg" alt="Animated developer profile" width="100%">
+
+</div>
+
 
 ---
 
@@ -14,13 +20,6 @@
 
 </div>
 
-<br/>
-
-<div align="center">
-
-<img src="animated-profile.svg" alt="Animated developer profile" width="100%">
-
-</div>
 
 <br/>
 ---
