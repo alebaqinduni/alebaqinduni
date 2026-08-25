@@ -4,6 +4,14 @@
 
 <sub>૮ ˶ᵔ ᵕ ᵔ˶ ა &nbsp; welcome to my little corner of GitHub</sub>
 
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=900&color=A78BFA&background=0D111700&center=true&vCenter=true&width=720&lines=building+small+ideas+into+useful+apps;learning+%E2%80%A2+coding+%E2%80%A2+designing+%E2%80%A2+exploring;blue+%2B+purple+%2B+a+little+bit+of+magic" alt="Animated introduction">
+
+</div>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0D111F&height=3&section=header&animation=twinkling&reversal=false" width="100%" alt="Animated divider">
 </div>
 
 ---
@@ -16,6 +24,12 @@
   <source media="(prefers-color-scheme: light)" srcset="light.svg">
   <img alt="Areeba Chandni Cheema — developer profile" src="dark.svg" width="100%">
 </picture>
+</div>
+
+<br>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0D111F&height=70&section=footer&animation=twinkling&fontColor=A78BFA" width="100%" alt="Animated blue purple divider">
 </div>
 
 ---
@@ -81,6 +95,10 @@ Live profile snapshot with the current repository, star, contribution and follow
 </table>
 
 ---
+
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2800&pause=1200&color=0891B2&background=0D111700&center=true&vCenter=true&width=620&lines=PROJECT+SYSTEM+%2F%2F+what+I'm+building+right+now;no+fictional+projects+%E2%80%94+just+the+real+ones" alt="Animated project system label">
+</div>
 
 ## Project System
 
@@ -253,9 +271,10 @@ Making projects feel as good as they work.
 
 </div>
 
----
+<br>
 
 <div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0D111F&height=100&section=footer&animation=twinkling&fontColor=A78BFA" width="100%" alt="Animated footer">
 
 <sub>૮ ˶ᵔ ᵕ ᵔ˶ ა&nbsp; building quietly, learning constantly, and keeping things a little bit pretty.</sub>
 
