@@ -26,7 +26,7 @@
 
 ## Contribution Garden
 <div align="center">
-<img src="contribution-garden-rabbit.svg?v=2" alt="Animated contribution garden with a prominent walking rabbit" width="100%">
+<img src="contribution-garden-rabbit.svg?v=4" alt="Animated contribution garden with a prominent walking rabbit" width="100%">
 <br>
 <sub>the garden grows when there is something new to show</sub>
 </div>
