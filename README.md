@@ -2,7 +2,6 @@
 
 <img src="animated-profile.svg" alt="Areeba Chandni Cheema profile animation" width="100%">
 
-## Profile Banner
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
