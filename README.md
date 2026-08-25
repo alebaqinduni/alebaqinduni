@@ -95,84 +95,115 @@ A currency conversion project focused on exchange-rate utilities and a practical
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=34&section=footer&animation=twinkling" alt="Animated project wave" width="100%">
 </div>
 
-### PROJECT ROADMAP
+## ✦ PROJECT ROADMAP · BUILD CONSTELLATION
 <div align="center">
+
+```text
+                 ◌  NEXT HORIZON
+                ╱
+       ◌───────◉───────◌
+      /       NOW        \
+   ◌─╯                    ╰─◌
+ IDEA → BUILD → POLISH → SHIP
+   │        │        │       │
+   01       02       03      04
+```
+
 <table width="96%">
 <tr>
-<td align="center" width="23%"><img src="https://img.shields.io/badge/01-2563EB?style=for-the-badge&labelColor=111827" alt="Stage 01"><br><sub>LIVE BUILD</sub><br><strong>CONVERTLY</strong><br><sub>build · refine · ship</sub></td>
-<td align="center" width="2%"><img src="https://img.shields.io/badge/→-F59E0B?style=flat-square&labelColor=111827" alt="next"></td>
-<td align="center" width="23%"><img src="https://img.shields.io/badge/02-7C3AED?style=for-the-badge&labelColor=111827" alt="Stage 02"><br><sub>LIVE BUILD</sub><br><strong>CURRENCY APP</strong><br><sub>simple · useful · practical</sub></td>
-<td align="center" width="2%"><img src="https://img.shields.io/badge/→-F59E0B?style=flat-square&labelColor=111827" alt="next"></td>
-<td align="center" width="23%"><img src="https://img.shields.io/badge/03-EC4899?style=for-the-badge&labelColor=111827" alt="Stage 03"><br><sub>NEXT LAYER</sub><br><strong>STRONGER UI</strong><br><sub>motion · polish · clarity</sub></td>
-<td align="center" width="2%"><img src="https://img.shields.io/badge/→-F59E0B?style=flat-square&labelColor=111827" alt="next"></td>
-<td align="center" width="23%"><img src="https://img.shields.io/badge/04-10B981?style=for-the-badge&labelColor=111827" alt="Stage 04"><br><sub>OPEN HORIZON</sub><br><strong>AI + AUTOMATION</strong><br><sub>experiment · learn · build</sub></td>
+<td align="center" width="25%"><strong>01</strong><br><sub>LIVE</sub><br><br>◉<br><strong>CONVERTLY</strong><br><sub>small idea → useful app</sub></td>
+<td align="center" width="25%"><strong>02</strong><br><sub>LIVE</sub><br><br>◈<br><strong>CURRENCY APP</strong><br><sub>simple · practical · clean</sub></td>
+<td align="center" width="25%"><strong>03</strong><br><sub>NEXT</sub><br><br>◇<br><strong>STRONGER UI</strong><br><sub>motion · clarity · polish</sub></td>
+<td align="center" width="25%"><strong>04</strong><br><sub>EXPLORE</sub><br><br>✦<br><strong>AI + AUTOMATION</strong><br><sub>experiment · learn · build</sub></td>
 </tr>
 </table>
-<br>
-<img src="https://img.shields.io/badge/IDEA-2563EB?style=flat-square&labelColor=111827" alt="Idea">
-<img src="https://img.shields.io/badge/BUILD-7C3AED?style=flat-square&labelColor=111827" alt="Build">
-<img src="https://img.shields.io/badge/POLISH-EC4899?style=flat-square&labelColor=111827" alt="Polish">
-<img src="https://img.shields.io/badge/EXPLORE-10B981?style=flat-square&labelColor=111827" alt="Explore">
-<img src="https://img.shields.io/badge/SHIP-F59E0B?style=flat-square&labelColor=111827" alt="Ship">
-<br><sub>idea → build → polish → explore → ship</sub>
+
+`● LIVE` &nbsp;&nbsp; `◐ IN PROGRESS` &nbsp;&nbsp; `○ NEXT` &nbsp;&nbsp; `✦ EXPLORE`
+
 </div>
 
-### PROJECT OVERVIEW
+## ◒ PROJECT OVERVIEW · BUILD DNA
 <div align="center">
+
+```text
+                 PROJECT DNA
+              ╭──────────────╮
+          ╭───┤   40% WEB    ├───╮
+          │   ╰──────────────╯   │
+      30% CODE                 20% UI
+          │                       │
+          ╰────── 10% TOOLS ─────╯
+
+        ◔  WEB     ◕  CODE     ◑  UI     ◓  TOOLS
+```
+
 <table width="94%">
 <tr>
-<td width="25%" align="center"><img src="https://img.shields.io/badge/WEB-40%25-2563EB?style=for-the-badge&labelColor=111827" alt="Web 40 percent"><br><sub>APPLICATIONS</sub></td>
-<td width="25%" align="center"><img src="https://img.shields.io/badge/CODE-30%25-7C3AED?style=for-the-badge&labelColor=111827" alt="Code 30 percent"><br><sub>PROGRAMMING</sub></td>
-<td width="25%" align="center"><img src="https://img.shields.io/badge/UI-20%25-EC4899?style=for-the-badge&labelColor=111827" alt="UI 20 percent"><br><sub>INTERFACE</sub></td>
-<td width="25%" align="center"><img src="https://img.shields.io/badge/TOOLS-10%25-10B981?style=for-the-badge&labelColor=111827" alt="Tools 10 percent"><br><sub>EXPERIMENTS</sub></td>
+<td align="center" width="25%"><strong>◔</strong><br><strong>40%</strong><br><sub>WEB APPS</sub></td>
+<td align="center" width="25%"><strong>◕</strong><br><strong>30%</strong><br><sub>CODE</sub></td>
+<td align="center" width="25%"><strong>◑</strong><br><strong>20%</strong><br><sub>UI / UX</sub></td>
+<td align="center" width="25%"><strong>◓</strong><br><strong>10%</strong><br><sub>TOOLS / EXPERIMENTS</sub></td>
 </tr>
 </table>
 <br>
-<table width="90%">
-<tr><td width="16%"><strong>WEB</strong></td><td><img src="https://img.shields.io/badge/████████████████████-40%25-2563EB?style=flat-square&labelColor=111827" alt="Web signal"></td></tr>
-<tr><td><strong>CODE</strong></td><td><img src="https://img.shields.io/badge/███████████████-30%25-7C3AED?style=flat-square&labelColor=111827" alt="Code signal"></td></tr>
-<tr><td><strong>UI</strong></td><td><img src="https://img.shields.io/badge/██████████-20%25-EC4899?style=flat-square&labelColor=111827" alt="UI signal"></td></tr>
-<tr><td><strong>TOOLS</strong></td><td><img src="https://img.shields.io/badge/█████-10%25-10B981?style=flat-square&labelColor=111827" alt="Tools signal"></td></tr>
-</table>
-<br>
-<sub>BUILD PROFILE</sub><br>
-<img src="https://img.shields.io/badge/WEB-40%25-2563EB?style=flat-square&labelColor=111827" alt="Web 40">
-<img src="https://img.shields.io/badge/CODE-30%25-7C3AED?style=flat-square&labelColor=111827" alt="Code 30">
-<img src="https://img.shields.io/badge/UI-20%25-EC4899?style=flat-square&labelColor=111827" alt="UI 20">
-<img src="https://img.shields.io/badge/TOOLS-10%25-10B981?style=flat-square&labelColor=111827" alt="Tools 10">
-<img src="https://img.shields.io/badge/SHIP-READY-F59E0B?style=flat-square&labelColor=111827" alt="Ship ready">
+`████████████████████` WEB 40%  &nbsp; `███████████████` CODE 30%  &nbsp; `██████████` UI 20%  &nbsp; `█████` TOOLS 10%
+
+<sub>from far away: web → code → interface → experiments</sub>
 </div>
 
-### CURRENT FOCUS
-<table width="100%">
+## ⌁ CURRENT FOCUS · SIGNAL BOARD
+<div align="center">
+
+```text
+╭────────────────────────────────────────────────────────────╮
+│  ◉ WEB          ◈ AI          ◇ CODE          ✦ UI        │
+│  BUILD          EXPLORE       PRACTICE        POLISH       │
+│  apps           ideas         Python          feel         │
+│  useful         experiments   C++             motion       │
+│                 not projects   JavaScript      clarity      │
+╰────────────────────────────────────────────────────────────╯
+```
+
+<table width="92%">
 <tr>
-<td width="25%" align="center" valign="top"><strong>WEB</strong><br><sub>practical, polished applications</sub></td>
-<td width="25%" align="center" valign="top"><strong>AI</strong><br><sub>learning and experimenting before calling it a project</sub></td>
-<td width="25%" align="center" valign="top"><strong>CODE</strong><br><sub>Python · C++ · JavaScript</sub></td>
-<td width="25%" align="center" valign="top"><strong>UI</strong><br><sub>making projects feel as good as they work</sub></td>
+<td align="center" width="25%"><strong>◉ WEB</strong><br><sub>practical polished applications</sub></td>
+<td align="center" width="25%"><strong>◈ AI</strong><br><sub>learning + experimenting</sub></td>
+<td align="center" width="25%"><strong>◇ CODE</strong><br><sub>Python · C++ · JavaScript</sub></td>
+<td align="center" width="25%"><strong>✦ UI</strong><br><sub>making projects feel alive</sub></td>
 </tr>
 </table>
+</div>
 
 ---
 
-## Education
+## ◎ EDUCATION · LEARNING PATH
 <div align="center">
-<img src="https://img.shields.io/badge/BS%20COMPUTER%20SCIENCE-2563EB?style=for-the-badge&logo=bookstack&logoColor=white" alt="BS Computer Science">
-<img src="https://img.shields.io/badge/2025-7C3AED?style=for-the-badge&label=STARTED&labelColor=111827" alt="Started 2025">
-<img src="https://img.shields.io/badge/PRESENT-EC4899?style=for-the-badge&labelColor=111827" alt="Present">
-<br><br>
-<table width="88%">
+
+```text
+              ╭───────────────╮
+              │  BS COMPUTER  │
+              │    SCIENCE    │
+              ╰───────┬───────╯
+                      │
+          2025 ───────●─────── PRESENT
+                      │
+                      ▼
+              LEARN → BUILD → CREATE
+                      │
+                      ▼
+                GROW → EXPLORE
+```
+
+<table width="90%">
 <tr>
-<td width="20%" align="center"><img src="https://img.shields.io/badge/01-2563EB?style=for-the-badge&labelColor=111827" alt="Education stage 1"></td>
-<td width="55%" align="left"><strong>University of Engineering and Technology, Lahore</strong><br><sub>BS Computer Science · 2025 – Present</sub></td>
-<td width="25%" align="center"><img src="https://img.shields.io/badge/IN%20PROGRESS-F59E0B?style=flat-square&labelColor=111827" alt="In progress"></td>
+<td align="center" width="18%"><strong>01</strong><br>◉</td>
+<td width="57%"><strong>University of Engineering and Technology, Lahore</strong><br><sub>BS Computer Science · 2025 – Present</sub></td>
+<td align="center" width="25%"><strong>IN PROGRESS</strong><br><sub>learning by building</sub></td>
 </tr>
 </table>
-<br>
-<img src="https://img.shields.io/badge/LEARN-2563EB?style=flat-square&labelColor=111827" alt="Learn">
-<img src="https://img.shields.io/badge/BUILD-7C3AED?style=flat-square&labelColor=111827" alt="Build">
-<img src="https://img.shields.io/badge/CREATE-EC4899?style=flat-square&labelColor=111827" alt="Create">
-<img src="https://img.shields.io/badge/GROW-10B981?style=flat-square&labelColor=111827" alt="Grow">
+
+`LEARN` ──→ `BUILD` ──→ `CREATE` ──→ `GROW`
+
 </div>
 
 ---
@@ -234,11 +265,28 @@ I like taking a small idea, giving it a clear purpose, and turning it into somet
 
 ---
 
-## Projects
+## Projects · VISUAL INDEX
 <div align="center">
-<a href="https://github.com/alebaqinduni/projects/tree/main/convertly"><img src="https://img.shields.io/badge/Convertly-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Convertly"></a>
-&nbsp;
-<a href="https://github.com/alebaqinduni/projects/tree/main/currency-app"><img src="https://img.shields.io/badge/Currency%20App-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Currency App"></a>
+
+```text
+             ┌──────────── PROJECT MAP ────────────┐
+             │                                     │
+             │   ◉ CONVERTLY   ────→   ◈ CURRENCY │
+             │       │                     │       │
+             │       └───────┬─────────────┘       │
+             │               ▼                     │
+             │        ✦ MORE TO BUILD              │
+             └─────────────────────────────────────┘
+```
+
+<table width="88%">
+<tr>
+<td align="center" width="50%"><strong>◉ CONVERTLY</strong><br><sub>conversion-focused web project</sub><br><br><a href="https://github.com/alebaqinduni/projects/tree/main/convertly">OPEN →</a></td>
+<td align="center" width="50%"><strong>◈ CURRENCY APP</strong><br><sub>currency conversion + exchange utilities</sub><br><br><a href="https://github.com/alebaqinduni/projects/tree/main/currency-app">OPEN →</a></td>
+</tr>
+</table>
+<br>
+<sub>◉ BUILT &nbsp;&nbsp; ◈ PRACTICAL &nbsp;&nbsp; ✦ NEXT IDEAS</sub>
 </div>
 
 ---
