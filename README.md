@@ -97,33 +97,90 @@ A currency conversion project focused on exchange-rate utilities and a practical
 
 ### PROJECT ROADMAP
 <div align="center">
+
 <table width="96%">
 <tr>
-<td align="center" width="22%"><img src="https://img.shields.io/badge/01-2563EB?style=for-the-badge&labelColor=111827" alt="01"><br><sub>NOW</sub><br><strong>Convertly</strong><br><sub>build · refine · ship</sub></td>
-<td align="center" width="4%"><strong>→</strong></td>
-<td align="center" width="22%"><img src="https://img.shields.io/badge/02-7C3AED?style=for-the-badge&labelColor=111827" alt="02"><br><sub>NOW</sub><br><strong>Currency App</strong><br><sub>useful · simple · practical</sub></td>
-<td align="center" width="4%"><strong>→</strong></td>
-<td align="center" width="22%"><img src="https://img.shields.io/badge/03-4F46E5?style=for-the-badge&labelColor=111827" alt="03"><br><sub>NEXT</sub><br><strong>Stronger UI</strong><br><sub>polish · motion · clarity</sub></td>
-<td align="center" width="4%"><strong>→</strong></td>
-<td align="center" width="22%"><img src="https://img.shields.io/badge/04-0891B2?style=for-the-badge&labelColor=111827" alt="04"><br><sub>EXPLORE</sub><br><strong>AI + Automation</strong><br><sub>experiment · learn · build</sub></td>
+<td align="center" width="24%">
+<img src="https://img.shields.io/badge/01-2563EB?style=for-the-badge&labelColor=111827" alt="Stage 01">
+<br><sub>LIVE BUILD</sub>
+<br><strong>CONVERTLY</strong>
+<br><sub>build · refine · ship</sub>
+</td>
+<td align="center" width="2%"><strong>◆</strong></td>
+<td align="center" width="24%">
+<img src="https://img.shields.io/badge/02-7C3AED?style=for-the-badge&labelColor=111827" alt="Stage 02">
+<br><sub>LIVE BUILD</sub>
+<br><strong>CURRENCY APP</strong>
+<br><sub>simple · useful · practical</sub>
+</td>
+<td align="center" width="2%"><strong>◆</strong></td>
+<td align="center" width="24%">
+<img src="https://img.shields.io/badge/03-4F46E5?style=for-the-badge&labelColor=111827" alt="Stage 03">
+<br><sub>NEXT LAYER</sub>
+<br><strong>STRONGER UI</strong>
+<br><sub>motion · polish · clarity</sub>
+</td>
+<td align="center" width="2%"><strong>◆</strong></td>
+<td align="center" width="24%">
+<img src="https://img.shields.io/badge/04-0891B2?style=for-the-badge&labelColor=111827" alt="Stage 04">
+<br><sub>OPEN HORIZON</sub>
+<br><strong>AI + AUTOMATION</strong>
+<br><sub>experiment · learn · build</sub>
+</td>
 </tr>
 </table>
+
 <br>
-<img src="https://img.shields.io/badge/IDEA-2563EB?style=flat-square&labelColor=111827" alt="Idea"><strong> → </strong><img src="https://img.shields.io/badge/BUILD-7C3AED?style=flat-square&labelColor=111827" alt="Build"><strong> → </strong><img src="https://img.shields.io/badge/POLISH-4F46E5?style=flat-square&labelColor=111827" alt="Polish"><strong> → </strong><img src="https://img.shields.io/badge/EXPLORE-0891B2?style=flat-square&labelColor=111827" alt="Explore">
+<table width="82%">
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/IDEA-2563EB?style=flat-square&labelColor=111827" alt="Idea"></td>
+<td align="center"><img src="https://img.shields.io/badge/BUILD-7C3AED?style=flat-square&labelColor=111827" alt="Build"></td>
+<td align="center"><img src="https://img.shields.io/badge/POLISH-4F46E5?style=flat-square&labelColor=111827" alt="Polish"></td>
+<td align="center"><img src="https://img.shields.io/badge/EXPLORE-0891B2?style=flat-square&labelColor=111827" alt="Explore"></td>
+</tr>
+</table>
+<sub>Each stage feeds the next — small ideas, real builds, better versions.</sub>
 </div>
 
 ### PROJECT OVERVIEW
 <div align="center">
-<table width="92%">
+
+<table width="94%">
 <tr>
-<td width="25%" align="center"><img src="https://img.shields.io/badge/WEB-40%25-2563EB?style=for-the-badge&labelColor=111827" alt="Web 40 percent"><br><sub>applications</sub><br><code>████████</code></td>
-<td width="25%" align="center"><img src="https://img.shields.io/badge/CODE-30%25-7C3AED?style=for-the-badge&labelColor=111827" alt="Code 30 percent"><br><sub>programming</sub><br><code>██████</code></td>
-<td width="25%" align="center"><img src="https://img.shields.io/badge/UI-20%25-4F46E5?style=for-the-badge&labelColor=111827" alt="UI 20 percent"><br><sub>creative + interface</sub><br><code>████</code></td>
-<td width="25%" align="center"><img src="https://img.shields.io/badge/TOOLS-10%25-0891B2?style=for-the-badge&labelColor=111827" alt="Tools 10 percent"><br><sub>experiments</sub><br><code>██</code></td>
+<td width="25%" align="center"><img src="https://img.shields.io/badge/WEB-40%25-2563EB?style=for-the-badge&labelColor=111827" alt="Web 40 percent"><br><sub>APPLICATIONS</sub></td>
+<td width="25%" align="center"><img src="https://img.shields.io/badge/CODE-30%25-7C3AED?style=for-the-badge&labelColor=111827" alt="Code 30 percent"><br><sub>PROGRAMMING</sub></td>
+<td width="25%" align="center"><img src="https://img.shields.io/badge/UI-20%25-4F46E5?style=for-the-badge&labelColor=111827" alt="UI 20 percent"><br><sub>INTERFACE</sub></td>
+<td width="25%" align="center"><img src="https://img.shields.io/badge/TOOLS-10%25-0891B2?style=for-the-badge&labelColor=111827" alt="Tools 10 percent"><br><sub>EXPERIMENTS</sub></td>
 </tr>
 </table>
+
 <br>
-<table width="86%"><tr><td align="left"><strong>WEB</strong></td><td width="70%"><img src="https://img.shields.io/badge/████████████████████-40%25-2563EB?style=flat-square&labelColor=111827" alt="Web bar"></td></tr><tr><td align="left"><strong>CODE</strong></td><td><img src="https://img.shields.io/badge/███████████████-30%25-7C3AED?style=flat-square&labelColor=111827" alt="Code bar"></td></tr><tr><td align="left"><strong>UI</strong></td><td><img src="https://img.shields.io/badge/██████████-20%25-4F46E5?style=flat-square&labelColor=111827" alt="UI bar"></td></tr><tr><td align="left"><strong>TOOLS</strong></td><td><img src="https://img.shields.io/badge/█████-10%25-0891B2?style=flat-square&labelColor=111827" alt="Tools bar"></td></tr></table>
+<table width="90%">
+<tr>
+<td width="16%"><strong>WEB</strong></td>
+<td><img src="https://img.shields.io/badge/████████████████████-40%25-2563EB?style=flat-square&labelColor=111827" alt="Web signal"></td>
+</tr>
+<tr>
+<td><strong>CODE</strong></td>
+<td><img src="https://img.shields.io/badge/███████████████-30%25-7C3AED?style=flat-square&labelColor=111827" alt="Code signal"></td>
+</tr>
+<tr>
+<td><strong>UI</strong></td>
+<td><img src="https://img.shields.io/badge/██████████-20%25-4F46E5?style=flat-square&labelColor=111827" alt="UI signal"></td>
+</tr>
+<tr>
+<td><strong>TOOLS</strong></td>
+<td><img src="https://img.shields.io/badge/█████-10%25-0891B2?style=flat-square&labelColor=111827" alt="Tools signal"></td>
+</tr>
+</table>
+
+<br>
+<sub>BUILD PROFILE</sub>
+<br>
+<img src="https://img.shields.io/badge/WEB-40%25-2563EB?style=flat-square&labelColor=111827" alt="Web 40">
+<img src="https://img.shields.io/badge/CODE-30%25-7C3AED?style=flat-square&labelColor=111827" alt="Code 30">
+<img src="https://img.shields.io/badge/UI-20%25-4F46E5?style=flat-square&labelColor=111827" alt="UI 20">
+<img src="https://img.shields.io/badge/TOOLS-10%25-0891B2?style=flat-square&labelColor=111827" alt="Tools 10">
 </div>
 
 ### CURRENT FOCUS
