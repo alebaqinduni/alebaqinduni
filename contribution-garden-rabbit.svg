@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="255" viewBox="0 0 985 255">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090B12"/><stop offset="1" stop-color="#12182A"/></linearGradient>
+  <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#A78BFA"/><stop offset=".5" stop-color="#60A5FA"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+  <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="985" height="255" rx="18" fill="url(#bg)"/>
+<rect x="8" y="8" width="969" height="239" rx="14" fill="none" stroke="#252A3A"/>
+<text x="24" y="32" fill="#F8FAFC" font-family="Arial,sans-serif" font-size="17" font-weight="700">CONTRIBUTION GARDEN</text>
+<text x="24" y="51" fill="#A1A1AA" font-family="Arial,sans-serif" font-size="11">a little traveler crossing the year • 186 contributions</text>
+
+<!-- contribution garden -->
+<g opacity=".9">
+  <rect x="48" y="78" width="890" height="126" rx="10" fill="#0B101B" stroke="#202638"/>
+  <g fill="#171D2A"> 
+    <rect x="62" y="91" width="12" height="12" rx="3"/><rect x="79" y="91" width="12" height="12" rx="3"/><rect x="96" y="91" width="12" height="12" rx="3"/><rect x="113" y="91" width="12" height="12" rx="3"/><rect x="130" y="91" width="12" height="12" rx="3"/><rect x="147" y="91" width="12" height="12" rx="3"/><rect x="164" y="91" width="12" height="12" rx="3"/><rect x="181" y="91" width="12" height="12" rx="3"/><rect x="198" y="91" width="12" height="12" rx="3"/><rect x="215" y="91" width="12" height="12" rx="3"/><rect x="232" y="91" width="12" height="12" rx="3"/><rect x="249" y="91" width="12" height="12" rx="3"/><rect x="266" y="91" width="12" height="12" rx="3"/><rect x="283" y="91" width="12" height="12" rx="3"/><rect x="300" y="91" width="12" height="12" rx="3"/><rect x="317" y="91" width="12" height="12" rx="3"/><rect x="334" y="91" width="12" height="12" rx="3"/><rect x="351" y="91" width="12" height="12" rx="3"/><rect x="368" y="91" width="12" height="12" rx="3"/><rect x="385" y="91" width="12" height="12" rx="3"/><rect x="402" y="91" width="12" height="12" rx="3"/><rect x="419" y="91" width="12" height="12" rx="3"/><rect x="436" y="91" width="12" height="12" rx="3"/><rect x="453" y="91" width="12" height="12" rx="3"/><rect x="470" y="91" width="12" height="12" rx="3"/><rect x="487" y="91" width="12" height="12" rx="3"/><rect x="504" y="91" width="12" height="12" rx="3"/><rect x="521" y="91" width="12" height="12" rx="3"/><rect x="538" y="91" width="12" height="12" rx="3"/><rect x="555" y="91" width="12" height="12" rx="3"/><rect x="572" y="91" width="12" height="12" rx="3"/><rect x="589" y="91" width="12" height="12" rx="3"/><rect x="606" y="91" width="12" height="12" rx="3"/><rect x="623" y="91" width="12" height="12" rx="3"/><rect x="640" y="91" width="12" height="12" rx="3"/><rect x="657" y="91" width="12" height="12" rx="3"/><rect x="674" y="91" width="12" height="12" rx="3"/><rect x="691" y="91" width="12" height="12" rx="3"/><rect x="708" y="91" width="12" height="12" rx="3"/><rect x="725" y="91" width="12" height="12" rx="3"/><rect x="742" y="91" width="12" height="12" rx="3"/><rect x="759" y="91" width="12" height="12" rx="3"/><rect x="776" y="91" width="12" height="12" rx="3"/><rect x="793" y="91" width="12" height="12" rx="3"/><rect x="810" y="91" width="12" height="12" rx="3"/><rect x="827" y="91" width="12" height="12" rx="3"/><rect x="844" y="91" width="12" height="12" rx="3"/><rect x="861" y="91" width="12" height="12" rx="3"/><rect x="878" y="91" width="12" height="12" rx="3"/><rect x="895" y="91" width="12" height="12" rx="3"/>
+  </g>
+  <g fill="#24304A" opacity=".9">
+    <rect x="130" y="108" width="12" height="12" rx="3"/><rect x="232" y="125" width="12" height="12" rx="3"/><rect x="334" y="142" width="12" height="12" rx="3"/><rect x="453" y="108" width="12" height="12" rx="3"/><rect x="555" y="159" width="12" height="12" rx="3"/><rect x="674" y="125" width="12" height="12" rx="3"/><rect x="793" y="142" width="12" height="12" rx="3"/><rect x="878" y="108" width="12" height="12" rx="3"/>
+  </g>
+  <g fill="#4F46E5" opacity=".75">
+    <rect x="181" y="142" width="12" height="12" rx="3"/><rect x="368" y="108" width="12" height="12" rx="3"/><rect x="504" y="142" width="12" height="12" rx="3"/><rect x="708" y="159" width="12" height="12" rx="3"/><rect x="827" y="125" width="12" height="12" rx="3"/>
+  </g>
+</g>
+
+<!-- walking path -->
+<path d="M78 184 C250 154 365 198 510 170 S760 145 900 181" fill="none" stroke="#283047" stroke-width="2" stroke-dasharray="4 8"/>
+<path d="M78 184 C250 154 365 198 510 170 S760 145 900 181" fill="none" stroke="url(#trail)" stroke-width="2" stroke-dasharray="70 900" stroke-linecap="round" opacity=".9">
+  <animate attributeName="stroke-dashoffset" values="900;0;-900" dur="6s" repeatCount="indefinite"/>
+</path>
+
+<!-- prominent walking rabbit -->
+<g filter="url(#glow)">
+  <g transform="translate(0,0)">
+    <g>
+      <ellipse cx="0" cy="0" rx="28" ry="22" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="2"/>
+      <circle cx="27" cy="-13" r="18" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="2"/>
+      <ellipse cx="21" cy="-39" rx="7" ry="23" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="2" transform="rotate(-12 21 -39)"/>
+      <ellipse cx="35" cy="-38" rx="7" ry="23" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="2" transform="rotate(8 35 -38)"/>
+      <circle cx="33" cy="-15" r="2.8" fill="#111827"/>
+      <circle cx="43" cy="-7" r="3" fill="#F472B6"/>
+      <path d="M-21 13 l-14 15 M-2 18 l-6 16 M15 16 l9 14" stroke="#F8FAFC" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="-28" cy="1" r="8" fill="#F8FAFC"/>
+      <animateTransform attributeName="transform" type="translate" values="78 184;250 154;365 198;510 170;650 150;790 160;900 181;78 184" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <g opacity=".5">
+      <ellipse cx="0" cy="0" rx="35" ry="28" fill="none" stroke="#A78BFA" stroke-width="1">
+        <animate attributeName="rx" values="30;42;30" dur="1.4s" repeatCount="indefinite"/>
+        <animate attributeName="ry" values="24;31;24" dur="1.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".65;0;.65" dur="1.4s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+  </g>
+</g>
+
+<text x="60" y="232" fill="#71717A" font-family="Arial,sans-serif" font-size="10">LESS HOPPING • MORE EXPLORING</text>
+<text x="790" y="232" fill="#A78BFA" font-family="Arial,sans-serif" font-size="10">START → NOW → NEXT</text>
+</svg>
