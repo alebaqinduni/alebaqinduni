@@ -34,9 +34,6 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/streak.svg?v=20260826" alt="Live GitHub developer momentum" width="100%">
-
-<br>
 
 <img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/languages.svg?v=20260826" alt="Live repository language statistics" width="100%">
 
