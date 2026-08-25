@@ -50,15 +50,15 @@
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake-dark.svg?v=20260826">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake.svg?v=20260826">
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake-dark.svg?v=20260826" width="100%">
-</picture>
+<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph.svg?v=20260826" alt="GitHub contribution activity heatmap" width="100%">
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake.gif?v=20260826" alt="Animated GitHub contribution snake" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake-dark.svg?v=20260826">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake.svg?v=20260826">
+  <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake-dark.svg?v=20260826" width="100%">
+</picture>
 
 </div>
 
