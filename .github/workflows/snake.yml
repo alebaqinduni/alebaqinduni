@@ -1,4 +1,4 @@
-name: Generate Contribution Snake
+name: Generate Contribution Snake 🐍
 
 on:
   schedule:
@@ -14,23 +14,25 @@ permissions:
 jobs:
   generate-snake:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Generate contribution snake
-        uses: Platane/snk/svg-only@v3
+      - name: Generate snake animation 🐍
+        uses: Platane/snk@v3
         with:
-          github_user_name: alebaqinduni
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-dark.svg?palette=dark&color_dots=161B22,10B981,0891B2,A78BFA,E0E7FF
-            dist/snake-light.svg?palette=light&color_dots=EBEDF0,10B981,0891B2,A78BFA,4C1D95
+            dist/snake.svg?palette=github-light&color_snake=A78BFA&color_dots=EBEDF0,D8B4FE,A78BFA,8B5CF6,4C1D95
+            dist/snake-dark.svg?palette=github-dark&color_snake=A78BFA&color_dots=161B22,6EE7B7,10B981,0891B2,A78BFA
+            dist/snake.gif?color_snake=A78BFA&color_dots=161B22,6EE7B7,10B981,0891B2,A78BFA
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish generated SVGs
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Publish generated animations 🚀
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
+          keep_history: true
+          jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
