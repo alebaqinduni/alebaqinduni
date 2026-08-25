@@ -55,31 +55,111 @@
 
 ## Achievements
 
-<div align="center">
-<a href="https://github.com/alebaqinduni"><img src="achievements.svg?v=20260826" alt="Live GitHub achievements" width="100%"></a>
-</div>
+<table width="100%">
+<tr>
+<td width="78%" valign="middle">
+
+### GITHUB ACHIEVEMENTS
+
+Live profile snapshot with the current repository, star, contribution and follower counts.
+
+<br>
+
+| Repositories | Stars | Contributions | Followers |
+|:---:|:---:|:---:|:---:|
+| **3** | **0** | **138** | **3** |
+
+</td>
+<td width="22%" align="right" valign="top">
+
+<a href="https://github.com/alebaqinduni">
+<img src="https://img.shields.io/badge/%E2%97%8F%20LIVE-%230891B2?style=for-the-badge&logoColor=white" alt="Live GitHub profile">
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
-<!-- THE VISUAL PROJECT SECTION IS INTENTIONALLY ABOVE EDUCATION -->
+## Project System
 
-<div align="center">
-<img src="profile-showcase.svg?v=20260826" alt="Blue and purple visual dashboard showing AI lab, current projects, project forecast and build style" width="100%">
-</div>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### CURRENT PROJECTS
+
+#### Convertly
+A conversion-focused web project with a clean, practical interface.
+
+<a href="https://github.com/alebaqinduni/projects/tree/main/convertly"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="View Convertly repository"></a>
+
+<br><br>
+
+#### Currency App
+A currency conversion project focused on exchange-rate utilities and a practical user experience.
+
+<a href="https://github.com/alebaqinduni/projects/tree/main/currency-app"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View Currency App repository"></a>
+
+</td>
+<td width="50%" valign="top">
+
+### BUILD DIRECTION
+
+**NOW**  →  practical web applications  
+**NEXT** →  stronger interfaces and useful tools  
+**EXPLORE** →  AI, automation and new technologies
 
 <br>
 
-<div align="center">
-<img src="project-overview.svg?v=20260826" alt="Blue and purple project overview" width="100%">
-</div>
+### BUILD STYLE
+
+**IDEATE** → **DESIGN** → **CODE** → **POLISH**
+
+Clean enough to understand.  
+Useful enough to keep.  
+Personal enough to remember.
+
+</td>
+</tr>
+</table>
 
 <br>
 
-<div align="center">
-<a href="https://open.spotify.com/search/Learn%20to%20Meow">
-<img src="currently-listening.svg?v=20260826" alt="Currently listening to Learn to Meow on Spotify" width="100%">
-</a>
-</div>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### PROJECT OVERVIEW
+
+| Area | Focus |
+|---|---:|
+| Web Development | **40%** |
+| Programming | **30%** |
+| Creative / UI | **20%** |
+| Tools & Experiments | **10%** |
+
+</td>
+<td width="50%" valign="top">
+
+### CURRENT FOCUS
+
+**Web Development**  
+Building practical, polished applications.
+
+**AI Exploration**  
+Learning and experimenting before calling something a project.
+
+**Programming**  
+Python · C++ · JavaScript
+
+**UI & Visual Design**  
+Making projects feel as good as they work.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -108,13 +188,6 @@
 
 </div>
 
-### Current Focus
-
-- **Web development** — building practical, polished applications
-- **AI exploration** — learning, experimenting and understanding how AI can be used in real products
-- **Programming** — Python, C++ and JavaScript
-- **UI & visual design** — making projects feel as good as they work
-
 ---
 
 ## Tech Stack
@@ -125,7 +198,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-7C3AED?style=flat-square&logo=javascript&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ### Frontend
-[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+[![React](https://img.shields.io/badge/React-0891B2?style=flat-square&logo=react&logoColor=white)](https://react.dev/)
 [![HTML5](https://img.shields.io/badge/HTML5-2563EB?style=flat-square&logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
 [![CSS3](https://img.shields.io/badge/CSS3-4F46E5?style=flat-square&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
 [![Tailwind](https://img.shields.io/badge/Tailwind-0891B2?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
@@ -161,8 +234,6 @@
 **Convertly** — a conversion-focused web project with a clean interface.
 
 **Currency App** — a currency conversion project focused on exchange-rate utilities and a practical user experience.
-
-These are the projects currently represented in the portfolio — no invented projects or fictional work added.
 
 ---
 
