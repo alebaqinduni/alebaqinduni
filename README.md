@@ -2,16 +2,14 @@
 
 <img src="animated-profile.svg" alt="Areeba Chandni Cheema profile animation" width="100%">
 
+<img src="https://camo.githubusercontent.com/b9a3a9b285feff25ffdb3119d340d7be5fcba1367f147d94099c90c13dd84e0b/68747470733a2f2f726561646d652d747970696e672d7376672e64656d6f6c61622e636f6d3f666f6e743d466972612b436f6465267765696768743d3630302673697a653d3231266475726174696f6e3d333230302670617573653d39303026636f6c6f723d413738424641266261636b67726f756e643d30443131313730302663656e7465723d74727565267643656e7465723d747275652Z0nd0a" alt="Animated introduction" width="100%">
+
 <sub>૮ ˶ᵔ ᵕ ᵔ˶ ა &nbsp; welcome to my little corner of GitHub</sub>
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=900&color=A78BFA&background=0D111700&center=true&vCenter=true&width=720&lines=building+small+ideas+into+useful+apps;learning+%E2%80%A2+coding+%E2%80%A2+designing+%E2%80%A2+exploring;blue+%2B+purple+%2B+a+little+bit+of+magic" alt="Animated introduction">
+<img src="https://camo.githubusercontent.com/7e8942dfa0aa9b4c86bd0f0b5fcb9e3e8ff8d9f58b1a1d758272e290a2b8e87d/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d7265637426636f6c6f723d304431313146266865696768743d332673656374696f6e3d68656164657226616e696d6174696f6e3d7477696e6b6c696e6726726576657273616c3d66616c7365" alt="Animated divider" width="100%">
 
-</div>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0D111F&height=3&section=header&animation=twinkling&reversal=false" width="100%" alt="Animated divider">
 </div>
 
 ---
@@ -24,12 +22,9 @@
   <source media="(prefers-color-scheme: light)" srcset="light.svg">
   <img alt="Areeba Chandni Cheema — developer profile" src="dark.svg" width="100%">
 </picture>
-</div>
 
-<br>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0D111F&height=70&section=footer&animation=twinkling&fontColor=A78BFA" width="100%" alt="Animated blue purple divider">
+<br><br>
+<img src="https://camo.githubusercontent.com/6c2c38c61e0289d5f988a5a837cc84dd92c7e748d4f3da61d3794655872392bf/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d776176696e6726636f6c6f723d304431313146266865696768743d37302673656374696f6e3d666f6f74657226616e696d6174696f6e3d7477696e6b6c696e6726666f6e74436f6c6f723d413738424641" alt="Animated blue purple divider" width="100%">
 </div>
 
 ---
@@ -97,7 +92,7 @@ Live profile snapshot with the current repository, star, contribution and follow
 ---
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2800&pause=1200&color=0891B2&background=0D111700&center=true&vCenter=true&width=620&lines=PROJECT+SYSTEM+%2F%2F+what+I'm+building+right+now;no+fictional+projects+%E2%80%94+just+the+real+ones" alt="Animated project system label">
+<img src="https://camo.githubusercontent.com/b34d08cca770326d5c835c73dd03530bcca94999c1d6b6f60cdd1183ca2a1ebd/68747470733a2f2f726561646d652d747970696e672d7376672e64656d6f6c61622e636f6d3f666f6e743d466972612b436f6465267765696768743d3530302673697a653d3136266475726174696f6e3d323830302670617573653d3132303026636f6c6f723d303839314232266261636b67726f756e643d30443131313730302663656e7465723d74727565267643656e7465723d747275652Z0nd0a" alt="Animated project system label" width="100%">
 </div>
 
 ## Project System
@@ -212,7 +207,7 @@ Making projects feel as good as they work.
 
 ### Languages
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![C++](https://img.shields.io/badge/C%2B%2B-2563EB?style=flat-square&logo=cplusplus&logoColor=white)](https://cplusplus.com/)
+[![C++](https://img.shields.io/badge/C%2B%2B-2563EB?style=flat-square&logo=cpp&logoColor=white)](https://cplusplus.com/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-7C3AED?style=flat-square&logo=javascript&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ### Frontend
@@ -271,10 +266,11 @@ Making projects feel as good as they work.
 
 </div>
 
-<br>
+---
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0D111F&height=100&section=footer&animation=twinkling&fontColor=A78BFA" width="100%" alt="Animated footer">
+
+<img src="https://camo.githubusercontent.com/6c2c38c61e0289d5f988a5a837cc84dd92c7e748d4f3da61d3794655872392bf/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d776176696e6726636f6c6f723d304431313146266865696768743d37302673656374696f6e3d666f6f74657226616e696d6174696f6e3d7477696e6b6c696e6726666f6e74436f6c6f723d413738424641" alt="Animated blue purple divider" width="100%">
 
 <sub>૮ ˶ᵔ ᵕ ᵔ˶ ა&nbsp; building quietly, learning constantly, and keeping things a little bit pretty.</sub>
 
