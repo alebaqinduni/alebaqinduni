@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090b18"/><stop offset="1" stop-color="#17102b"/></linearGradient>
+  <linearGradient id="pink" x1="0" x2="1"><stop stop-color="#ff6fb5"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+  <linearGradient id="cyan" x1="0" x2="1"><stop stop-color="#7dd3fc"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="760" rx="28" fill="url(#bg)" stroke="#6b4a8e" stroke-width="2"/>
+<text x="48" y="58" fill="#ff9bce" font-family="monospace" font-size="26" font-weight="700">PROJECT SYSTEM</text>
+<text x="48" y="84" fill="#8d91ad" font-family="sans-serif" font-size="14">a visual snapshot of what is being built, explored and planned</text>
+<circle cx="1120" cy="50" r="7" fill="#ff77b7"/><circle cx="1145" cy="50" r="7" fill="#c084fc"/><circle cx="1170" cy="50" r="7" fill="#7dd3fc"/>
+
+<!-- AI LAB -->
+<rect x="40" y="112" width="535" height="270" rx="20" fill="#0d1020" stroke="#d65ca8"/>
+<text x="68" y="150" fill="#ff9bce" font-family="sans-serif" font-size="22" font-weight="700">AI LAB</text>
+<text x="68" y="176" fill="#9da2bd" font-family="sans-serif" font-size="13">EXPERIMENT · LEARN · BUILD</text>
+<text x="68" y="215" fill="#e9d5ff" font-family="sans-serif" font-size="15">Prompt Engineering</text>
+<rect x="68" y="225" width="430" height="8" rx="4" fill="#24253a"/><rect x="68" y="225" width="387" height="8" rx="4" fill="url(#pink)"/>
+<text x="468" y="217" fill="#ff9bce" font-family="monospace" font-size="12">90%</text>
+<text x="68" y="252" fill="#e9d5ff" font-family="sans-serif" font-size="15">LLM Integration</text>
+<rect x="68" y="262" width="430" height="8" rx="4" fill="#24253a"/><rect x="68" y="262" width="344" height="8" rx="4" fill="url(#pink)"/>
+<text x="468" y="254" fill="#ff9bce" font-family="monospace" font-size="12">80%</text>
+<text x="68" y="289" fill="#e9d5ff" font-family="sans-serif" font-size="15">AI Tools &amp; APIs</text>
+<rect x="68" y="299" width="430" height="8" rx="4" fill="#24253a"/><rect x="68" y="299" width="365" height="8" rx="4" fill="url(#pink)"/>
+<text x="468" y="291" fill="#ff9bce" font-family="monospace" font-size="12">85%</text>
+<text x="68" y="326" fill="#e9d5ff" font-family="sans-serif" font-size="15">Computer Vision</text>
+<rect x="68" y="336" width="430" height="8" rx="4" fill="#24253a"/><rect x="68" y="336" width="322" height="8" rx="4" fill="url(#cyan)"/>
+<text x="468" y="328" fill="#a7c7ff" font-family="monospace" font-size="12">75%</text>
+<path d="M500 130 q20 20 0 40 t0 40" fill="none" stroke="#ff77b7" stroke-width="2" opacity=".5"/>
+<circle cx="515" cy="142" r="4" fill="#ff77b7" filter="url(#glow)"/><circle cx="515" cy="182" r="4" fill="#c084fc" filter="url(#glow)"/>
+
+<!-- CURRENT PROJECTS -->
+<rect x="595" y="112" width="565" height="270" rx="20" fill="#0d1020" stroke="#7653b5"/>
+<text x="623" y="150" fill="#cfa7ff" font-family="sans-serif" font-size="22" font-weight="700">CURRENT PROJECTS</text>
+<text x="623" y="176" fill="#9da2bd" font-family="sans-serif" font-size="13">WHAT IS MOVING RIGHT NOW</text>
+<g font-family="sans-serif">
+<rect x="623" y="195" width="509" height="40" rx="10" fill="#15162a" stroke="#33294a"/><circle cx="646" cy="215" r="8" fill="#ff77b7"/><text x="665" y="211" fill="#f3e8ff" font-size="14" font-weight="700">Wakeup Alarm</text><text x="665" y="227" fill="#8f93aa" font-size="11">smart alarm · sleep-cycle ideas</text><text x="1070" y="218" fill="#ff9bce" font-family="monospace" font-size="11">75%</text>
+<rect x="623" y="244" width="509" height="40" rx="10" fill="#15162a" stroke="#33294a"/><circle cx="646" cy="264" r="8" fill="#a78bfa"/><text x="665" y="260" fill="#f3e8ff" font-size="14" font-weight="700">ARAD GPT</text><text x="665" y="276" fill="#8f93aa" font-size="11">all-in-one AI assistant</text><text x="1070" y="267" fill="#c4a5ff" font-family="monospace" font-size="11">60%</text>
+<rect x="623" y="293" width="509" height="40" rx="10" fill="#15162a" stroke="#33294a"/><circle cx="646" cy="313" r="8" fill="#67e8f9"/><text x="665" y="309" fill="#f3e8ff" font-size="14" font-weight="700">Portfolio System</text><text x="665" y="325" fill="#8f93aa" font-size="11">animated developer identity</text><text x="1060" y="316" fill="#7dd3fc" font-family="monospace" font-size="11">ACTIVE</text>
+<rect x="623" y="342" width="509" height="22" rx="11" fill="#17182b"/><rect x="623" y="342" width="386" height="22" rx="11" fill="url(#pink)" opacity=".55"/><text x="638" y="357" fill="#fff" font-size="10">AI Study Buddy · planning</text>
+</g>
+
+<!-- FORECAST -->
+<rect x="40" y="405" width="535" height="315" rx="20" fill="#0d1020" stroke="#8b5cf6"/>
+<text x="68" y="443" fill="#cfa7ff" font-family="sans-serif" font-size="22" font-weight="700">PROJECT FORECAST</text>
+<text x="68" y="469" fill="#9da2bd" font-family="sans-serif" font-size="13">direction, not a deadline</text>
+<path d="M105 675 C190 630 205 610 275 585 S370 530 425 500 S480 475 520 450" fill="none" stroke="url(#pink)" stroke-width="5"/>
+<g fill="#ff77b7" stroke="#fff" stroke-width="2"><circle cx="105" cy="675" r="8"/><circle cx="205" cy="610" r="8"/><circle cx="305" cy="565" r="8"/><circle cx="405" cy="510" r="8"/><circle cx="520" cy="450" r="8"/></g>
+<g font-family="sans-serif"><text x="75" y="650" fill="#ffb5d9" font-size="12">NOW</text><text x="175" y="585" fill="#e9d5ff" font-size="13">AI Apps</text><text x="270" y="540" fill="#e9d5ff" font-size="13">Smarter Agents</text><text x="365" y="485" fill="#e9d5ff" font-size="13">AI Media</text><text x="455" y="425" fill="#e9d5ff" font-size="13">Open Source</text></g>
+<line x1="105" y1="675" x2="105" y2="485" stroke="#3b3150"/><line x1="205" y1="610" x2="205" y2="485" stroke="#3b3150"/><line x1="305" y1="565" x2="305" y2="485" stroke="#3b3150"/><line x1="405" y1="510" x2="405" y2="485" stroke="#3b3150"/><line x1="520" y1="450" x2="520" y2="485" stroke="#3b3150"/>
+
+<!-- BUILD STYLE -->
+<rect x="595" y="405" width="565" height="315" rx="20" fill="#0d1020" stroke="#d65ca8"/>
+<text x="623" y="443" fill="#ff9bce" font-family="sans-serif" font-size="22" font-weight="700">BUILD STYLE</text>
+<text x="623" y="469" fill="#9da2bd" font-family="sans-serif" font-size="13">how ideas become finished work</text>
+<g font-family="monospace" font-size="13"><rect x="623" y="495" width="105" height="38" rx="19" fill="#25162b" stroke="#ff77b7"/><text x="642" y="519" fill="#ffb5d9">IDEATE</text><text x="738" y="518" fill="#7f839b">→</text><rect x="758" y="495" width="105" height="38" rx="19" fill="#21172f" stroke="#c084fc"/><text x="778" y="519" fill="#dfc7ff">DESIGN</text><text x="872" y="518" fill="#7f839b">→</text><rect x="892" y="495" width="105" height="38" rx="19" fill="#17232e" stroke="#7dd3fc"/><text x="918" y="519" fill="#b8eaff">CODE</text></g>
+<path d="M676 558 L1050 558" stroke="#302842" stroke-width="2"/>
+<g font-family="sans-serif" font-size="14"><text x="623" y="590" fill="#f3e8ff">Clean enough to understand.</text><text x="623" y="620" fill="#f3e8ff">Useful enough to keep.</text><text x="623" y="650" fill="#f3e8ff">Beautiful enough to remember.</text><text x="623" y="680" fill="#ff9bce">→ POLISH → SHIP</text></g>
+<circle cx="1070" cy="650" r="28" fill="#1c1630" stroke="#ff77b7"/><path d="M1058 650 q12-25 24 0 q-12 25-24 0" fill="none" stroke="#ff9bce" stroke-width="3"/>
+</svg>
