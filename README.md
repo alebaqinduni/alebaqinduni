@@ -1,14 +1,14 @@
-
 <div align="center">
 
-<img src="animated-profile.svg" alt="Animated developer profile" width="100%">
+<img src="animated-profile.svg" alt="Areeba Chandni Cheema profile animation" width="100%">
+
+<sub>૮ ˶ᵔ ᵕ ᵔ˶ ა &nbsp; welcome to my little corner of GitHub</sub>
 
 </div>
 
-
 ---
 
-##  Profile Banner 🎨
+## Profile Banner
 
 <div align="center">
 
@@ -20,67 +20,67 @@
 
 </div>
 
-
-<br/>
 ---
 
-##  GitHub Statistics 📊
+## GitHub Statistics
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="stats-light.svg">
-  <img alt="GitHub stats" src="stats-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/stats-dark.svg?v=20260826">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/stats-light.svg?v=20260826">
+  <img alt="Live GitHub statistics" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/stats-dark.svg?v=20260826" width="100%">
 </picture>
 
-<br/>
+<br>
 
-<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/streak.svg?v=20260826" alt="GitHub contribution streak" width="100%">
+<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/streak.svg?v=20260826" alt="Live GitHub developer momentum" width="100%">
 
-<br/>
+<br>
 
-<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/languages.svg?v=20260826" alt="Technology and language statistics" width="100%">
+<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/languages.svg?v=20260826" alt="Live repository language statistics" width="100%">
 
 </div>
 
 ---
 
-##  Contribution Graph 🐇
+## Contribution Garden
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph-dark.svg?v=20260826">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph-light.svg?v=20260826">
-  <img alt="Pink GitHub contribution garden with bunny hopping on active days" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph-dark.svg?v=20260826" width="100%">
+  <img alt="Pink contribution garden with a small bunny visiting active days" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph-dark.svg?v=20260826" width="100%">
 </picture>
 
+<sub>૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა&nbsp; the bunny only visits days with contributions</sub>
+
 </div>
 
 ---
 
-##  Activity Graph 📈
+## Activity Graph
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/activity-graph.svg?v=20260826" alt="GitHub activity graph" width="100%">
+<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/activity-graph.svg?v=20260826" alt="Live GitHub activity graph" width="100%">
 
 </div>
 
 ---
 
-##  GitHub Achievements 🏆
+## Achievements
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/achievements.svg?v=20260826" alt="GitHub achievements" width="100%">
+<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/achievements.svg?v=20260826" alt="Live GitHub achievements" width="100%">
 
 </div>
 
 ---
 
-##  Connect with Me 🔗
+## Connect with Me
 
 <div align="center">
 
@@ -90,11 +90,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://areeba.likesyou.org)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alebaqinduni)
 
-</div>
-
-<br/>
-
-<div align="center">
+<br><br>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=alebaqinduni&color=a78bfa&style=for-the-badge&label=PROFILE+VIEWS)
 
@@ -102,9 +98,9 @@
 
 ---
 
-##  Tech Stack 🛠️
+## Tech Stack
 
-### Core Languages
+### Languages
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)](https://cplusplus.com/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -115,67 +111,62 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
 [![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
-### Backend
+### Backend & Data
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)](https://www.php.net/)
-
-### Database
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com/)
 
-### Infrastructure
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=github&logoColor=white)](https://pages.github.com/)
+### Tools & Deployment
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
 
 ---
 
-##  Featured Projects 📚
+## Featured Project
 
-### 💱 Lahore Exchange — Currency Board
-A full-stack currency converter with a static frontend and Express API backend.
+### Lahore Exchange — Currency Board
 
-**Features:**
-- Live exchange rates with public API
-- Express backend with rate caching
-- PWA support for mobile installation
-- Service worker for offline functionality
-- Deploy-ready on Vercel, Render, or Railway
+A full-stack currency converter with a static frontend and an optional Express API backend. The project includes live exchange-rate integration, rate caching, PWA support and an offline service-worker shell.
 
-**Tech:** HTML, CSS, JavaScript, Express.js, Node.js  
+**Built with:** HTML · CSS · JavaScript · Express.js · Node.js  
 **Status:** Deploy-ready
 
-[View Project →](https://github.com/alebaqinduni/projects/tree/main/currency-app)
+[View the project →](https://github.com/alebaqinduni/projects/tree/main/currency-app)
 
 ---
 
-##  Education 🎓
+## Education
 
 **BS Computer Science**  
 University of Engineering and Technology, Lahore  
-*2025 - Present*
+*2025 – Present*
 
 ---
 
-##  About Me 📝
+## About Me
 
-I'm passionate about AI-focused development and building scalable solutions. Currently studying computer science while contributing to open-source projects and developing full-stack applications. I love experimenting with new technologies and sharing my learning journey with the community. I like turning messy data into working intelligence.
+I'm a Computer Science student interested in AI-focused development, full-stack applications and data-driven projects. I like taking an idea from a rough sketch to something polished, useful and genuinely fun to use.
 
-**Current Focus:**
--  AI/ML-driven projects
--  Full-stack web development
--  Data visualization and analytics
--  Open-source contributions
+### Current Focus
+
+- AI/ML-driven projects
+- Full-stack web development
+- Data visualization and analytics
+- Open-source development
+
+<div align="center">
+
+<sub>little projects, soft colors, clean code, and a bunny somewhere nearby ♡</sub>
+
+</div>
 
 ---
 
-##  Latest Activity 📈
+<div align="center">
 
-Check out my contributions above! 
+<sub>Thanks for hopping by. ૮ ˶ᵔ ᵕ ᵔ˶ ა</sub>
 
----
-
-**Thanks for visiting!** Feel free to reach out via the links above. 💚
-
-Last updated: August 26, 2026
+</div>
