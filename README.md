@@ -8,7 +8,7 @@
 
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0D111F&height=3&section=header&animation=twinkling&reversal=false" alt="Animated divider" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=3&section=header&animation=twinkling" alt="Animated divider" width="100%">
 
 </div>
 
@@ -25,7 +25,7 @@
 
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0D111F&height=70&section=footer&animation=twinkling&fontColor=A78BFA" alt="Animated blue purple divider" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=65&section=footer&animation=twinkling&fontColor=A78BFA" alt="Animated blue purple divider" width="100%">
 </div>
 
 ---
@@ -38,9 +38,7 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/stats-light.svg?v=20260826">
   <img alt="Live GitHub statistics" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/stats-dark.svg?v=20260826" width="100%">
 </picture>
-
 <br><br>
-
 <img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/languages.svg?v=20260826" alt="Live repository language statistics" width="100%">
 </div>
 
@@ -56,7 +54,6 @@
 </picture>
 
 <br>
-
 <sub>૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა&nbsp; the bunny visits when there is something new to show</sub>
 </div>
 
@@ -72,146 +69,133 @@
 
 ## Achievements
 
-<table width="100%">
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2600&pause=1000&color=0891B2&background=0D111700&center=true&vCenter=true&width=520&lines=LIVE+GITHUB+SNAPSHOT;small+numbers%2C+real+progress" alt="Animated achievements label">
+
+<br>
+
+<table width="92%">
 <tr>
-<td width="82%" valign="middle">
-
-### GITHUB ACHIEVEMENTS
-
-<sub>Live profile snapshot</sub>
-
-<br><br>
-
-<table width="100%">
-<tr>
-<td align="center" width="25%"><strong>REPOSITORIES</strong><br><br><h2>3</h2><sub>public projects</sub></td>
-<td align="center" width="25%"><strong>STARS</strong><br><br><h2>0</h2><sub>repository stars</sub></td>
-<td align="center" width="25%"><strong>CONTRIBUTIONS</strong><br><br><h2>138</h2><sub>past year</sub></td>
-<td align="center" width="25%"><strong>FOLLOWERS</strong><br><br><h2>3</h2><sub>GitHub followers</sub></td>
+<td align="center" width="25%"><sub>REPOSITORIES</sub><br><br><strong>3</strong><br><sub>public</sub></td>
+<td align="center" width="25%"><sub>STARS</sub><br><br><strong>0</strong><br><sub>stars</sub></td>
+<td align="center" width="25%"><sub>CONTRIBUTIONS</sub><br><br><strong>138</strong><br><sub>past year</sub></td>
+<td align="center" width="25%"><sub>FOLLOWERS</sub><br><br><strong>3</strong><br><sub>followers</sub></td>
 </tr>
 </table>
 
-</td>
-<td width="18%" align="right" valign="top">
-
-<a href="https://github.com/alebaqinduni">
-<img src="https://img.shields.io/badge/%E2%97%8F%20LIVE-0891B2?style=for-the-badge&logoColor=white" alt="Live GitHub profile">
-</a>
-
-</td>
-</tr>
-</table>
+<br>
+<a href="https://github.com/alebaqinduni"><img src="https://img.shields.io/badge/%E2%97%8F%20LIVE-0891B2?style=for-the-badge&logoColor=white" alt="Live GitHub profile"></a>
+</div>
 
 ---
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2800&pause=1200&color=0891B2&background=0D111700&center=true&vCenter=true&width=620&lines=PROJECT+SYSTEM+%2F%2F+what+I%27m+building+right+now;no+fictional+projects+%E2%80%94+just+the+real+ones" alt="Animated project system label" width="100%">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2600&pause=900&color=7C3AED&background=0D111700&center=true&vCenter=true&width=700&lines=PROJECT+SYSTEM+%2F%2F+what+I%27m+actually+building;no+fictional+projects+%E2%80%94+only+real+work+goes+here" alt="Animated project system label" width="100%">
 </div>
 
 ## Project System
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="58%" valign="top">
 
 ### CURRENT PROJECTS
 
-<br>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-#### Convertly
+**CONVERTLY**
+
+<img src="https://img.shields.io/badge/ACTIVE-0891B2?style=flat-square&logoColor=white" alt="Convertly active">
 
 A conversion-focused web project with a clean, practical interface.
 
-<br><br>
-
 <a href="https://github.com/alebaqinduni/projects/tree/main/convertly"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="View Convertly repository"></a>
-
-<br><br><br>
-
-#### Currency App
-
-A currency conversion project focused on exchange-rate utilities and a practical user experience.
-
-<br><br>
-
-<a href="https://github.com/alebaqinduni/projects/tree/main/currency-app"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View Currency App repository"></a>
 
 </td>
 <td width="50%" valign="top">
 
+**CURRENCY APP**
+
+<img src="https://img.shields.io/badge/ACTIVE-7C3AED?style=flat-square&logoColor=white" alt="Currency App active">
+
+A currency conversion project focused on exchange-rate utilities and a practical user experience.
+
+<a href="https://github.com/alebaqinduni/projects/tree/main/currency-app"><img src="https://img.shields.io/badge/VIEW%20REPOSITORY-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View Currency App repository"></a>
+
+</td>
+</tr>
+</table>
+
+</td>
+<td width="42%" valign="top">
+
 ### BUILD DIRECTION
 
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=2400&pause=700&color=0891B2&background=0D111700&center=true&vCenter=true&width=430&lines=NOW+%E2%86%92+web+apps;NEXT+%E2%86%92+better+interfaces;EXPLORE+%E2%86%92+AI+%2B+automation" alt="Animated build direction" width="100%">
+</div>
+
+**NOW**  ·  practical web applications  
+**NEXT** ·  stronger interfaces and useful tools  
+**EXPLORE** ·  AI, automation and new technologies
+
 <br>
-
-**NOW**  →  practical web applications
-
-**NEXT** →  stronger interfaces and useful tools
-
-**EXPLORE** →  AI, automation and new technologies
-
-<br><br>
 
 ### BUILD STYLE
 
-<br>
+`IDEATE` → `DESIGN` → `CODE` → `POLISH`
 
-**IDEATE**  →  **DESIGN**  →  **CODE**  →  **POLISH**
-
-<br>
-
-Clean enough to understand.
-
-Useful enough to keep.
-
+Clean enough to understand.  
+Useful enough to keep.  
 Personal enough to remember.
 
 </td>
 </tr>
 </table>
 
-<br>
+### PROJECT ROADMAP
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0D111F','primaryTextColor':'#E0E7FF','primaryBorderColor':'#7C3AED','lineColor':'#0891B2','secondaryColor':'#111827','tertiaryColor':'#0D111F'}}}%%
+flowchart LR
+    A["NOW<br/>Convertly"] --> B["NOW<br/>Currency App"]
+    B --> C["NEXT<br/>Stronger UI"]
+    C --> D["EXPLORE<br/>AI + Automation"]
+```
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=2&section=footer&animation=twinkling" alt="Animated roadmap divider" width="85%">
+</div>
 
 ### PROJECT OVERVIEW
 
-<br>
+<div align="center">
 
-| Area | Focus |
-|:---|---:|
-| Web Development | **40%** |
-| Programming | **30%** |
-| Creative / UI | **20%** |
-| Tools & Experiments | **10%** |
+<img src="https://img.shields.io/badge/WEB%20DEVELOPMENT-40%25-2563EB?style=for-the-badge&labelColor=0D111F" alt="Web Development 40 percent">
+<img src="https://img.shields.io/badge/PROGRAMMING-30%25-4F46E5?style=for-the-badge&labelColor=0D111F" alt="Programming 30 percent">
+<img src="https://img.shields.io/badge/CREATIVE%20%2F%20UI-20%25-7C3AED?style=for-the-badge&labelColor=0D111F" alt="Creative UI 20 percent">
+<img src="https://img.shields.io/badge/TOOLS%20%2F%20EXPERIMENTS-10%25-0891B2?style=for-the-badge&labelColor=0D111F" alt="Tools and experiments 10 percent">
 
-</td>
-<td width="50%" valign="top">
+<br><br>
+
+<code>WEB ████████████████████ 40%</code>  
+<code>CODE ███████████████ 30%</code>  
+<code>UI ██████████ 20%</code>  
+<code>TOOLS █████ 10%</code>
+
+</div>
 
 ### CURRENT FOCUS
 
-<br>
-
-**Web Development**  
-Building practical, polished applications.
-
-<br>
-
-**AI Exploration**  
-Learning and experimenting before calling something a project.
-
-<br>
-
-**Programming**  
-Python · C++ · JavaScript
-
-<br>
-
-**UI & Visual Design**  
-Making projects feel as good as they work.
-
-</td>
+<table width="100%">
+<tr>
+<td width="25%" align="center" valign="top"><strong>WEB</strong><br><sub>practical, polished applications</sub></td>
+<td width="25%" align="center" valign="top"><strong>AI</strong><br><sub>learning and experimenting before calling it a project</sub></td>
+<td width="25%" align="center" valign="top"><strong>CODE</strong><br><sub>Python · C++ · JavaScript</sub></td>
+<td width="25%" align="center" valign="top"><strong>UI</strong><br><sub>making projects feel as good as they work</sub></td>
 </tr>
 </table>
 
@@ -274,20 +258,10 @@ Making projects feel as good as they work.
 ## Projects
 
 <div align="center">
-
-<a href="https://github.com/alebaqinduni/projects/tree/main/convertly">
-<img src="https://img.shields.io/badge/Convertly-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Convertly">
-</a>
+<a href="https://github.com/alebaqinduni/projects/tree/main/convertly"><img src="https://img.shields.io/badge/Convertly-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Convertly"></a>
 &nbsp;
-<a href="https://github.com/alebaqinduni/projects/tree/main/currency-app">
-<img src="https://img.shields.io/badge/Currency%20App-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Currency App">
-</a>
-
+<a href="https://github.com/alebaqinduni/projects/tree/main/currency-app"><img src="https://img.shields.io/badge/Currency%20App-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Currency App"></a>
 </div>
-
-**Convertly** — a conversion-focused web project with a clean interface.
-
-**Currency App** — a currency conversion project focused on exchange-rate utilities and a practical user experience.
 
 ---
 
@@ -302,21 +276,15 @@ Making projects feel as good as they work.
 [![GitHub](https://img.shields.io/badge/GitHub-1E1B4B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alebaqinduni)
 
 <br><br>
-
 ![Profile Views](https://komarev.com/ghpvc/?username=alebaqinduni&color=6366f1&style=for-the-badge&label=PROFILE+VIEWS)
-
 </div>
 
 ---
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0D111F&height=70&section=footer&animation=twinkling&fontColor=A78BFA" alt="Animated blue purple divider" width="100%">
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0891B2&height=70&section=footer&animation=twinkling&fontColor=A78BFA" alt="Animated blue purple divider" width="100%">
+<br>
 <sub>૮ ˶ᵔ ᵕ ᵔ˶ ა&nbsp; building quietly, learning constantly, and keeping things a little bit pretty.</sub>
-
 <br><br>
-
 <sub>Thanks for hopping by. ✦</sub>
-
 </div>
