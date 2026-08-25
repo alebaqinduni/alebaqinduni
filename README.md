@@ -52,30 +52,21 @@
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake.svg">
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake.svg" width="100%">
-</picture>
+<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake.svg" alt="GitHub contribution snake" width="100%">
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake.gif">
-  <img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake.gif" alt="Animated contribution snake" width="100%">
-</a>
+<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake.gif" alt="Animated GitHub contribution snake" width="100%">
 
 </div>
 
-<br/>
 ---
 
 ##  Activity Graph 📈
 
 <div align="center">
 
-<a href="https://github.com/alebaqinduni">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alebaqinduni&bg_color=0A101F&color=E0E7FF&line=A78BFA&point=10B981&area=true&hide_border=true" alt="GitHub activity graph" width="100%">
-</a>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=alebaqinduni&bg_color=0A101F&color=E0E7FF&line=A78BFA&point=10B981&area=true&hide_border=true" alt="GitHub activity graph" width="100%">
 
 </div>
 
@@ -85,9 +76,7 @@
 
 <div align="center">
 
-<a href="https://github.com/alebaqinduni">
-  <img src="https://github-profile-trophy.vercel.app/?username=alebaqinduni&theme=onedark&no-frame=true&no-bg=true&margin-w=8&column=4" alt="GitHub profile trophies" width="100%">
-</a>
+<img src="https://github-profile-trophy.vercel.app/?username=alebaqinduni&theme=onedark&no-frame=true&no-bg=true&margin-w=8&column=4" alt="GitHub profile trophies" width="100%">
 
 </div>
 
