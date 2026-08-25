@@ -1,4 +1,4 @@
-name: Generate Profile Graphics 🐇📊
+name: Generate Profile Graphics 🐇
 
 on:
   schedule:
@@ -20,21 +20,28 @@ jobs:
       - name: Checkout profile repository
         uses: actions/checkout@v4
 
-      - name: Generate live profile graphs 📊
+      - name: Generate live profile statistics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: alebaqinduni
+          OUTPUT_DIR: dist
+        run: python3 scripts/generate_stats_cards.py
+
+      - name: Generate live profile graphs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: alebaqinduni
           OUTPUT_DIR: dist
         run: python3 scripts/generate_profile_graphics.py
 
-      - name: Add pink bunny contribution garden 🐇
+      - name: Generate pink bunny contribution garden
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: alebaqinduni
           OUTPUT_DIR: dist
         run: python3 scripts/generate_bunny_contribution_graph.py
 
-      - name: Publish profile graphics 🚀
+      - name: Publish profile graphics
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
