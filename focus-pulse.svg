@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="270" viewBox="0 0 1000 270" role="img" aria-labelledby="title desc">
+<title id="title">Animated current focus</title>
+<desc id="desc">A calm pulsing center representing the current focus, connected to web, code, AI and UI.</desc>
+<defs>
+ <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="ring" x1="0" x2="1"><stop stop-color="#38BDF8"/><stop offset=".5" stop-color="#A78BFA"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+</defs>
+<rect x="2" y="2" width="996" height="266" rx="24" fill="#0A101F" stroke="#334155"/>
+<text x="42" y="48" fill="#E2E8F0" font-family="Inter,Segoe UI,sans-serif" font-size="20" font-weight="700">CURRENT FOCUS</text>
+<text x="42" y="73" fill="#94A3B8" font-family="Inter,Segoe UI,sans-serif" font-size="13">one center, four directions, always moving</text>
+<g transform="translate(500 155)">
+ <circle r="55" fill="none" stroke="#1E293B" stroke-width="1"/>
+ <circle r="44" fill="none" stroke="url(#ring)" stroke-width="2" opacity=".7">
+   <animate attributeName="r" values="38;55;38" dur="3s" repeatCount="indefinite"/>
+   <animate attributeName="opacity" values=".8;.1;.8" dur="3s" repeatCount="indefinite"/>
+ </circle>
+ <circle r="31" fill="#111827" stroke="#A78BFA" stroke-width="2" filter="url(#glow)">
+   <animate attributeName="r" values="29;33;29" dur="2s" repeatCount="indefinite"/>
+ </circle>
+ <text y="-2" text-anchor="middle" fill="#F8FAFC" font-family="Inter,Segoe UI,sans-serif" font-size="14" font-weight="800">NOW</text>
+ <text y="14" text-anchor="middle" fill="#94A3B8" font-family="Inter,Segoe UI,sans-serif" font-size="9">BUILD MODE</text>
+</g>
+<g font-family="Inter,Segoe UI,sans-serif">
+ <path d="M455 140 L250 105" stroke="#0891B2" stroke-opacity=".35" stroke-width="2"/>
+ <path d="M455 170 L250 205" stroke="#2563EB" stroke-opacity=".35" stroke-width="2"/>
+ <path d="M545 140 L750 105" stroke="#7C3AED" stroke-opacity=".35" stroke-width="2"/>
+ <path d="M545 170 L750 205" stroke="#EC4899" stroke-opacity=".35" stroke-width="2"/>
+ <g><circle cx="250" cy="105" r="10" fill="#0F172A" stroke="#0891B2"/><circle cx="250" cy="105" r="4" fill="#0891B2" filter="url(#glow)"/><text x="222" y="82" fill="#E2E8F0" font-size="14" font-weight="700">WEB</text><text x="222" y="99" fill="#64748B" font-size="10">useful apps</text></g>
+ <g><circle cx="250" cy="205" r="10" fill="#0F172A" stroke="#2563EB"/><circle cx="250" cy="205" r="4" fill="#2563EB" filter="url(#glow)"/><text x="222" y="232" fill="#E2E8F0" font-size="14" font-weight="700">CODE</text><text x="222" y="248" fill="#64748B" font-size="10">Python · C++ · JS</text></g>
+ <g><circle cx="750" cy="105" r="10" fill="#0F172A" stroke="#7C3AED"/><circle cx="750" cy="105" r="4" fill="#7C3AED" filter="url(#glow)"/><text x="778" y="82" fill="#E2E8F0" font-size="14" font-weight="700">AI</text><text x="778" y="99" fill="#64748B" font-size="10">experiments</text></g>
+ <g><circle cx="750" cy="205" r="10" fill="#0F172A" stroke="#EC4899"/><circle cx="750" cy="205" r="4" fill="#EC4899" filter="url(#glow)"/><text x="778" y="232" fill="#E2E8F0" font-size="14" font-weight="700">UI</text><text x="778" y="248" fill="#64748B" font-size="10">motion · clarity</text></g>
+</g>
+<g fill="#FFFFFF" filter="url(#glow)">
+ <circle r="3"><animateMotion dur="2.4s" repeatCount="indefinite" path="M455 140 L250 105"/></circle>
+ <circle r="3"><animateMotion dur="2.7s" repeatCount="indefinite" path="M455 170 L250 205" begin=".5s"/></circle>
+ <circle r="3"><animateMotion dur="2.5s" repeatCount="indefinite" path="M545 140 L750 105" begin=".9s"/></circle>
+ <circle r="3"><animateMotion dur="2.9s" repeatCount="indefinite" path="M545 170 L750 205" begin=".2s"/></circle>
+</g>
+</svg>
