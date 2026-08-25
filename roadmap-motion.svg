@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+<title id="title">Animated project roadmap</title>
+<desc id="desc">A glowing path moving from idea through build and polish to ship, with current and future projects along the route.</desc>
+<defs>
+  <linearGradient id="line" x1="0" x2="1"><stop stop-color="#38BDF8"/><stop offset=".5" stop-color="#A78BFA"/><stop offset="1" stop-color="#34D399"/></linearGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="2" y="2" width="996" height="296" rx="24" fill="#0A101F" stroke="#334155"/>
+<text x="42" y="48" fill="#E2E8F0" font-family="Inter,Segoe UI,sans-serif" font-size="20" font-weight="700">PROJECT ROADMAP</text>
+<text x="42" y="73" fill="#94A3B8" font-family="Inter,Segoe UI,sans-serif" font-size="13">a moving path from small idea to finished thing</text>
+<path d="M90 185 C205 105 270 245 390 170 S610 95 705 170 S835 235 915 125" fill="none" stroke="#1E293B" stroke-width="9" stroke-linecap="round"/>
+<path d="M90 185 C205 105 270 245 390 170 S610 95 705 170 S835 235 915 125" fill="none" stroke="url(#line)" stroke-opacity=".55" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 12">
+  <animate attributeName="stroke-dashoffset" from="0" to="-100" dur="3s" repeatCount="indefinite"/>
+</path>
+<g font-family="Inter,Segoe UI,sans-serif" text-anchor="middle">
+  <g><circle cx="90" cy="185" r="18" fill="#0F172A" stroke="#38BDF8" stroke-width="3"/><circle cx="90" cy="185" r="6" fill="#38BDF8" filter="url(#glow)"/><text x="90" y="228" fill="#E2E8F0" font-size="14" font-weight="700">IDEA</text><text x="90" y="246" fill="#64748B" font-size="11">notice</text></g>
+  <g><circle cx="390" cy="170" r="18" fill="#0F172A" stroke="#A78BFA" stroke-width="3"/><circle cx="390" cy="170" r="6" fill="#A78BFA" filter="url(#glow)"/><text x="390" y="213" fill="#E2E8F0" font-size="14" font-weight="700">BUILD</text><text x="390" y="231" fill="#64748B" font-size="11">make</text></g>
+  <g><circle cx="705" cy="170" r="18" fill="#0F172A" stroke="#F472B6" stroke-width="3"/><circle cx="705" cy="170" r="6" fill="#F472B6" filter="url(#glow)"/><text x="705" y="213" fill="#E2E8F0" font-size="14" font-weight="700">POLISH</text><text x="705" y="231" fill="#64748B" font-size="11">refine</text></g>
+  <g><circle cx="915" cy="125" r="18" fill="#0F172A" stroke="#34D399" stroke-width="3"/><circle cx="915" cy="125" r="6" fill="#34D399" filter="url(#glow)"/><text x="915" y="88" fill="#E2E8F0" font-size="14" font-weight="700">SHIP</text><text x="915" y="70" fill="#64748B" font-size="11">release</text></g>
+</g>
+<circle r="7" fill="#FFFFFF" filter="url(#glow)"><animateMotion dur="5s" repeatCount="indefinite" path="M90 185 C205 105 270 245 390 170 S610 95 705 170 S835 235 915 125"/></circle>
+<g font-family="Inter,Segoe UI,sans-serif">
+ <rect x="265" y="103" width="96" height="30" rx="15" fill="#111827" stroke="#38BDF8" stroke-opacity=".5"/><text x="313" y="123" fill="#7DD3FC" font-size="11" text-anchor="middle">CONVERTLY</text>
+ <rect x="505" y="205" width="120" height="30" rx="15" fill="#111827" stroke="#A78BFA" stroke-opacity=".5"/><text x="565" y="225" fill="#C4B5FD" font-size="11" text-anchor="middle">CURRENCY APP</text>
+ <rect x="760" y="98" width="118" height="30" rx="15" fill="#111827" stroke="#34D399" stroke-opacity=".5"/><text x="819" y="118" fill="#6EE7B7" font-size="11" text-anchor="middle">AI + AUTOMATION</text>
+</g>
+</svg>
