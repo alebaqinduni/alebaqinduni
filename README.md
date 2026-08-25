@@ -182,23 +182,31 @@ flowchart TB
 
 ## EDUCATION
 
-```mermaid
-timeline
-    title Learning Journey
-    2025 : Started BS Computer Science
-         : University of Engineering and Technology, Lahore
-    2025 → Present : Learn
-                   : Build
-                   : Create
-                   : Explore
-```
-
 <div align="center">
-<table width="92%">
+<table width="94%">
 <tr>
-<td align="center" width="18%"><strong>2025</strong><br><sub>START</sub></td>
-<td width="58%"><strong>University of Engineering and Technology, Lahore</strong><br><sub>BS Computer Science · 2025 – Present</sub></td>
-<td align="center" width="24%"><strong>IN PROGRESS</strong><br><sub>learning by building</sub></td>
+<td align="center" width="16%">
+<img src="https://img.shields.io/badge/2025-2563EB?style=for-the-badge&labelColor=111827" alt="2025">
+</td>
+<td align="left" width="44%">
+<strong>University of Engineering and Technology, Lahore</strong><br>
+<sub>BS Computer Science · 2025 – Present</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://img.shields.io/badge/BS%20COMPUTER%20SCIENCE-7C3AED?style=flat-square&labelColor=111827" alt="BS Computer Science">
+</td>
+<td align="center" width="20%">
+<img src="https://img.shields.io/badge/IN%20PROGRESS-0891B2?style=flat-square&labelColor=111827" alt="In progress">
+</td>
+</tr>
+</table>
+<br>
+<table width="88%">
+<tr>
+<td align="center" width="25%"><strong style="color:#38BDF8">LEARN</strong><br><sub>foundations</sub></td>
+<td align="center" width="25%"><strong style="color:#A78BFA">BUILD</strong><br><sub>projects</sub></td>
+<td align="center" width="25%"><strong style="color:#F472B6">CREATE</strong><br><sub>interfaces</sub></td>
+<td align="center" width="25%"><strong style="color:#34D399">EXPLORE</strong><br><sub>new technology</sub></td>
 </tr>
 </table>
 </div>
