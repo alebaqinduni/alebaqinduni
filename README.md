@@ -38,7 +38,7 @@
 <br/>
 
 <a href="https://github.com/alebaqinduni">
-  <img src="https://github-readme-streak-stats.demolab.com?user=alebaqinduni&theme=transparent&hide_border=true&ring=A78BFA&fire=10B981&currStreakLabel=A78BFA&sideLabels=E0E7FF&currStreakNum=E0E7FF&sideNums=E0E7FF&dates=94A3B8" alt="GitHub contribution streak" width="49%">
+  <img src="https://streak-stats.demolab.com?user=alebaqinduni&theme=transparent&hide_border=true&ring=A78BFA&fire=10B981&currStreakLabel=A78BFA&sideLabels=E0E7FF&currStreakNum=E0E7FF&sideNums=E0E7FF&dates=94A3B8" alt="GitHub contribution streak" width="49%">
 </a>
 
 <a href="https://github.com/alebaqinduni">
