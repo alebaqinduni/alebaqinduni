@@ -1,25 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="985" height="255" viewBox="0 0 985 255">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090B12"/><stop offset="1" stop-color="#12182A"/></linearGradient>
-<linearGradient id="trail" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#A78BFA"/><stop offset=".5" stop-color="#60A5FA"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
-<filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="bunnyGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="cells" width="17" height="17" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="13" height="13" rx="3" fill="#171923" stroke="#252A3A" stroke-width=".7"/></pattern>
 </defs>
-<rect width="985" height="255" rx="18" fill="url(#bg)"/><rect x="8" y="8" width="969" height="239" rx="14" fill="none" stroke="#252A3A"/>
-<text x="24" y="32" fill="#F8FAFC" font-family="Arial,sans-serif" font-size="17" font-weight="700">CONTRIBUTION GARDEN</text>
+<rect width="985" height="255" rx="18" fill="#090B12"/>
+<rect x="8" y="8" width="969" height="239" rx="14" fill="#0F1320" stroke="#252A3A"/>
+<text x="24" y="31" fill="#F8FAFC" font-family="Arial,sans-serif" font-size="17" font-weight="700">CONTRIBUTION GARDEN</text>
 <text x="24" y="51" fill="#A1A1AA" font-family="Arial,sans-serif" font-size="11">a little traveler crossing the year • 186 contributions</text>
-<g fill="#A1A1AA" font-family="Arial,sans-serif" font-size="10"><text x="52" y="69">Aug</text><text x="86" y="69">Sep</text><text x="154" y="69">Oct</text><text x="222" y="69">Nov</text><text x="307" y="69">Dec</text><text x="375" y="69">Jan</text><text x="443" y="69">Feb</text><text x="511" y="69">Mar</text><text x="596" y="69">Apr</text><text x="664" y="69">May</text><text x="749" y="69">Jun</text><text x="817" y="69">Jul</text><text x="885" y="69">Aug</text></g>
+<g fill="#A1A1AA" font-family="Arial,sans-serif" font-size="10">
+<text x="52" y="69">Aug</text><text x="137" y="69">Sep</text><text x="222" y="69">Oct</text><text x="307" y="69">Nov</text><text x="392" y="69">Dec</text><text x="477" y="69">Jan</text><text x="562" y="69">Feb</text><text x="647" y="69">Mar</text><text x="732" y="69">Apr</text><text x="817" y="69">May</text><text x="902" y="69">Jun</text>
+</g>
 <g fill="#A1A1AA" font-family="Arial,sans-serif" font-size="9"><text x="12" y="105">Mon</text><text x="12" y="139">Wed</text><text x="12" y="173">Fri</text><text x="12" y="190">Sun</text></g>
-<g opacity=".9"><rect x="48" y="78" width="890" height="126" rx="10" fill="#0B101B" stroke="#202638"/>
-<g fill="#171D2A"> 
-<path d="M62 91h12v12H62zm17 0h12v12H79zm17 0h12v12H96zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12zm17 0h12v12h-12z"/>
-<path d="M130 108h12v12h-12zm102 17h12v12h-12zm102 17h12v12h-12zm119-34h12v12h-12zm102 51h12v12h-12zm119-34h12v12h-12zm119 17h12v12h-12zm85-34h12v12h-12z" fill="#24304A"/>
-<path d="M181 142h12v12h-12zm187-34h12v12h-12zm136 34h12v12h-12zm204 17h12v12h-12zm119-34h12v12h-12z" fill="#4F46E5" opacity=".75"/>
-</g></g>
-<!-- only the rabbit movement is new: it walks continuously along the same garden -->
-<path d="M78 184 C250 154 365 198 510 170 S760 145 900 181" fill="none" stroke="#283047" stroke-width="2" stroke-dasharray="4 8"/>
-<path d="M78 184 C250 154 365 198 510 170 S760 145 900 181" fill="none" stroke="url(#trail)" stroke-width="2" stroke-dasharray="70 900" stroke-linecap="round" opacity=".8"><animate attributeName="stroke-dashoffset" values="900;0;-900" dur="6s" repeatCount="indefinite"/></path>
-<g filter="url(#glow)"><g><animateMotion dur="11s" repeatCount="indefinite" rotate="auto" path="M78 184 C250 154 365 198 510 170 S760 145 900 181"/><g>
-<ellipse cx="0" cy="0" rx="28" ry="22" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="2"/><circle cx="27" cy="-13" r="18" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="2"/><ellipse cx="21" cy="-39" rx="7" ry="23" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="2" transform="rotate(-12 21 -39)"/><ellipse cx="35" cy="-38" rx="7" ry="23" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="2" transform="rotate(8 35 -38)"/><circle cx="33" cy="-15" r="2.8" fill="#111827"/><circle cx="43" cy="-7" r="3" fill="#F472B6"/><circle cx="-28" cy="1" r="8" fill="#F8FAFC"/>
-<g stroke="#F8FAFC" stroke-width="7" stroke-linecap="round"><path d="M-19 12L-31 28"><animateTransform attributeName="transform" type="rotate" values="18 -19 12;-18 -19 12;18 -19 12" dur=".6s" repeatCount="indefinite"/></path><path d="M-2 18L-8 34"><animateTransform attributeName="transform" type="rotate" values="-18 -2 18;18 -2 18;-18 -2 18" dur=".6s" repeatCount="indefinite"/></path><path d="M15 16L25 30"><animateTransform attributeName="transform" type="rotate" values="18 15 16;-18 15 16;18 15 16" dur=".6s" repeatCount="indefinite"/></path></g></g></g></g>
-<text x="60" y="232" fill="#71717A" font-family="Arial,sans-serif" font-size="10">LESS HOPPING • MORE EXPLORING</text><text x="790" y="232" fill="#A78BFA" font-family="Arial,sans-serif" font-size="10">START → NOW → NEXT</text>
+<rect x="48" y="78" width="890" height="126" rx="10" fill="#0B101B" stroke="#202638"/>
+<rect x="62" y="91" width="867" height="102" fill="url(#cells)"/>
+<!-- contribution intensity, matching the original pink garden language -->
+<g>
+<g fill="#FFEDF5">
+<rect x="79" y="108" width="13" height="13" rx="3"/><rect x="198" y="142" width="13" height="13" rx="3"/><rect x="334" y="108" width="13" height="13" rx="3"/><rect x="470" y="159" width="13" height="13" rx="3"/><rect x="606" y="125" width="13" height="13" rx="3"/><rect x="742" y="176" width="13" height="13" rx="3"/><rect x="861" y="108" width="13" height="13" rx="3"/>
+</g>
+<g fill="#FBCFE8">
+<rect x="130" y="125" width="13" height="13" rx="3"/><rect x="249" y="159" width="13" height="13" rx="3"/><rect x="385" y="142" width="13" height="13" rx="3"/><rect x="521" y="108" width="13" height="13" rx="3"/><rect x="657" y="176" width="13" height="13" rx="3"/><rect x="793" y="142" width="13" height="13" rx="3"/>
+</g>
+<g fill="#F9A8D4">
+<rect x="164" y="142" width="13" height="13" rx="3"/><rect x="283" y="108" width="13" height="13" rx="3"/><rect x="419" y="125" width="13" height="13" rx="3"/><rect x="555" y="159" width="13" height="13" rx="3"/><rect x="691" y="108" width="13" height="13" rx="3"/><rect x="827" y="159" width="13" height="13" rx="3"/>
+</g>
+<g fill="#F472B6">
+<rect x="232" y="125" width="13" height="13" rx="3"/><rect x="453" y="142" width="13" height="13" rx="3"/><rect x="674" y="159" width="13" height="13" rx="3"/><rect x="878" y="176" width="13" height="13" rx="3"/>
+</g>
+<g fill="#EC4899">
+<rect x="300" y="176" width="13" height="13" rx="3"/><rect x="589" y="108" width="13" height="13" rx="3"/><rect x="759" y="125" width="13" height="13" rx="3"/>
+</g>
+</g>
+<!-- The garden stays unchanged; only the rabbit motion is different. It walks smoothly between active points. -->
+<path d="M85 148 C155 148 184 132 239 132 S345 151 407 151 S520 115 578 115 S694 150 758 150 S845 132 884 182" fill="none" stroke="#2A3042" stroke-width="1.5" stroke-dasharray="3 8" opacity=".65"/>
+<g filter="url(#bunnyGlow)">
+<g>
+<animateMotion dur="12s" repeatCount="indefinite" rotate="auto" path="M85 148 C155 148 184 132 239 132 S345 151 407 151 S520 115 578 115 S694 150 758 150 S845 132 884 182"/>
+<g>
+<ellipse cx="0" cy="0" rx="22" ry="17" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="1.8"/>
+<circle cx="22" cy="-11" r="14" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="1.8"/>
+<ellipse cx="17" cy="-32" rx="5.5" ry="17" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="1.8" transform="rotate(-10 17 -32)"/>
+<ellipse cx="29" cy="-31" rx="5.5" ry="17" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="1.8" transform="rotate(8 29 -31)"/>
+<circle cx="27" cy="-12" r="2.2" fill="#111827"/><circle cx="36" cy="-6" r="2.3" fill="#F472B6"/><circle cx="-22" cy="1" r="6.5" fill="#F8FAFC"/>
+<g stroke="#F8FAFC" stroke-width="5.5" stroke-linecap="round">
+<path d="M-15 11L-24 24"><animateTransform attributeName="transform" type="rotate" values="12 -15 11;-12 -15 11;12 -15 11" dur=".55s" repeatCount="indefinite"/></path>
+<path d="M-1 15L-5 28"><animateTransform attributeName="transform" type="rotate" values="-12 -1 15;12 -1 15;-12 -1 15" dur=".55s" repeatCount="indefinite"/></path>
+<path d="M12 13L21 25"><animateTransform attributeName="transform" type="rotate" values="12 12 13;-12 12 13;12 12 13" dur=".55s" repeatCount="indefinite"/></path>
+</g>
+</g></g></g>
+<text x="60" y="232" fill="#71717A" font-family="Arial,sans-serif" font-size="10">LESS HOPPING • MORE EXPLORING</text>
+<text x="795" y="232" fill="#A78BFA" font-family="Arial,sans-serif" font-size="10">START → NOW → NEXT</text>
 </svg>
