@@ -46,18 +46,14 @@
 
 ---
 
-##  Contribution Graph 🐍
+##  Contribution Graph 🐇
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph.svg?v=20260826" alt="GitHub contribution activity heatmap" width="100%">
-
-<br/>
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake-dark.svg?v=20260826">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake.svg?v=20260826">
-  <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/snake-dark.svg?v=20260826" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph-dark.svg?v=20260826">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph-light.svg?v=20260826">
+  <img alt="Pink GitHub contribution garden with bunny hopping on active days" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph-dark.svg?v=20260826" width="100%">
 </picture>
 
 </div>
