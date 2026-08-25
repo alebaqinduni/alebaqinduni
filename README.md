@@ -69,18 +69,6 @@ A currency conversion project focused on exchange-rate utilities and a practical
 <img src="roadmap-motion.svg" alt="Animated project roadmap" width="100%">
 </div>
 
-## Current Focus
-<div align="center">
-<img src="focus-pulse.svg" alt="Animated current focus radar" width="100%">
-</div>
-
-## About Me
-<div align="center">
-<img src="about-orbit.svg" alt="Animated About Me orbit visual" width="100%">
-<br><br>
-<sub>Curious builder · learning through projects · making useful things feel polished</sub>
-</div>
-
 ## Tech Stack
 ### Languages
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
@@ -104,6 +92,30 @@ A currency conversion project focused on exchange-rate utilities and a practical
 [![GitHub](https://img.shields.io/badge/GitHub-3123?style=flat-square&logo=github&logoColor=white)](https://github.com/)
 [![Docker](https://img.shields.io/badge/Docker-2563EB?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-4F46E4?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
+
+## Current Focus
+<div align="center">
+<img src="focus-pulse.svg" alt="Animated current focus radar" width="100%">
+</div>
+
+## About Me
+<div align="center">
+<br>
+<pre>
+╭────────────────────────────────────────────────────────────╮
+│                         A R E E B A                        │
+│                                                            │
+│   curious builder  /  CS student  /  detail chaser        │
+│                                                            │
+│   I learn by making things.                                │
+│   I turn small ideas into useful apps.                     │
+│   I enjoy the moment when code starts to feel alive.       │
+│                                                            │
+│   BUILD      →      LEARN      →      NOTICE      →  REFINE │
+╰────────────────────────────────────────────────────────────╯
+</pre>
+<sub>not a résumé · more like a little developer note</sub>
+</div>
 
 ## Education
 <div align="center">
