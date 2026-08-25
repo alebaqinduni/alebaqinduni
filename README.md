@@ -11,7 +11,6 @@
 
 <img src="animated-profile.svg" alt="Areeba Chandni Cheema profile animation" width="100%">
 
-
 <!-- Small animated idea line: directly on the banner, before the wave -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=850&color=A78BFA&background=00000000&center=true&vCenter=true&width=720&lines=building+small+ideas+into+useful+apps;turning+little+ideas+into+real+projects;learning+%E2%80%A2+coding+%E2%80%A2+designing+%E2%80%A2+exploring" alt="Building small ideas animation" width="100%">
 
@@ -44,7 +43,7 @@
 </picture>
 
 <br>
-<sub>૮₍ ˶ᵔ ᵕ ᔾ˶ ₎ა&nbsp; the bunny visits when there is something new to show</sub>
+<sub>૮₍ ˶ᵔ ᕔ˶ ₎ა&nbsp; the bunny visits when there is something new to show</sub>
 </div>
 
 ## Activity Graph
@@ -126,33 +125,41 @@ A currency conversion project focused on exchange-rate utilities and a practical
 
 ### PROJECT ROADMAP
 
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0D111F','primaryTextColor':'#E0E7FF','primaryBorderColor':'#7C3AED','lineColor':'#0891B2','secondaryColor':'#111827','tertiaryColor':'#0D111F'}}}%%
-flowchart LR
-    A["NOW<br/>Convertly"] --> B["NOW<br/>Currency App"]
-    B --> C["NEXT<br/>Stronger UI"]
-    C --> D["EXPLORE<br/>AI + Automation"]
-```
-
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0891B2&height=2&section=footer&animation=twinkling" alt="Animated roadmap divider" width="85%">
+
+<table width="96%">
+<tr>
+<td align="center" width="22%"><strong>01</strong><br>🌱<br><sub><b>NOW</b></sub><br><strong>Convertly</strong><br><sub>build · refine · ship</sub></td>
+<td align="center" width="6%"><strong>→</strong></td>
+<td align="center" width="22%"><strong>02</strong><br>💱<br><sub><b>NOW</b></sub><br><strong>Currency App</strong><br><sub>useful · simple · practical</sub></td>
+<td align="center" width="6%"><strong>→</strong></td>
+<td align="center" width="22%"><strong>03</strong><br>✦<br><sub><b>NEXT</b></sub><br><strong>Stronger UI</strong><br><sub>polish · motion · clarity</sub></td>
+<td align="center" width="6%"><strong>→</strong></td>
+<td align="center" width="22%"><strong>04</strong><br>⌁<br><sub><b>EXPLORE</b></sub><br><strong>AI + Automation</strong><br><sub>experiment · learn · build</sub></td>
+</tr>
+</table>
+
+<br>
+<sub>IDEA</sub> ──✦── <sub>BUILD</sub> ──✦── <sub>POLISH</sub> ──✦── <sub>EXPLORE</sub>
+
 </div>
 
 ### PROJECT OVERVIEW
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/WEB%20DEVELOPMENT-40%25-2563EB?style=for-the-badge&labelColor=0D111F" alt="Web Development 40 percent">
-<img src="https://img.shields.io/badge/PROGRAMMING-30%25-4F46E5?style=for-the-badge&labelColor=0D111F" alt="Programming 30 percent">
-<img src="https://img.shields.io/badge/CREATIVE%20%2F%20UI-20%25-7C3AED?style=for-the-badge&labelColor=0D111F" alt="Creative UI 20 percent">
-<img src="https://img.shields.io/badge/TOOLS%20%2F%20EXPERIMENTS-10%25-0891B2?style=for-the-badge&labelColor=0D111F" alt="Tools and experiments 10 percent">
+<table width="92%">
+<tr>
+<td width="25%" align="center"><strong>WEB</strong><br><sub>40%</sub><br><code>████████</code><br><sub>applications</sub></td>
+<td width="25%" align="center"><strong>CODE</strong><br><sub>30%</sub><br><code>██████</code><br><sub>programming</sub></td>
+<td width="25%" align="center"><strong>UI</strong><br><sub>20%</sub><br><code>████</code><br><sub>creative + interface</sub></td>
+<td width="25%" align="center"><strong>TOOLS</strong><br><sub>10%</sub><br><code>██</code><br><sub>experiments</sub></td>
+</tr>
+</table>
 
-<br><br>
-
-<code>WEB ████████████████████ 40%</code>  
-<code>CODE ███████████████ 30%</code>  
-<code>UI ██████████ 20%</code>  
-<code>TOOLS █████ 10%</code>
+<br>
+<sub>MY BUILD MIX</sub><br>
+<strong>WEB 40</strong> · <strong>CODE 30</strong> · <strong>UI 20</strong> · <strong>TOOLS 10</strong>
 
 </div>
 
@@ -250,7 +257,7 @@ flowchart LR
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0891B2&height=70&section=footer&animation=twinkling&fontColor=A78BFA" alt="Animated blue purple divider" width="100%">
 <br>
-<sub>૮ ˶ᵔ ᵕ ᔾ˶ ა&nbsp; building quietly, learning constantly, and keeping things a little bit pretty.</sub>
+<sub>૮ ˶ᵔ ᕔ˶ ა&nbsp; building quietly, learning constantly, and keeping things a little bit pretty.</sub>
 <br><br>
 <sub>Thanks for hopping by. ✦</sub>
 </div>
