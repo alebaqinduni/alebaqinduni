@@ -63,9 +63,7 @@
 ## Activity Graph
 
 <div align="center">
-
 <img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/activity-graph.svg?v=20260826" alt="Live GitHub activity graph" width="100%">
-
 </div>
 
 ---
@@ -73,9 +71,7 @@
 ## Achievements
 
 <div align="center">
-
 <img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/achievements.svg?v=20260826" alt="Live GitHub achievements" width="100%">
-
 </div>
 
 ---
@@ -157,15 +153,106 @@ I'm a Computer Science student interested in AI-focused development, full-stack 
 - Data visualization and analytics
 - Open-source development
 
+---
+
+# ✦ AI LAB
+
 <div align="center">
 
-<sub>little projects, soft colors, clean code, and a bunny somewhere nearby ♡</sub>
+### Building ideas that feel a little too ambitious — then making them real.
+
+| 🧠 AI Experiments | 🎨 Creative Systems | ⚡ Intelligent Apps |
+|:---:|:---:|:---:|
+| Models · prompts · agents | UI · media · generative ideas | automation · APIs · smart tools |
+
+</div>
+
+> **AI Lab status:** `ACTIVE` · **Mode:** `BUILD → TEST → SHIP` · **Next:** more intelligent, useful, playful systems
+
+---
+
+# 🚀 CURRENT PROJECTS
+
+<div align="center">
+
+| Project | What I'm building | Status |
+|---|---|:---:|
+| 🤖 AI Applications | AI-powered tools and experiences | 🟢 Active |
+| 🌙 Wakeup Alarm | Smart alarm / wake-up experience | 🟡 Evolving |
+| 💱 Lahore Exchange | Currency conversion + PWA | 🟢 Deploy-ready |
+| ✨ Profile System | Animated GitHub identity + live stats | 🟢 Active |
+
+</div>
+
+---
+
+# 🔭 PROJECT FORECAST
+
+<div align="center">
+
+**NOW** ───────── **NEXT** ───────── **SOON**
+
+🧠 AI Apps → 🤖 Smarter Agents → 🎬 AI Media → 🌐 Bigger Full-Stack Systems
+
+<br>
+
+`████████░░` AI Building  ·  `███████░░░` Full-Stack  ·  `██████░░░░` Open Source  ·  `█████░░░░░` Experiments
+
+</div>
+
+---
+
+# 📊 PROJECT OVERVIEW
+
+<div align="center">
+
+| Area | Focus |
+|:---|:---|
+| 🧠 Artificial Intelligence | AI apps, agents, automation, experimentation |
+| 💻 Software Engineering | Full-stack products and clean architecture |
+| 🎨 Creative Tech | Beautiful interfaces, interactive experiences, media |
+| 📈 Data | Visualization, analytics and useful dashboards |
+| 🌱 Open Source | Learning in public and shipping projects |
+
+</div>
+
+---
+
+# 🎧 CURRENTLY PLAYING
+
+<div align="center">
+
+<a href="https://open.spotify.com/">
+<img src="https://img.shields.io/badge/♫%20Spotify-Listen%20with%20me-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify — currently playing">
+</a>
+
+<br><br>
+
+<sub>♪ A little music while the code compiles ♡</sub>
+
+</div>
+
+---
+
+## ✦ More About My Build Style
+
+<div align="center">
+
+`IDEATE` → `DESIGN` → `CODE` → `BREAK` → `FIX` → `POLISH` → `SHIP` ✦
+
+<br><br>
+
+<sub>✨ Curious about AI · obsessed with polished details · always building something new</sub>
 
 </div>
 
 ---
 
 <div align="center">
+
+<sub>little projects, soft colors, clean code, and a bunny somewhere nearby ♡</sub>
+
+<br><br>
 
 <sub>Thanks for hopping by. ૮ ˶ᵔ ᵕ ᵔ˶ ა</sub>
 
