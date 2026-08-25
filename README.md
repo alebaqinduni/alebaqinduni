@@ -179,9 +179,31 @@ A currency conversion project focused on exchange-rate utilities and a practical
 
 ## About Me
 <div align="center">
-> **Computer Science student · developer · curious builder**
->
-> I enjoy turning small ideas into clean, useful applications — learning through code, experimenting with new technologies, and giving every project its own visual identity.
+<table width="92%">
+<tr>
+<td width="22%" align="center" valign="middle">
+<img src="https://img.shields.io/badge/AREEBA-2563EB?style=for-the-badge&labelColor=111827" alt="Areeba">
+<br><br>
+<img src="https://img.shields.io/badge/CS%20STUDENT-7C3AED?style=flat-square&labelColor=111827" alt="Computer Science student">
+</td>
+<td width="78%" align="left" valign="middle">
+<strong>Computer Science student · developer · curious builder</strong>
+<br><br>
+I like taking a small idea, giving it a clear purpose, and turning it into something people can actually use. I learn by building — experimenting with code, exploring new technologies, and improving the details that make an application feel polished.
+<br><br>
+<img src="https://img.shields.io/badge/BUILD-2563EB?style=flat-square&labelColor=111827" alt="Build">
+<img src="https://img.shields.io/badge/LEARN-7C3AED?style=flat-square&labelColor=111827" alt="Learn">
+<img src="https://img.shields.io/badge/DESIGN-EC4899?style=flat-square&labelColor=111827" alt="Design">
+<img src="https://img.shields.io/badge/EXPLORE-10B981?style=flat-square&labelColor=111827" alt="Explore">
+<img src="https://img.shields.io/badge/CREATE-F59E0B?style=flat-square&labelColor=111827" alt="Create">
+</td>
+</tr>
+</table>
+<br>
+<img src="https://img.shields.io/badge/SMALL%20IDEAS-2563EB?style=for-the-badge&labelColor=111827" alt="Small ideas">
+<img src="https://img.shields.io/badge/REAL%20PROJECTS-7C3AED?style=for-the-badge&labelColor=111827" alt="Real projects">
+<img src="https://img.shields.io/badge/USEFUL%20APPS-EC4899?style=for-the-badge&labelColor=111827" alt="Useful apps">
+<img src="https://img.shields.io/badge/CONSTANT%20LEARNING-10B981?style=for-the-badge&labelColor=111827" alt="Constant learning">
 </div>
 
 ---
