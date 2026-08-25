@@ -74,32 +74,11 @@ A currency conversion project focused on exchange-rate utilities and a practical
 <img src="focus-pulse.svg" alt="Animated current focus radar" width="100%">
 </div>
 
-## Education
-<div align="center">
-<img src="education-grow.svg" alt="Animated education growth path" width="100%">
-</div>
-
 ## About Me
 <div align="center">
-<table width="92%">
-<tr>
-<td width="24%" align="center" valign="middle">
-<img src="https://img.shields.io/badge/AREEBA-2563EB?style=for-the-badge&labelColor=111827" alt="Areeba">
+<img src="about-orbit.svg" alt="Animated About Me orbit visual" width="100%">
 <br><br>
-<sub>CS STUDENT · DEVELOPER</sub>
-</td>
-<td width="76%" align="left" valign="middle">
-<strong>Curious builder who likes turning small ideas into useful things.</strong>
-<br><br>
-I learn by building — experimenting with code, exploring new technologies, and improving the details that make an application feel polished.
-<br><br>
-<img src="https://img.shields.io/badge/BUILD-2563EB?style=flat-square&labelColor=111827" alt="Build">
-<img src="https://img.shields.io/badge/LEARN-7C3AED?style=flat-square&labelColor=111827" alt="Learn">
-<img src="https://img.shields.io/badge/DESIGN-EC4899?style=flat-square&labelColor=111827" alt="Design">
-<img src="https://img.shields.io/badge/EXPLORE-10B981?style=flat-square&labelColor=111827" alt="Explore">
-</td>
-</tr>
-</table>
+<sub>Curious builder · learning through projects · making useful things feel polished</sub>
 </div>
 
 ## Tech Stack
@@ -125,6 +104,13 @@ I learn by building — experimenting with code, exploring new technologies, and
 [![GitHub](https://img.shields.io/badge/GitHub-3123?style=flat-square&logo=github&logoColor=white)](https://github.com/)
 [![Docker](https://img.shields.io/badge/Docker-2563EB?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-4F46E4?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
+
+## Education
+<div align="center">
+<img src="education-grow.svg" alt="Animated education growth path" width="100%">
+<br><br>
+<sub>learning by building · growing through experiments · always exploring what's next</sub>
+</div>
 
 ## Connect
 <div align="center">
