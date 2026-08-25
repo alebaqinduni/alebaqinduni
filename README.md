@@ -1,6 +1,3 @@
-<div align="center">
-
-<img src="animated-profile.svg" alt="Areeba Chandni Cheema profile animation" width="100%">
 
 
 <picture>
@@ -8,6 +5,11 @@
   <source media="(prefers-color-scheme: light)" srcset="light.svg">
   <img alt="Areeba Chandni Cheema — developer profile" src="dark.svg" width="100%">
 </picture>
+<br>
+<div align="center">
+
+<img src="animated-profile.svg" alt="Areeba Chandni Cheema profile animation" width="100%">
+
 
 <!-- Small animated idea line: directly on the banner, before the wave -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=850&color=A78BFA&background=00000000&center=true&vCenter=true&width=720&lines=building+small+ideas+into+useful+apps;turning+little+ideas+into+real+projects;learning+%E2%80%A2+coding+%E2%80%A2+designing+%E2%80%A2+exploring" alt="Building small ideas animation" width="100%">
