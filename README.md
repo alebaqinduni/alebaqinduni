@@ -136,6 +136,12 @@ status: still exploring...
 </table>
 </div>
 
+<div align="center">
+<a href="https://open.spotify.com/track/5cELNkJwUjd75J4393MzQw"><img src="spotify-learn-to-meow.svg" alt="Listen to Learn To Meow by WENGIE on Spotify" width="88%"></a>
+<br>
+<sub>tap the visual to listen on Spotify</sub>
+</div>
+
 ## Education
 <div align="center">
 <img src="education-grow.svg" alt="Animated education growth path" width="100%">
