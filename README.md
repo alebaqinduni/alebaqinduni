@@ -6,6 +6,7 @@
   <img alt="Areeba Chandni Cheema — developer profile" src="dark.svg" width="100%">
 </picture>
 <br>
+<br>
 <div align="center">
 
 <img src="animated-profile.svg" alt="Areeba Chandni Cheema profile animation" width="100%">
