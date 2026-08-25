@@ -9,7 +9,7 @@
 <img src="animated-profile.svg" alt="Areeba Chandni Cheema profile animation" width="100%">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=850&color=A78BFA&background=00000000&center=true&vCenter=true&width=720&lines=building+small+ideas+into+useful+apps;turning+little+ideas+into+real+projects;learning+%E2%80%A2+coding+%E2%80%A2+designing+%E2%80%A2+exploring" alt="Building small ideas animation" width="100%">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=48&section=footer&animation=twinkling" alt="Soft purple wave" width="100%">
-<sub>૮ ˶ᵔ ᵕ ᔾ˶ ა &nbsp; welcome to my little corner of GitHub ✦</sub>
+<sub>welcome to my little corner of GitHub</sub>
 </div>
 
 ## GitHub Statistics
@@ -31,7 +31,7 @@
   <img alt="Contribution garden" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-graph-dark.svg?v=20260826" width="100%">
 </picture>
 <br>
-<sub>૮₍ ˶ᵔ ᕔ˶ ₎ა&nbsp; the bunny visits when there is something new to show</sub>
+<sub>the garden grows when there is something new to show</sub>
 </div>
 
 ## Activity Graph
@@ -52,7 +52,7 @@
 </tr>
 </table>
 <br>
-<a href="https://github.com/alebaqinduni"><img src="https://img.shields.io/badge/%E2%97%8F%20LIVE-0891B2?style=for-the-badge&logoColor=white" alt="Live GitHub profile"></a>
+<a href="https://github.com/alebaqinduni"><img src="https://img.shields.io/badge/LIVE-0891B2?style=for-the-badge&logoColor=white" alt="Live GitHub profile"></a>
 </div>
 
 ## Project System
@@ -95,13 +95,13 @@ A currency conversion project focused on exchange-rate utilities and a practical
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=34&section=footer&animation=twinkling" alt="Animated project wave" width="100%">
 </div>
 
-## ✦ PROJECT ROADMAP
+## PROJECT ROADMAP
 
 ```mermaid
 flowchart LR
-    A([💡 IDEA]):::idea --> B([⚡ BUILD]):::build
-    B --> C([✨ POLISH]):::polish
-    C --> D([🚀 SHIP]):::ship
+    A([IDEA]):::idea --> B([BUILD]):::build
+    B --> C([POLISH]):::polish
+    C --> D([SHIP]):::ship
     B --> E[Convertly]:::project
     B --> F[Currency App]:::project
     C --> G[Stronger UI]:::future
@@ -118,47 +118,54 @@ flowchart LR
 <div align="center">
 <table width="96%">
 <tr>
-<td align="center" width="25%"><sub>01 · LIVE</sub><br><br><strong>💠 CONVERTLY</strong><br><sub>small idea → useful app</sub></td>
-<td align="center" width="25%"><sub>02 · LIVE</sub><br><br><strong>🪐 CURRENCY APP</strong><br><sub>simple → practical</sub></td>
-<td align="center" width="25%"><sub>03 · NEXT</sub><br><br><strong>🌌 STRONGER UI</strong><br><sub>motion → clarity → polish</sub></td>
-<td align="center" width="25%"><sub>04 · EXPLORE</sub><br><br><strong>🔮 AI + AUTOMATION</strong><br><sub>learn → experiment → build</sub></td>
+<td align="center" width="25%"><sub>01 · LIVE</sub><br><br><strong>CONVERTLY</strong><br><sub>small idea → useful app</sub></td>
+<td align="center" width="25%"><sub>02 · LIVE</sub><br><br><strong>CURRENCY APP</strong><br><sub>simple → practical</sub></td>
+<td align="center" width="25%"><sub>03 · NEXT</sub><br><br><strong>STRONGER UI</strong><br><sub>motion → clarity → polish</sub></td>
+<td align="center" width="25%"><sub>04 · EXPLORE</sub><br><br><strong>AI + AUTOMATION</strong><br><sub>learn → experiment → build</sub></td>
 </tr>
 </table>
 </div>
 
-## ◒ PROJECT OVERVIEW
+## PROJECT OVERVIEW
 
 ```mermaid
-pie showData
-    title ✦ BUILD DNA
-    "Web Apps" : 40
-    "Programming" : 30
-    "UI / UX" : 20
-    "Tools & Experiments" : 10
+flowchart LR
+    A[WEB APPS<br/>40%]:::web --> B[PROGRAMMING<br/>30%]:::code
+    B --> C[UI / UX<br/>20%]:::ui
+    C --> D[TOOLS + EXPERIMENTS<br/>10%]:::tools
+    A -.-> E[BUILD DNA]:::core
+    B -.-> E
+    C -.-> E
+    D -.-> E
+    classDef core fill:#7C3AED,stroke:#E9D5FF,color:#fff,stroke-width:4px;
+    classDef web fill:#075985,stroke:#38BDF8,color:#fff,stroke-width:3px;
+    classDef code fill:#2563EB,stroke:#93C5FD,color:#fff,stroke-width:3px;
+    classDef ui fill:#9D174D,stroke:#F472B6,color:#fff,stroke-width:3px;
+    classDef tools fill:#065F46,stroke:#34D399,color:#fff,stroke-width:3px;
 ```
 
 <div align="center">
 <table width="90%">
 <tr>
-<td align="center"><strong>40%</strong><br>🌊 WEB</td>
-<td align="center"><strong>30%</strong><br>⚡ CODE</td>
-<td align="center"><strong>20%</strong><br>💜 UI / UX</td>
-<td align="center"><strong>10%</strong><br>🧪 TOOLS</td>
+<td align="center"><strong>40%</strong><br>WEB</td>
+<td align="center"><strong>30%</strong><br>CODE</td>
+<td align="center"><strong>20%</strong><br>UI / UX</td>
+<td align="center"><strong>10%</strong><br>TOOLS</td>
 </tr>
 </table>
 <br>
-<sub>the visual mix is a design language, not a claim about repository statistics</sub>
+<sub>visual composition of the profile direction, not repository statistics</sub>
 </div>
 
-## ⌁ CURRENT FOCUS
+## CURRENT FOCUS
 
 ```mermaid
 flowchart TB
     CORE((CURRENT)):::core
-    CORE --> WEB[🌊 WEB<br/>build useful apps]:::web
-    CORE --> AI[🔮 AI<br/>explore + learn]:::ai
-    CORE --> CODE[⚡ CODE<br/>Python · C++ · JavaScript]:::code
-    CORE --> UI[✨ UI<br/>motion · clarity · feel]:::ui
+    CORE --> WEB[WEB<br/>build useful apps]:::web
+    CORE --> AI[AI<br/>explore + learn]:::ai
+    CORE --> CODE[CODE<br/>Python · C++ · JavaScript]:::code
+    CORE --> UI[UI<br/>motion · clarity · feel]:::ui
     WEB --> SHIP([build → test → improve]):::small
     AI --> EXP([experiment before project]):::small
     CODE --> PRACTICE([learn by making]):::small
@@ -173,11 +180,11 @@ flowchart TB
 
 ---
 
-## ◎ EDUCATION
+## EDUCATION
 
 ```mermaid
 timeline
-    title 🎓 Learning Journey
+    title Learning Journey
     2025 : Started BS Computer Science
          : University of Engineering and Technology, Lahore
     2025 → Present : Learn
@@ -189,7 +196,7 @@ timeline
 <div align="center">
 <table width="92%">
 <tr>
-<td align="center" width="18%"><strong>🎓</strong><br><sub>2025</sub></td>
+<td align="center" width="18%"><strong>2025</strong><br><sub>START</sub></td>
 <td width="58%"><strong>University of Engineering and Technology, Lahore</strong><br><sub>BS Computer Science · 2025 – Present</sub></td>
 <td align="center" width="24%"><strong>IN PROGRESS</strong><br><sub>learning by building</sub></td>
 </tr>
@@ -278,7 +285,7 @@ I like taking a small idea, giving it a clear purpose, and turning it into somet
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0891B2&height=70&section=footer&animation=twinkling&fontColor=A78BFA" alt="Animated blue purple divider" width="100%">
 <br>
-<sub>૮ ˶ᵔ ᕔ˶ ა&nbsp; building quietly, learning constantly, and keeping things a little bit pretty.</sub>
+<sub>building quietly, learning constantly, and keeping things a little bit pretty.</sub>
 <br><br>
-<sub>Thanks for hopping by. ✦</sub>
+<sub>Thanks for hopping by.</sub>
 </div>
