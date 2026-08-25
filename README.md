@@ -137,7 +137,7 @@ status: still exploring...
 </div>
 
 <div align="center">
-<a href="https://open.spotify.com/track/5cELNkJwUjd75J4393MzQw"><img src="spotify-learn-to-meow.svg" alt="Listen to Learn To Meow by WENGIE on Spotify" width="88%"></a>
+<a href="https://open.spotify.com/track/5cELNkJwUjd75J4393MzQw"><img src="spotify-learn-to-meow.svg?v=4cd2d170" alt="Learn To Meow playback at 1 minute 30 seconds" width="88%"></a>
 <br>
 <sub>tap the visual to listen on Spotify</sub>
 </div>
