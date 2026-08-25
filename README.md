@@ -66,114 +66,17 @@ A currency conversion project focused on exchange-rate utilities and a practical
 
 ## Project Roadmap
 <div align="center">
-<sub>the little stepping-stone route from idea to release</sub>
-<br><br>
-<table width="94%">
-<tr>
-<td align="center" width="24%">
-<img src="https://img.shields.io/badge/01-38BDF8?style=for-the-badge&labelColor=0F172A" alt="Step 1">
-<br><br><strong>IDEA</strong><br><sub>spot the problem</sub>
-</td>
-<td align="center" width="2%"><strong>·</strong></td>
-<td align="center" width="24%">
-<img src="https://img.shields.io/badge/02-A78BFA?style=for-the-badge&labelColor=0F172A" alt="Step 2">
-<br><br><strong>BUILD</strong><br><sub>make it real</sub>
-</td>
-<td align="center" width="2%"><strong>·</strong></td>
-<td align="center" width="24%">
-<img src="https://img.shields.io/badge/03-F472B6?style=for-the-badge&labelColor=0F172A" alt="Step 3">
-<br><br><strong>POLISH</strong><br><sub>make it feel good</sub>
-</td>
-<td align="center" width="2%"><strong>·</strong></td>
-<td align="center" width="24%">
-<img src="https://img.shields.io/badge/04-34D399?style=for-the-badge&labelColor=0F172A" alt="Step 4">
-<br><br><strong>SHIP</strong><br><sub>release and learn</sub>
-</td>
-</tr>
-</table>
-<br>
-<table width="82%">
-<tr>
-<td align="center"><sub>LANDED</sub><br><strong>CONVERTLY</strong></td>
-<td align="center">↗</td>
-<td align="center"><sub>LANDED</sub><br><strong>CURRENCY APP</strong></td>
-<td align="center">↗</td>
-<td align="center"><sub>NEXT HOP</sub><br><strong>STRONGER UI</strong></td>
-<td align="center">↗</td>
-<td align="center"><sub>FARTHER</sub><br><strong>AI + AUTOMATION</strong></td>
-</tr>
-</table>
+<img src="roadmap-motion.svg" alt="Animated project roadmap" width="100%">
 </div>
 
 ## Current Focus
 <div align="center">
-<sub>four lanes, one direction — what is moving right now</sub>
-<br><br>
-<table width="92%">
-<tr>
-<td align="left" width="18%"><strong>WEB</strong><br><sub>useful apps</sub></td>
-<td width="58%"><img src="https://img.shields.io/badge/██████████████████████████████-0891B2?style=flat-square" alt="Web progress"></td>
-<td align="right" width="24%"><strong>BUILD → TEST → IMPROVE</strong></td>
-</tr>
-<tr>
-<td align="left"><strong>CODE</strong><br><sub>Python · C++ · JS</sub></td>
-<td><img src="https://img.shields.io/badge/████████████████████████-2563EB?style=flat-square" alt="Code progress"></td>
-<td align="right"><strong>LEARN → PRACTICE → SHIP</strong></td>
-</tr>
-<tr>
-<td align="left"><strong>AI</strong><br><sub>experiments</sub></td>
-<td><img src="https://img.shields.io/badge/█████████████████-7C3AED?style=flat-square" alt="AI exploration"></td>
-<td align="right"><strong>EXPLORE → PROTOTYPE</strong></td>
-</tr>
-<tr>
-<td align="left"><strong>UI</strong><br><sub>motion · clarity</sub></td>
-<td><img src="https://img.shields.io/badge/█████████████████████-EC4899?style=flat-square" alt="UI progress"></td>
-<td align="right"><strong>DESIGN → POLISH</strong></td>
-</tr>
-</table>
-<br>
-<img src="https://img.shields.io/badge/BUILDING%20NOW-7C3AED?style=for-the-badge&labelColor=111827" alt="Building now">
+<img src="focus-pulse.svg" alt="Animated current focus radar" width="100%">
 </div>
 
 ## Education
 <div align="center">
-<sub>a growing garden — each stage adds another layer</sub>
-<br><br>
-<table width="88%">
-<tr>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/SEED-38BDF8?style=for-the-badge&labelColor=0F172A" alt="Seed">
-<br><br><strong>2025</strong><br><sub>STARTED</sub>
-</td>
-<td align="center" width="8%"><strong>+</strong></td>
-<td align="center" width="28%">
-<img src="https://img.shields.io/badge/SPROUT-A78BFA?style=for-the-badge&labelColor=0F172A" alt="Sprout">
-<br><br><strong>BS COMPUTER SCIENCE</strong><br><sub>University of Engineering and Technology, Lahore</sub>
-</td>
-<td align="center" width="8%"><strong>+</strong></td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/GROWING-F472B6?style=for-the-badge&labelColor=0F172A" alt="Growing">
-<br><br><strong>BUILD</strong><br><sub>learn by making</sub>
-</td>
-<td align="center" width="8%"><strong>+</strong></td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/BLOOM-34D399?style=for-the-badge&labelColor=0F172A" alt="Bloom">
-<br><br><strong>PRESENT</strong><br><sub>still exploring</sub>
-</td>
-</tr>
-</table>
-<br>
-<table width="66%">
-<tr>
-<td align="center"><strong>CONCEPTS</strong></td>
-<td align="center">→</td>
-<td align="center"><strong>PROJECTS</strong></td>
-<td align="center">→</td>
-<td align="center"><strong>EXPERIMENTS</strong></td>
-<td align="center">→</td>
-<td align="center"><strong>WHAT'S NEXT</strong></td>
-</tr>
-</table>
+<img src="education-grow.svg" alt="Animated education growth path" width="100%">
 </div>
 
 ## About Me
