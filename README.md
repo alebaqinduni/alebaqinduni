@@ -142,13 +142,6 @@ status: still exploring...
 <sub>tap the visual to listen on Spotify</sub>
 </div>
 
-## Education
-<div align="center">
-<img src="education-grow.svg" alt="Animated education growth path" width="100%">
-<br><br>
-<sub>learning by building · growing through experiments · always exploring what's next</sub>
-</div>
-
 ## Connect
 <div align="center">
 <a href="mailto:alebaqinduni@gmail.com"><img src="https://img.shields.io/badge/Gmail-4F46E4?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
