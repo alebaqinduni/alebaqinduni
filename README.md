@@ -55,7 +55,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2600&pause=1000&color=0891B2&background=0D111700&center=true&vCenter=true&width=520&lines=LIVE+GITHUB+SNAPSHOT;small+numbers%2C+real+progress" alt="Animated achievements label">
+<img src="achievement-particles.svg" alt="Animated particle achievements" width="100%">
 
 <br>
 
@@ -73,13 +73,13 @@
 </div>
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&duration=2600&pause=900&color=7C3AED&background=0D111700&center=true&vCenter=true&width=700&lines=PROJECT+SYSTEM+%2F%2F+what+I%27m+actually+building;no+fictional+projects+%E2%80%94+only+real+work+goes+here" alt="Animated project system label" width="100%">
+<img src="project-particles.svg" alt="Animated project system particles" width="100%">
 </div>
 
 ## Project System
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2200&pause=700&color=A78BFA&background=00000000&center=true&vCenter=true&width=650&lines=BUILDING+SMALL+IDEAS;IDEATE+%E2%86%92+DESIGN+%E2%86%92+CODE+%E2%86%92+POLISH;REAL+PROJECTS+%E2%80%A2+REAL+PROGRESS" alt="Animated project system view" width="100%">
+<img src="project-particles.svg" alt="Animated project system particle view" width="100%">
 </div>
 
 <table width="100%">
@@ -219,7 +219,7 @@ flowchart LR
 [![Firebase](https://img.shields.io/badge/Firebase-4F46E5?style=flat-square&logo=firebase&logoColor=white)](https://firebase.google.com/)
 
 ### Tools & Deployment
-[![GitHub](https://img.shields.io/badge/GitHub-312E81?style=flat-square&logo=github&logoColor=white)](https://github.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-3123?style=flat-square&logo=github&logoColor=white)](https://github.com/)
 [![Docker](https://img.shields.io/badge/Docker-2563EB?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-4F46E5?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
 
@@ -242,7 +242,7 @@ flowchart LR
 [![Gmail](https://img.shields.io/badge/Gmail-4F46E5?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alebaqinduni@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aleba-qinduni-585a121b6/)
 [![Instagram](https://img.shields.io/badge/Instagram-7C3AED?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/areeba_chandni)
-[![Portfolio](https://img.shields.io/badge/Portfolio-312E81?style=for-the-badge&logo=vercel&logoColor=white)](https://areeba.likesyou.org)
+[![Portfolio](https://img.shields.io/badge/Portfolio-3123?style=for-the-badge&logo=vercel&logoColor=white)](https://areeba.likesyou.org)
 [![GitHub](https://img.shields.io/badge/GitHub-1E1B4B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alebaqinduni)
 
 <br><br>
