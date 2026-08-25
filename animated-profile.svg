@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="110" viewBox="0 0 900 110" role="img" aria-labelledby="title desc">
+  <title id="title">Animated developer profile</title>
+  <desc id="desc">Areeba Chandni Cheema — AI, full-stack development and data visualization</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="0.5" stop-color="#10B981"/>
+      <stop offset="1" stop-color="#0891B2"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="898" height="108" rx="18" fill="#0A101F" stroke="#0891B2" stroke-opacity=".45"/>
+  <circle cx="52" cy="55" r="10" fill="#10B981" filter="url(#glow)">
+    <animate attributeName="r" values="7;11;7" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".45;1;.45" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="78" y="48" fill="#E0E7FF" font-family="Inter,Segoe UI,sans-serif" font-size="22" font-weight="700">Areeba Chandni Cheema</text>
+  <text x="78" y="76" fill="#A78BFA" font-family="Inter,Segoe UI,sans-serif" font-size="17" font-weight="600">
+    <tspan>AI • Full-Stack • Data Visualization</tspan>
+    <animate attributeName="opacity" values=".55;1;.55" dur="2.8s" repeatCount="indefinite"/>
+  </text>
+  <rect x="600" y="38" width="250" height="4" rx="2" fill="url(#g)" opacity=".25"/>
+  <rect x="600" y="38" width="70" height="4" rx="2" fill="url(#g)" filter="url(#glow)">
+    <animate attributeName="x" values="600;780;600" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+  <g fill="#10B981">
+    <circle cx="610" cy="70" r="3"><animate attributeName="cy" values="70;64;70" dur="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="630" cy="70" r="3"><animate attributeName="cy" values="70;60;70" dur="1.4s" begin=".2s" repeatCount="indefinite"/></circle>
+    <circle cx="650" cy="70" r="3"><animate attributeName="cy" values="70;64;70" dur="1.4s" begin=".4s" repeatCount="indefinite"/></circle>
+    <circle cx="670" cy="70" r="3"><animate attributeName="cy" values="70;60;70" dur="1.4s" begin=".6s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
