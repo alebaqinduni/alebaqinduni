@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+<title id="title">Animated education growth</title>
+<desc id="desc">A small seed grows into a branching learning path from 2025 through computer science study to the present.</desc>
+<defs>
+ <linearGradient id="stem" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#38BDF8"/><stop offset=".55" stop-color="#A78BFA"/><stop offset="1" stop-color="#34D399"/></linearGradient>
+ <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="2" y="2" width="996" height="296" rx="24" fill="#0A101F" stroke="#334155"/>
+<text x="42" y="48" fill="#E2E8F0" font-family="Inter,Segoe UI,sans-serif" font-size="20" font-weight="700">EDUCATION</text>
+<text x="42" y="73" fill="#94A3B8" font-family="Inter,Segoe UI,sans-serif" font-size="13">learning by growing, building and trying again</text>
+<line x1="105" y1="242" x2="895" y2="242" stroke="#1E293B" stroke-width="2"/>
+<g font-family="Inter,Segoe UI,sans-serif" text-anchor="middle">
+ <g><circle cx="150" cy="242" r="8" fill="#38BDF8" filter="url(#glow)"/><text x="150" y="270" fill="#E2E8F0" font-size="13" font-weight="700">2025</text><text x="150" y="287" fill="#64748B" font-size="10">SEED</text></g>
+ <g><circle cx="390" cy="242" r="8" fill="#A78BFA" filter="url(#glow)"/><text x="390" y="270" fill="#E2E8F0" font-size="13" font-weight="700">BS COMPUTER SCIENCE</text><text x="390" y="287" fill="#64748B" font-size="10">UET LAHORE</text></g>
+ <g><circle cx="625" cy="242" r="8" fill="#F472B6" filter="url(#glow)"/><text x="625" y="270" fill="#E2E8F0" font-size="13" font-weight="700">BUILD</text><text x="625" y="287" fill="#64748B" font-size="10">LEARN BY MAKING</text></g>
+ <g><circle cx="850" cy="242" r="8" fill="#34D399" filter="url(#glow)"/><text x="850" y="270" fill="#E2E8F0" font-size="13" font-weight="700">PRESENT</text><text x="850" y="287" fill="#64748B" font-size="10">STILL EXPLORING</text></g>
+</g>
+<path d="M150 242 C150 210 145 195 150 170 C157 138 180 126 170 102" fill="none" stroke="url(#stem)" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 500" stroke-dashoffset="500">
+ <animate attributeName="stroke-dasharray" values="1 500;360 0" dur="3s" repeatCount="indefinite"/>
+</path>
+<path d="M170 102 C195 84 210 76 230 73" fill="none" stroke="#34D399" stroke-width="4" stroke-linecap="round" opacity="0">
+ <animate attributeName="opacity" values="0;1;1" dur="3s" repeatCount="indefinite"/>
+</path>
+<path d="M170 102 C150 84 137 78 120 77" fill="none" stroke="#38BDF8" stroke-width="4" stroke-linecap="round" opacity="0">
+ <animate attributeName="opacity" values="0;1;1" dur="3s" repeatCount="indefinite"/>
+</path>
+<circle cx="170" cy="102" r="8" fill="#A78BFA" filter="url(#glow)"><animate attributeName="r" values="5;9;5" dur="1.8s" repeatCount="indefinite"/></circle>
+<g font-family="Inter,Segoe UI,sans-serif">
+ <rect x="235" y="92" width="120" height="32" rx="16" fill="#111827" stroke="#A78BFA" stroke-opacity=".55"/><text x="295" y="113" fill="#C4B5FD" font-size="11" text-anchor="middle">LEARN</text>
+ <rect x="390" y="92" width="120" height="32" rx="16" fill="#111827" stroke="#38BDF8" stroke-opacity=".55"/><text x="450" y="113" fill="#7DD3FC" font-size="11" text-anchor="middle">BUILD</text>
+ <rect x="545" y="92" width="120" height="32" rx="16" fill="#111827" stroke="#F472B6" stroke-opacity=".55"/><text x="605" y="113" fill="#F9A8D4" font-size="11" text-anchor="middle">CREATE</text>
+ <rect x="700" y="92" width="120" height="32" rx="16" fill="#111827" stroke="#34D399" stroke-opacity=".55"/><text x="760" y="113" fill="#6EE7B7" font-size="11" text-anchor="middle">EXPLORE</text>
+</g>
+<circle r="5" fill="#FFFFFF" filter="url(#glow)"><animateMotion dur="4s" repeatCount="indefinite" path="M150 242 C150 210 145 195 150 170 C157 138 180 126 170 102"/></circle>
+</svg>
