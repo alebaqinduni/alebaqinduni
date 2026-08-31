@@ -110,7 +110,7 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.56s" fill="freeze"/>
       <text x="600" y="547.1" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="14.5" fill="#6d28d9">Grid.LinkedIn</text>
       <text x="713.4" y="547.1" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="14.5" fill="#c7bfe6">..............</text>
-      <text x="1140" y="547.1" text-anchor="end" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="14.5" font-weight="600" fill="#241b3a">aleba-qinduni-585a121b6</text>
+      <text x="1140" y="547.1" text-anchor="end" font-family="'Fira Code',Consolas,Menlo,monospace" font-size="14.5" font-weight="600" fill="#241b3a">areebachandni</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.69s" fill="freeze"/>
