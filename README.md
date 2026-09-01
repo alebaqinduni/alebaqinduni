@@ -26,9 +26,13 @@
 
 ## Contribution Garden
 <div align="center">
-<img src="contribution-garden-rabbit.svg?v=4" alt="Animated contribution garden with a prominent walking rabbit" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-garden-rabbit.gif?v=5">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-garden-rabbit-light.gif?v=5">
+  <img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-garden-rabbit.gif?v=5" alt="Animated contribution garden with a rabbit travelling between contribution days" width="100%">
+</picture>
 <br>
-<sub>the garden grows when there is something new to show</sub>
+<sub>the rabbit hops from one active contribution day to the next</sub>
 </div>
 
 ## What I Am Building
