@@ -19,7 +19,6 @@ if data.get("errors"):
 calendar = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
 days = {d["date"]: d["contributionCount"] for w in calendar["weeks"] for d in w["contributionDays"]}
 
-# Strong, high-contrast pinks so contribution activity is immediately visible.
 PINK = ["#FFB0D3", "#FF6BAF", "#FF2F92", "#F20A73", "#C70055"]
 max_count = max(days.values() or [1])
 week_start = TODAY - datetime.timedelta(days=(TODAY.weekday() + 1) % 7) - datetime.timedelta(weeks=52)
@@ -57,43 +56,59 @@ def level(count):
 
 
 def bunny(d, cx, cy):
-    """Cute white bunny with no surrounding circle or pink outline."""
+    """Tiny chibi white bunny; deliberately no circle, halo, or pink outer ring."""
     cx, cy = int(cx), int(cy)
     white = "#FFFFFF"
-    inner = "#F8DDF0"
-    outline = "#D8C7E8"   # soft lavender, not pink
+    soft_white = "#FFF9FD"
+    inner = "#F7D8EC"
+    outline = "#C9BDD9"
     dark = "#30213D"
-    blush = "#F5A6C9"
+    blush = "#F4A7C8"
+    lavender = "#B89AD9"
 
-    # Long soft ears.
-    d.ellipse((cx-10, cy-29, cx-2, cy-7), fill=white, outline=outline, width=2)
-    d.ellipse((cx+2, cy-29, cx+10, cy-7), fill=white, outline=outline, width=2)
-    d.ellipse((cx-7, cy-25, cx-4, cy-11), fill=inner)
-    d.ellipse((cx+4, cy-25, cx+7, cy-11), fill=inner)
+    # Long floppy ears with soft inner-ear detail.
+    d.ellipse((cx-11, cy-31, cx-3, cy-7), fill=white, outline=outline, width=2)
+    d.ellipse((cx+3, cy-31, cx+11, cy-7), fill=white, outline=outline, width=2)
+    d.ellipse((cx-8, cy-27, cx-5, cy-12), fill=inner)
+    d.ellipse((cx+5, cy-27, cx+8, cy-12), fill=inner)
 
-    # White head and fluffy little body.
-    d.ellipse((cx-11, cy-12, cx+11, cy+10), fill=white, outline=outline, width=2)
-    d.ellipse((cx-13, cy+3, cx+13, cy+20), fill=white, outline=outline, width=2)
+    # Chubby head and little body.
+    d.ellipse((cx-12, cy-13, cx+12, cy+11), fill=white, outline=outline, width=2)
+    d.ellipse((cx-14, cy+4, cx+14, cy+22), fill=white, outline=outline, width=2)
 
-    # Soft belly and tiny feet.
-    d.ellipse((cx-7, cy+8, cx+7, cy+19), fill="#FFF7FC")
-    d.ellipse((cx-13, cy+14, cx-4, cy+21), fill=white, outline=outline, width=1)
-    d.ellipse((cx+4, cy+14, cx+13, cy+21), fill=white, outline=outline, width=1)
+    # Fluffy white belly and tiny paws.
+    d.ellipse((cx-8, cy+8, cx+8, cy+20), fill=soft_white)
+    d.ellipse((cx-14, cy+15, cx-5, cy+23), fill=white, outline=outline, width=1)
+    d.ellipse((cx+5, cy+15, cx+14, cy+23), fill=white, outline=outline, width=1)
 
-    # Cute simple face.
-    d.ellipse((cx-6, cy-3, cx-3, cy), fill=dark)
-    d.ellipse((cx+3, cy-3, cx+6, cy), fill=dark)
-    d.ellipse((cx-1, cy+1, cx+1, cy+3), fill="#E7A1C1")
-    d.arc((cx-4, cy+1, cx, cy+6), 0, 100, fill=dark, width=1)
-    d.arc((cx, cy+1, cx+4, cy+6), 80, 180, fill=dark, width=1)
+    # Big gentle eyes, tiny nose and happy mouth.
+    d.ellipse((cx-7, cy-4, cx-3, cy+1), fill=dark)
+    d.ellipse((cx+3, cy-4, cx+7, cy+1), fill=dark)
+    d.ellipse((cx-5, cy-3, cx-4, cy-2), fill=white)
+    d.ellipse((cx+4, cy-3, cx+5, cy-2), fill=white)
+    d.ellipse((cx-1, cy+1, cx+1, cy+4), fill=blush)
+    d.arc((cx-5, cy+2, cx, cy+7), 10, 115, fill=dark, width=1)
+    d.arc((cx, cy+2, cx+5, cy+7), 65, 170, fill=dark, width=1)
 
-    # Tiny blush and tiny fluffy tail. No circle/halo behind the bunny.
-    d.ellipse((cx-9, cy+1, cx-6, cy+3), fill=blush)
-    d.ellipse((cx+6, cy+1, cx+9, cy+3), fill=blush)
-    d.ellipse((cx+12, cy+6, cx+18, cy+12), fill=white, outline=outline, width=1)
+    # Tiny blush, whiskers, and a little lavender bow — no ring around the bunny.
+    d.ellipse((cx-10, cy+1, cx-7, cy+4), fill=blush)
+    d.ellipse((cx+7, cy+1, cx+10, cy+4), fill=blush)
+    d.line((cx-9, cy+5, cx-15, cy+3), fill=outline, width=1)
+    d.line((cx-9, cy+7, cx-15, cy+8), fill=outline, width=1)
+    d.line((cx+9, cy+5, cx+15, cy+3), fill=outline, width=1)
+    d.line((cx+9, cy+7, cx+15, cy+8), fill=outline, width=1)
+
+    # Small bow under one ear for extra cuteness, kept lavender to match the profile.
+    bx, by = cx + 8, cy + 9
+    d.ellipse((bx-6, by-4, bx+1, by+3), fill=lavender)
+    d.ellipse((bx+1, by-4, bx+8, by+3), fill=lavender)
+    d.ellipse((bx-1, by-1, bx+3, by+4), fill=white)
+
+    # Tiny fluffy tail.
+    d.ellipse((cx+13, cy+7, cx+20, cy+14), fill=white, outline=outline, width=1)
 
 
-def frame(index, progress):
+def frame(route_index, progress, route):
     bg, panel, stroke = "#070910", "#0D1220", "#30384A"
     text, sub, empty = "#FFFFFF", "#CBD5E1", "#171D2B"
     im = Image.new("RGB", (width, height), bg)
@@ -121,17 +136,18 @@ def frame(index, progress):
             border = "#FFD1E5" if count > 0 else "#2A3140"
             d.rounded_rectangle((x,y,x+cell,y+cell), radius=3, fill=fill, outline=border, width=1)
 
-    # No connecting line/trail: only the bunny moves between active contribution cells.
-    if active:
-        i = min(index, len(active)-1)
-        j = min(i+1, len(active)-1)
+    # The route is a true ping-pong path: left -> right -> left.
+    # It never jumps from one edge to the other.
+    if route:
+        i = min(route_index, len(route)-1)
+        j = min(i+1, len(route)-1)
         if i == j:
-            x,y = active[i][1], active[i][2]
+            x, y = route[i][1], route[i][2]
             hop = 0
         else:
             f = progress
-            x = active[i][1] + (active[j][1]-active[i][1])*f
-            y = active[i][2] + (active[j][2]-active[i][2])*f
+            x = route[i][1] + (route[j][1]-route[i][1])*f
+            y = route[i][2] + (route[j][2]-route[i][2])*f
             hop = -abs(math.sin(f*math.pi))*10
         bunny(d, x, y+hop)
 
@@ -147,13 +163,22 @@ def frame(index, progress):
 
 def gif(path):
     frames=[]
-    n=max(60,min(120,len(active)*2 if active else 60))
+    if not active:
+        route=[]
+    elif len(active) == 1:
+        route=active
+    else:
+        # Forward through every active day, then reverse through the same path.
+        # The end points are not duplicated, so the bunny turns around naturally.
+        route = active + list(reversed(active[1:-1]))
+
+    n=max(90,min(180,len(route)*3 if route else 90))
     for k in range(n):
         p=k/(n-1) if n>1 else 0
-        scaled=p*(len(active)-1) if active else 0
-        i=min(int(scaled),len(active)-1) if active else 0
-        local=scaled-i if active and i<len(active)-1 else 0
-        frames.append(frame(i,local))
+        scaled=p*(len(route)-1) if route else 0
+        i=min(int(scaled),len(route)-1) if route else 0
+        local=scaled-i if route and i<len(route)-1 else 0
+        frames.append(frame(i,local,route))
     frames[0].save(path,save_all=True,append_images=frames[1:],duration=180,loop=0,optimize=True)
 
 gif(os.path.join(OUT,"contribution-garden-rabbit.gif"))
