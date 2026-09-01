@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 import datetime
 import json
+import math
 import os
 import urllib.request
+from PIL import Image, ImageDraw, ImageFont
 
 USER = os.environ.get("GITHUB_USERNAME", "alebaqinduni")
 TOKEN = os.environ["GITHUB_TOKEN"]
@@ -19,20 +21,14 @@ query($login:String!, $from:DateTime!, $to:DateTime!) {
     contributionsCollection(from:$from, to:$to) {
       contributionCalendar {
         totalContributions
-        weeks {
-          contributionDays { date contributionCount }
-        }
+        weeks { contributionDays { date contributionCount } }
       }
     }
   }
 }
 """
 
-payload = json.dumps({
-    "query": QUERY,
-    "variables": {"login": USER, "from": FROM.isoformat(), "to": TO.isoformat()},
-}).encode()
-
+payload = json.dumps({"query": QUERY, "variables": {"login": USER, "from": FROM.isoformat(), "to": TO.isoformat()}}).encode()
 request = urllib.request.Request(
     "https://api.github.com/graphql",
     data=payload,
@@ -46,7 +42,6 @@ request = urllib.request.Request(
 
 with urllib.request.urlopen(request, timeout=30) as response:
     data = json.load(response)
-
 if data.get("errors"):
     raise SystemExit("GitHub GraphQL error: " + json.dumps(data["errors"]))
 
@@ -56,7 +51,7 @@ for week in calendar["weeks"]:
     for day in week["contributionDays"]:
         days[day["date"]] = day["contributionCount"]
 
-# Same compact 53-week shape as GitHub's contribution calendar.
+# Same compact 53-week / 7-row shape as GitHub.
 week_start = TODAY - datetime.timedelta(days=(TODAY.weekday() + 1) % 7)
 week_start -= datetime.timedelta(weeks=52)
 cols, rows = 53, 7
@@ -66,38 +61,8 @@ width = left + cols * (cell + gap) + 32
 height = top + rows * (cell + gap) + 58
 
 PINK = ["#FFEDF5", "#FBCFE8", "#F9A8D4", "#F472B6", "#EC4899"]
-DARK_EMPTY = "#171923"
-LIGHT_EMPTY = "#F1F3F5"
-DARK_TEXT = "#F8FAFC"
-LIGHT_TEXT = "#1F2937"
-DARK_SUB = "#A1A1AA"
-LIGHT_SUB = "#6B7280"
-
-
-def esc(value):
-    return (str(value).replace("&", "&amp;").replace("<", "&lt;")
-            .replace(">", "&gt;").replace('"', "&quot;"))
-
-
-def pink_level(count, max_count):
-    if count <= 0:
-        return None
-    if max_count <= 1:
-        return PINK[2]
-    ratio = count / max_count
-    if ratio <= 0.20:
-        return PINK[0]
-    if ratio <= 0.40:
-        return PINK[1]
-    if ratio <= 0.65:
-        return PINK[2]
-    if ratio <= 0.85:
-        return PINK[3]
-    return PINK[4]
-
-
 max_count = max(days.values() or [1])
-active_positions = []
+active = []
 
 for col in range(cols):
     for row in range(rows):
@@ -106,117 +71,139 @@ for col in range(cols):
         x = left + col * (cell + gap)
         y = top + row * (cell + gap)
         if count > 0:
-            active_positions.append((date, x + cell / 2, y + cell / 2, count))
-
-# The rabbit travels only across real contribution days, like the classic
-# snake contribution animation. Empty days are never used as waypoints.
-active_positions.sort(key=lambda item: item[0])
+            active.append((date, x + cell / 2, y + cell / 2, count))
+active.sort(key=lambda item: item[0])
 
 
-def bunny_svg():
-    # Compact rabbit: small body, upright ears, and a tiny tail.
-    return '''<g filter="url(#bunnyGlow)">
-  <ellipse cx="0" cy="8" rx="7" ry="4.5" fill="#FFFFFF" stroke="#EC4899" stroke-width="1.4"/>
-  <circle cx="0" cy="0" r="6.5" fill="#FFFFFF" stroke="#EC4899" stroke-width="1.4"/>
-  <ellipse cx="-3.7" cy="-9" rx="2.6" ry="7.5" fill="#FFFFFF" stroke="#EC4899" stroke-width="1.4" transform="rotate(-8 -3.7 -9)"/>
-  <ellipse cx="3.7" cy="-9" rx="2.6" ry="7.5" fill="#FFFFFF" stroke="#EC4899" stroke-width="1.4" transform="rotate(8 3.7 -9)"/>
-  <circle cx="-2.1" cy="-0.5" r="0.9" fill="#1F2937"/>
-  <circle cx="2.1" cy="-0.5" r="0.9" fill="#1F2937"/>
-  <circle cx="0" cy="2.5" r="1" fill="#F472B6"/>
-  <circle cx="8" cy="7" r="2" fill="#FFFFFF" stroke="#EC4899" stroke-width="1.1"/>
-</g>'''
+def font(size, bold=False):
+    paths = [
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if bold else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf" if bold else "/usr/share/fonts/truetype/liberation2/LiberationSans-Regular.ttf",
+    ]
+    for path in paths:
+        if os.path.exists(path):
+            return ImageFont.truetype(path, size)
+    return ImageFont.load_default()
 
 
-def build_theme(dark=True):
-    bg = "#090B12" if dark else "#FFFFFF"
-    panel = "#0F1320" if dark else "#FFFFFF"
-    stroke = "#252A3A" if dark else "#E5E7EB"
-    text = DARK_TEXT if dark else LIGHT_TEXT
-    sub = DARK_SUB if dark else LIGHT_SUB
-    empty = DARK_EMPTY if dark else LIGHT_EMPTY
+TITLE = font(16, True)
+SUB = font(10)
+MONTH = font(9)
+DAY = font(8)
+LEGEND = font(9)
 
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
-<defs>
-  <filter id="bunnyGlow" x="-80%" y="-80%" width="260%" height="260%">
-    <feGaussianBlur stdDeviation="1.4" result="blur"/>
-    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-</defs>
-<rect width="{width}" height="{height}" rx="18" fill="{bg}"/>
-<rect x="8" y="8" width="{width-16}" height="{height-16}" rx="14" fill="{panel}" stroke="{stroke}"/>
-<text x="24" y="31" fill="{text}" font-family="Arial,sans-serif" font-size="17" font-weight="700">CONTRIBUTION GARDEN • RABBIT HOPS 🐇</text>
-<text x="24" y="51" fill="{sub}" font-family="Arial,sans-serif" font-size="11">{calendar["totalContributions"]} contributions in the last year • rabbit visits active days only</text>
-'''
+
+def pink_level(count):
+    if count <= 0:
+        return None
+    if max_count <= 1:
+        return PINK[2]
+    ratio = count / max_count
+    if ratio <= .20:
+        return PINK[0]
+    if ratio <= .40:
+        return PINK[1]
+    if ratio <= .65:
+        return PINK[2]
+    if ratio <= .85:
+        return PINK[3]
+    return PINK[4]
+
+
+def draw_rabbit(draw, cx, cy):
+    # Small cute bunny with upright ears and a deliberately tiny tail.
+    cx, cy = int(cx), int(cy)
+    outline = "#EC4899"
+    draw.ellipse((cx-8, cy+2, cx+8, cy+11), fill="white", outline=outline, width=2)
+    draw.ellipse((cx-7, cy-6, cx+7, cy+8), fill="white", outline=outline, width=2)
+    draw.ellipse((cx-7, cy-20, cx-1, cy-5), fill="white", outline=outline, width=2)
+    draw.ellipse((cx+1, cy-20, cx+7, cy-5), fill="white", outline=outline, width=2)
+    draw.ellipse((cx-3, cy-2, cx-1, cy), fill="#1F2937")
+    draw.ellipse((cx+1, cy-2, cx+3, cy), fill="#1F2937")
+    draw.ellipse((cx-1, cy+2, cx+1, cy+4), fill="#F472B6")
+    draw.ellipse((cx+8, cy+2, cx+13, cy+7), fill="white", outline=outline, width=1)
+
+
+def make_frame(dark, route_index, route_progress):
+    if dark:
+        bg, panel, stroke = "#090B12", "#0F1320", "#252A3A"
+        text, sub, empty = "#F8FAFC", "#A1A1AA", "#171923"
+    else:
+        bg, panel, stroke = "#FFFFFF", "#FFFFFF", "#E5E7EB"
+        text, sub, empty = "#1F2937", "#6B7280", "#F1F3F5"
+
+    im = Image.new("RGB", (width, height), bg)
+    d = ImageDraw.Draw(im)
+    d.rounded_rectangle((8, 8, width-8, height-8), radius=14, fill=panel, outline=stroke, width=1)
+    d.text((24, 16), "CONTRIBUTION GARDEN • RABBIT RUN", fill=text, font=TITLE)
+    d.text((24, 40), f'{calendar["totalContributions"]} contributions in the last year • rabbit travels active days only', fill=sub, font=SUB)
 
     last_month = None
     for col in range(cols):
         date = week_start + datetime.timedelta(weeks=col)
         label = date.strftime("%b")
         if label != last_month:
-            x = left + col * (cell + gap)
-            svg += f'<text x="{x}" y="69" fill="{sub}" font-family="Arial,sans-serif" font-size="10">{label}</text>'
+            d.text((left + col * (cell + gap), 59), label, fill=sub, font=MONTH)
             last_month = label
 
     for row, label in [(1, "Mon"), (3, "Wed"), (5, "Fri"), (6, "Sun")]:
-        y = top + row * (cell + gap) + 10
-        svg += f'<text x="12" y="{y}" fill="{sub}" font-family="Arial,sans-serif" font-size="9">{label}</text>'
+        d.text((12, top + row * (cell + gap) + 2), label, fill=sub, font=DAY)
 
-    # Draw the contribution cells.
     for col in range(cols):
         for row in range(rows):
             date = week_start + datetime.timedelta(days=col * 7 + row)
             count = days.get(date.isoformat(), 0) if date <= TODAY else 0
             x = left + col * (cell + gap)
             y = top + row * (cell + gap)
-            fill = pink_level(count, max_count) or empty
-            border = "#2A2F3B" if dark else "#E5E7EB"
-            svg += f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="3" fill="{fill}" stroke="{border}" stroke-width="0.7"><title>{esc(date.isoformat())}: {count} contribution(s)</title></rect>'
+            fill = pink_level(count) or empty
+            d.rounded_rectangle((x, y, x+cell, y+cell), radius=3, fill=fill, outline=stroke, width=1)
 
-    # A dotted trail links only consecutive contribution days. If there is a
-    # gap, the rabbit still hops to the next active day without painting the
-    # inactive cells pink.
-    for previous, current in zip(active_positions, active_positions[1:]):
-        d1, x1, y1, _ = previous
-        d2, x2, y2, _ = current
+    # Trail only appears between consecutive contribution days.
+    for a, b in zip(active, active[1:]):
+        d1, x1, y1, _ = a
+        d2, x2, y2, _ = b
         if (d2 - d1).days == 1:
-            svg += f'<path d="M{x1:.1f},{y1:.1f} L{x2:.1f},{y2:.1f}" fill="none" stroke="#F472B6" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 5" opacity="0.65"/>'
+            d.line((x1, y1, x2, y2), fill="#F472B6", width=2)
 
-    # Animate through the latest active contribution cells. The rabbit moves
-    # from one active square to the next instead of teleporting, with a small
-    # vertical hop on each leg. calcMode=linear gives the smooth snake-like
-    # travel; the bunny never lands on an inactive cell.
-    if active_positions:
-        route = active_positions[-60:]
-        duration = max(12, len(route) * 0.55)
-        coords = []
-        times = []
-        for i, (_, x, y, _) in enumerate(route):
-            hop = -7 if i % 2 == 0 else -3
-            coords.append(f"{x:.1f} {y + hop:.1f}")
-            times.append(f"{i / max(1, len(route)-1):.4f}")
-        values = ";".join(coords)
-        key_times = ";".join(times)
-        svg += f'''<g>
-  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.04;0.94;1" dur="{duration}s" repeatCount="indefinite"/>
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="{values}" keyTimes="{key_times}" dur="{duration}s" repeatCount="indefinite" calcMode="linear"/>
-    {bunny_svg()}
-  </g>
-</g>'''
+    if active:
+        if len(active) == 1:
+            x, y = active[0][1], active[0][2]
+            hop = 0
+        else:
+            i = min(route_index, len(active) - 1)
+            j = min(i + 1, len(active) - 1)
+            f = route_progress
+            _, x0, y0, _ = active[i]
+            _, x1, y1, _ = active[j]
+            x = x0 + (x1 - x0) * f
+            y = y0 + (y1 - y0) * f
+            hop = -abs(math.sin(f * math.pi)) * 9
+        draw_rabbit(d, x, y + hop)
 
     legend_y = height - 24
-    svg += f'<text x="{left}" y="{legend_y}" fill="{sub}" font-family="Arial,sans-serif" font-size="10">Less</text>'
+    d.text((left, legend_y-8), "Less", fill=sub, font=LEGEND)
     lx = left + 34
     for color in [empty] + PINK[1:]:
-        svg += f'<rect x="{lx}" y="{legend_y-10}" width="11" height="11" rx="2" fill="{color}" stroke="{stroke}" stroke-width="0.5"/>'
+        d.rounded_rectangle((lx, legend_y-10, lx+11, legend_y+1), radius=2, fill=color, outline=stroke)
         lx += 16
-    svg += f'<text x="{lx+3}" y="{legend_y}" fill="{sub}" font-family="Arial,sans-serif" font-size="10">More</text>'
-    svg += '</svg>'
-    return svg
+    d.text((lx+3, legend_y-8), "More", fill=sub, font=LEGEND)
+    return im
 
 
-# Keep the README-friendly filenames and also provide simple rabbit aliases.
-open(os.path.join(OUT, "contribution-garden-rabbit.svg"), "w", encoding="utf-8").write(build_theme(True))
-open(os.path.join(OUT, "contribution-garden-rabbit-light.svg"), "w", encoding="utf-8").write(build_theme(False))
-open(os.path.join(OUT, "rabbit.svg"), "w", encoding="utf-8").write(build_theme(True))
-open(os.path.join(OUT, "rabbit-dark.svg"), "w", encoding="utf-8").write(build_theme(True))
+def make_gif(path, dark):
+    if not active:
+        frames = [make_frame(dark, 0, 0)]
+    else:
+        frames = []
+        frame_count = 48
+        for frame_no in range(frame_count):
+            progress = frame_no / (frame_count - 1)
+            scaled = progress * (len(active) - 1)
+            index = min(int(scaled), len(active) - 1)
+            local = scaled - index if index < len(active) - 1 else 0
+            frames.append(make_frame(dark, index, local))
+    frames[0].save(path, save_all=True, append_images=frames[1:], duration=220, loop=0, optimize=True)
+
+
+make_gif(os.path.join(OUT, "contribution-garden-rabbit.gif"), True)
+make_gif(os.path.join(OUT, "contribution-garden-rabbit-light.gif"), False)
