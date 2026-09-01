@@ -20,6 +20,9 @@ jobs:
       - name: Checkout profile repository
         uses: actions/checkout@v4
 
+      - name: Install image renderer
+        run: python3 -m pip install --disable-pip-version-check Pillow
+
       - name: Generate live profile statistics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
