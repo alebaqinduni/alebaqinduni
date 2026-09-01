@@ -1,8 +1,8 @@
-name: Generate Profile Graphics 🐇
+name: Generate rabbit 🐇
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -34,7 +34,7 @@ jobs:
           OUTPUT_DIR: dist
         run: python3 scripts/generate_profile_graphics.py
 
-      - name: Generate pink bunny contribution garden
+      - name: Generate rabbit contribution garden
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: alebaqinduni
