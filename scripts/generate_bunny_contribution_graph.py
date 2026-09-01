@@ -9,10 +9,9 @@ os.makedirs(OUT, exist_ok=True)
 TODAY = datetime.date.today()
 FROM = datetime.datetime.combine(TODAY - datetime.timedelta(days=370), datetime.time.min, tzinfo=datetime.timezone.utc)
 TO = datetime.datetime.combine(TODAY + datetime.timedelta(days=1), datetime.time.min, tzinfo=datetime.timezone.utc)
-
 QUERY = '''query($login:String!, $from:DateTime!, $to:DateTime!) { user(login:$login) { contributionsCollection(from:$from, to:$to) { contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } } } } }'''
 payload = json.dumps({"query": QUERY, "variables": {"login": USER, "from": FROM.isoformat(), "to": TO.isoformat()}}).encode()
-req = urllib.request.Request("https://api.github.com/graphql", data=payload, headers={"Authorization": f"bearer {TOKEN}", "Content-Type": "application/json", "User-Agent": "alebaqinduni-rabbit-contribution-garden"}, method="POST")
+req = urllib.request.Request("https://api.github.com/graphql", data=payload, headers={"Authorization": f"bearer {TOKEN}", "Content-Type": "application/json", "User-Agent": "alebaqinduni-contribution-garden"}, method="POST")
 with urllib.request.urlopen(req, timeout=30) as response:
     data = json.load(response)
 if data.get("errors"):
@@ -20,15 +19,12 @@ if data.get("errors"):
 calendar = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
 days = {d["date"]: d["contributionCount"] for w in calendar["weeks"] for d in w["contributionDays"]}
 
-# Palette intentionally matches the profile: deep navy + vivid pink/purple accents.
-# No washed-out contribution squares.
 PINK = ["#FFC2DE", "#FF82BA", "#FF4F9D", "#FF167F", "#D9005B"]
 max_count = max(days.values() or [1])
 week_start = TODAY - datetime.timedelta(days=(TODAY.weekday() + 1) % 7) - datetime.timedelta(weeks=52)
 cols, rows, cell, gap, left, top = 53, 7, 13, 4, 52, 78
 width = left + cols * (cell + gap) + 32
 height = top + rows * (cell + gap) + 58
-
 active = []
 for col in range(cols):
     for row in range(rows):
@@ -59,41 +55,50 @@ def level(count):
     return PINK[4]
 
 
-def rabbit(d, cx, cy):
-    # Filled pink bunny rather than an outline-only bunny, so it reads clearly at README size.
+def bunny(d, cx, cy):
+    """Cute filled bunny: no surrounding circle/halo, with a soft pink-lavender palette."""
     cx, cy = int(cx), int(cy)
-    pink = "#FF4F9D"
-    deep = "#D9005B"
+    body = "#F7B6D9"
+    inner = "#FFD9EA"
+    outline = "#A855F7"
+    dark = "#30213D"
     white = "#FFFFFF"
-    # soft halo
-    d.ellipse((cx-18, cy-25, cx+18, cy+19), fill="#FF167F")
-    # ears
-    d.ellipse((cx-10, cy-27, cx-2, cy-7), fill=pink, outline=deep, width=2)
-    d.ellipse((cx+2, cy-27, cx+10, cy-7), fill=pink, outline=deep, width=2)
-    d.ellipse((cx-7, cy-24, cx-4, cy-11), fill="#FFC2DE")
-    d.ellipse((cx+4, cy-24, cx+7, cy-11), fill="#FFC2DE")
-    # head + body
-    d.ellipse((cx-10, cy-11, cx+10, cy+10), fill=pink, outline=deep, width=2)
-    d.ellipse((cx-12, cy+4, cx+12, cy+17), fill=pink, outline=deep, width=2)
-    # white belly
-    d.ellipse((cx-6, cy+6, cx+6, cy+15), fill=white)
-    # face
-    d.ellipse((cx-5, cy-3, cx-2, cy), fill="#24152B")
-    d.ellipse((cx+2, cy-3, cx+5, cy), fill="#24152B")
-    d.ellipse((cx-1, cy+1, cx+1, cy+3), fill=white)
-    # tiny tail
-    d.ellipse((cx+11, cy+5, cx+16, cy+10), fill=white, outline=deep, width=1)
+
+    # Upright ears — rounded, not circular.
+    d.ellipse((cx-10, cy-29, cx-2, cy-7), fill=body, outline=outline, width=2)
+    d.ellipse((cx+2, cy-29, cx+10, cy-7), fill=body, outline=outline, width=2)
+    d.ellipse((cx-7, cy-25, cx-4, cy-11), fill=inner)
+    d.ellipse((cx+4, cy-25, cx+7, cy-11), fill=inner)
+
+    # Head and chubby body.
+    d.ellipse((cx-11, cy-12, cx+11, cy+10), fill=body, outline=outline, width=2)
+    d.ellipse((cx-13, cy+3, cx+13, cy+20), fill=body, outline=outline, width=2)
+
+    # White little belly + feet.
+    d.ellipse((cx-7, cy+8, cx+7, cy+19), fill=white)
+    d.ellipse((cx-13, cy+14, cx-4, cy+21), fill=inner, outline=outline, width=1)
+    d.ellipse((cx+4, cy+14, cx+13, cy+21), fill=inner, outline=outline, width=1)
+
+    # Sweet face.
+    d.ellipse((cx-6, cy-3, cx-3, cy), fill=dark)
+    d.ellipse((cx+3, cy-3, cx+6, cy), fill=dark)
+    d.ellipse((cx-1, cy+1, cx+1, cy+3), fill="#E85D9E")
+    d.arc((cx-4, cy+1, cx, cy+6), 0, 100, fill=dark, width=1)
+    d.arc((cx, cy+1, cx+4, cy+6), 80, 180, fill=dark, width=1)
+
+    # Tiny blush + tiny tail. No circle behind the bunny.
+    d.ellipse((cx-9, cy+1, cx-6, cy+3), fill="#FF8FBD")
+    d.ellipse((cx+6, cy+1, cx+9, cy+3), fill="#FF8FBD")
+    d.ellipse((cx+12, cy+6, cx+18, cy+12), fill=white, outline=outline, width=1)
 
 
 def frame(index, progress):
-    # Always use the deep profile-style card, even in light GitHub mode.
-    # This keeps the garden visually consistent with the rest of the profile.
     bg, panel, stroke = "#070910", "#0D1220", "#30384A"
     text, sub, empty = "#FFFFFF", "#CBD5E1", "#171D2B"
     im = Image.new("RGB", (width, height), bg)
     d = ImageDraw.Draw(im)
     d.rounded_rectangle((8,8,width-8,height-8), radius=14, fill=panel, outline=stroke, width=1)
-    d.text((24,16), "CONTRIBUTION GARDEN  •  RABBIT RUN", fill=text, font=TITLE)
+    d.text((24,16), "CONTRIBUTION GARDEN", fill=text, font=TITLE)
     d.text((24,40), f'{calendar["totalContributions"]} contributions in the last year  •  bunny visits active days', fill=sub, font=SUB)
 
     last = None
@@ -106,7 +111,6 @@ def frame(index, progress):
     for row, label in [(1,"Mon"),(3,"Wed"),(5,"Fri"),(6,"Sun")]:
         d.text((12, top + row*(cell+gap)+2), label, fill=sub, font=DAY)
 
-    # High-contrast contribution cells. Active cells have a subtle white edge; empty cells stay dark.
     for col in range(cols):
         for row in range(rows):
             date = week_start + datetime.timedelta(days=col*7+row)
@@ -116,8 +120,7 @@ def frame(index, progress):
             border = "#FFB3D4" if count > 0 else "#2A3140"
             d.rounded_rectangle((x,y,x+cell,y+cell), radius=3, fill=fill, outline=border, width=1)
 
-    # IMPORTANT: no connecting line/trail. The rabbit itself is the only moving element.
-    # It travels smoothly from active contribution square to active contribution square.
+    # No connecting line/trail: only the bunny moves between active contribution cells.
     if active:
         i = min(index, len(active)-1)
         j = min(i+1, len(active)-1)
@@ -129,7 +132,7 @@ def frame(index, progress):
             x = active[i][1] + (active[j][1]-active[i][1])*f
             y = active[i][2] + (active[j][2]-active[i][2])*f
             hop = -abs(math.sin(f*math.pi))*10
-        rabbit(d, x, y+hop)
+        bunny(d, x, y+hop)
 
     ly = height-24
     d.text((left,ly-8),"Less",fill=sub,font=LEGEND)
