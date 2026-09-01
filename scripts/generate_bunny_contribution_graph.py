@@ -19,7 +19,8 @@ if data.get("errors"):
 calendar = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
 days = {d["date"]: d["contributionCount"] for w in calendar["weeks"] for d in w["contributionDays"]}
 
-PINK = ["#FFC2DE", "#FF82BA", "#FF4F9D", "#FF167F", "#D9005B"]
+# Strong, high-contrast pinks so contribution activity is immediately visible.
+PINK = ["#FFB0D3", "#FF6BAF", "#FF2F92", "#F20A73", "#C70055"]
 max_count = max(days.values() or [1])
 week_start = TODAY - datetime.timedelta(days=(TODAY.weekday() + 1) % 7) - datetime.timedelta(weeks=52)
 cols, rows, cell, gap, left, top = 53, 7, 13, 4, 52, 78
@@ -56,39 +57,39 @@ def level(count):
 
 
 def bunny(d, cx, cy):
-    """Cute filled bunny: no surrounding circle/halo, with a soft pink-lavender palette."""
+    """Cute white bunny with no surrounding circle or pink outline."""
     cx, cy = int(cx), int(cy)
-    body = "#F7B6D9"
-    inner = "#FFD9EA"
-    outline = "#A855F7"
-    dark = "#30213D"
     white = "#FFFFFF"
+    inner = "#F8DDF0"
+    outline = "#D8C7E8"   # soft lavender, not pink
+    dark = "#30213D"
+    blush = "#F5A6C9"
 
-    # Upright ears — rounded, not circular.
-    d.ellipse((cx-10, cy-29, cx-2, cy-7), fill=body, outline=outline, width=2)
-    d.ellipse((cx+2, cy-29, cx+10, cy-7), fill=body, outline=outline, width=2)
+    # Long soft ears.
+    d.ellipse((cx-10, cy-29, cx-2, cy-7), fill=white, outline=outline, width=2)
+    d.ellipse((cx+2, cy-29, cx+10, cy-7), fill=white, outline=outline, width=2)
     d.ellipse((cx-7, cy-25, cx-4, cy-11), fill=inner)
     d.ellipse((cx+4, cy-25, cx+7, cy-11), fill=inner)
 
-    # Head and chubby body.
-    d.ellipse((cx-11, cy-12, cx+11, cy+10), fill=body, outline=outline, width=2)
-    d.ellipse((cx-13, cy+3, cx+13, cy+20), fill=body, outline=outline, width=2)
+    # White head and fluffy little body.
+    d.ellipse((cx-11, cy-12, cx+11, cy+10), fill=white, outline=outline, width=2)
+    d.ellipse((cx-13, cy+3, cx+13, cy+20), fill=white, outline=outline, width=2)
 
-    # White little belly + feet.
-    d.ellipse((cx-7, cy+8, cx+7, cy+19), fill=white)
-    d.ellipse((cx-13, cy+14, cx-4, cy+21), fill=inner, outline=outline, width=1)
-    d.ellipse((cx+4, cy+14, cx+13, cy+21), fill=inner, outline=outline, width=1)
+    # Soft belly and tiny feet.
+    d.ellipse((cx-7, cy+8, cx+7, cy+19), fill="#FFF7FC")
+    d.ellipse((cx-13, cy+14, cx-4, cy+21), fill=white, outline=outline, width=1)
+    d.ellipse((cx+4, cy+14, cx+13, cy+21), fill=white, outline=outline, width=1)
 
-    # Sweet face.
+    # Cute simple face.
     d.ellipse((cx-6, cy-3, cx-3, cy), fill=dark)
     d.ellipse((cx+3, cy-3, cx+6, cy), fill=dark)
-    d.ellipse((cx-1, cy+1, cx+1, cy+3), fill="#E85D9E")
+    d.ellipse((cx-1, cy+1, cx+1, cy+3), fill="#E7A1C1")
     d.arc((cx-4, cy+1, cx, cy+6), 0, 100, fill=dark, width=1)
     d.arc((cx, cy+1, cx+4, cy+6), 80, 180, fill=dark, width=1)
 
-    # Tiny blush + tiny tail. No circle behind the bunny.
-    d.ellipse((cx-9, cy+1, cx-6, cy+3), fill="#FF8FBD")
-    d.ellipse((cx+6, cy+1, cx+9, cy+3), fill="#FF8FBD")
+    # Tiny blush and tiny fluffy tail. No circle/halo behind the bunny.
+    d.ellipse((cx-9, cy+1, cx-6, cy+3), fill=blush)
+    d.ellipse((cx+6, cy+1, cx+9, cy+3), fill=blush)
     d.ellipse((cx+12, cy+6, cx+18, cy+12), fill=white, outline=outline, width=1)
 
 
@@ -117,7 +118,7 @@ def frame(index, progress):
             count = days.get(date.isoformat(),0) if date <= TODAY else 0
             x, y = left + col*(cell+gap), top + row*(cell+gap)
             fill = level(count) or empty
-            border = "#FFB3D4" if count > 0 else "#2A3140"
+            border = "#FFD1E5" if count > 0 else "#2A3140"
             d.rounded_rectangle((x,y,x+cell,y+cell), radius=3, fill=fill, outline=border, width=1)
 
     # No connecting line/trail: only the bunny moves between active contribution cells.
