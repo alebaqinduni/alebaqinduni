@@ -7,7 +7,7 @@
 </div>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="light.svg">
+  <source media="(prefers-color-scheme: light)" srcset="dark.svg">
   <img alt="Areeba Chandni Cheema — developer profile" src="dark.svg" width="100%">
 </picture>
 <br>
@@ -17,7 +17,7 @@
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/stats-dark.svg?v=20260826">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/stats-light.svg?v=20260826">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/stats-dark.svg?v=20260826">
   <img alt="Live GitHub statistics" src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/stats-dark.svg?v=20260826" width="100%">
 </picture>
 <br><br>
