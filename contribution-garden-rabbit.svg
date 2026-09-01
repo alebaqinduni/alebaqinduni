@@ -2,6 +2,25 @@
 <defs>
   <filter id="bunnyGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <pattern id="cells" width="17" height="17" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="13" height="13" rx="3" fill="#171923" stroke="#252A3A" stroke-width=".7"/></pattern>
+  <style>
+    .bunny-motion{animation:bunny-travel 12s linear infinite}
+    .paw-left{transform-origin:-15px 11px;animation:paw-left .55s ease-in-out infinite}
+    .paw-mid{transform-origin:-1px 15px;animation:paw-mid .55s ease-in-out infinite}
+    .paw-right{transform-origin:12px 13px;animation:paw-right .55s ease-in-out infinite}
+    @keyframes bunny-travel{
+      0%{transform:translate(85px,148px) rotate(-8deg)}
+      14%{transform:translate(239px,132px) rotate(-6deg)}
+      29%{transform:translate(407px,151px) rotate(7deg)}
+      43%{transform:translate(578px,115px) rotate(-9deg)}
+      57%{transform:translate(758px,150px) rotate(8deg)}
+      71%{transform:translate(884px,182px) rotate(16deg)}
+      86%{transform:translate(620px,126px) rotate(-4deg)}
+      100%{transform:translate(85px,148px) rotate(-8deg)}
+    }
+    @keyframes paw-left{0%,100%{transform:rotate(12deg)}50%{transform:rotate(-12deg)}}
+    @keyframes paw-mid{0%,100%{transform:rotate(-12deg)}50%{transform:rotate(12deg)}}
+    @keyframes paw-right{0%,100%{transform:rotate(12deg)}50%{transform:rotate(-12deg)}}
+  </style>
 </defs>
 <rect width="985" height="255" rx="18" fill="#090B12"/>
 <rect x="8" y="8" width="969" height="239" rx="14" fill="#0F1320" stroke="#252A3A"/>
@@ -34,8 +53,7 @@
 <!-- The garden stays unchanged; only the rabbit motion is different. It walks smoothly between active points. -->
 <path d="M85 148 C155 148 184 132 239 132 S345 151 407 151 S520 115 578 115 S694 150 758 150 S845 132 884 182" fill="none" stroke="#2A3042" stroke-width="1.5" stroke-dasharray="3 8" opacity=".65"/>
 <g filter="url(#bunnyGlow)">
-<g>
-<animateMotion dur="12s" repeatCount="indefinite" rotate="auto" path="M85 148 C155 148 184 132 239 132 S345 151 407 151 S520 115 578 115 S694 150 758 150 S845 132 884 182"/>
+<g class="bunny-motion">
 <g>
 <ellipse cx="0" cy="0" rx="22" ry="17" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="1.8"/>
 <circle cx="22" cy="-11" r="14" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="1.8"/>
@@ -43,9 +61,9 @@
 <ellipse cx="29" cy="-31" rx="5.5" ry="17" fill="#F8FAFC" stroke="#C4B5FD" stroke-width="1.8" transform="rotate(8 29 -31)"/>
 <circle cx="27" cy="-12" r="2.2" fill="#111827"/><circle cx="36" cy="-6" r="2.3" fill="#F472B6"/><circle cx="-22" cy="1" r="6.5" fill="#F8FAFC"/>
 <g stroke="#F8FAFC" stroke-width="5.5" stroke-linecap="round">
-<path d="M-15 11L-24 24"><animateTransform attributeName="transform" type="rotate" values="12 -15 11;-12 -15 11;12 -15 11" dur=".55s" repeatCount="indefinite"/></path>
-<path d="M-1 15L-5 28"><animateTransform attributeName="transform" type="rotate" values="-12 -1 15;12 -1 15;-12 -1 15" dur=".55s" repeatCount="indefinite"/></path>
-<path d="M12 13L21 25"><animateTransform attributeName="transform" type="rotate" values="12 12 13;-12 12 13;12 12 13" dur=".55s" repeatCount="indefinite"/></path>
+<path class="paw-left" d="M-15 11L-24 24"/>
+<path class="paw-mid" d="M-1 15L-5 28"/>
+<path class="paw-right" d="M12 13L21 25"/>
 </g>
 </g></g></g>
 <text x="60" y="232" fill="#71717A" font-family="Arial,sans-serif" font-size="10">LESS HOPPING • MORE EXPLORING</text>
