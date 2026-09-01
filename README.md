@@ -26,9 +26,9 @@
 
 ## Contribution Garden
 <div align="center">
-<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-garden-rabbit.gif?v=7" alt="Animated vivid pink contribution garden with a rabbit travelling between contribution days" width="100%">
+<img src="https://raw.githubusercontent.com/alebaqinduni/alebaqinduni/output/contribution-garden-rabbit.gif?v=8" alt="Animated vivid contribution garden with a cute bunny travelling between contribution days" width="100%">
 <br>
-<sub>the rabbit hops quietly from one active contribution day to the next</sub>
+<sub>a little bunny hopping from one active contribution day to the next</sub>
 </div>
 
 ## What I Am Building
@@ -75,7 +75,7 @@ A currency conversion project focused on exchange-rate utilities and a practical
 ### Frontend
 [![React](https://img.shields.io/badge/React-0891B2?style=flat-square&logo=react&logoColor=white)](https://react.dev/)
 [![HTML5](https://img.shields.io/badge/HTML5-2563EB?style=flat-square&logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
-[![CSS3](https://img.shields.io/badge/CSS3-4F46E4?style=flat-square&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
+[![CSS3](https://img.shields.io/badge/CSS3-4F46E4?style=flat-square&logo=css&logoColor=white)](https://www.w3.org/Style/CSS/)
 [![Tailwind](https://img.shields.io/badge/Tailwind-0891B2?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
 ### Backend & Data
