@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="125" viewBox="0 0 1000 125">
+<defs>
+ <linearGradient id="grad" x1="0" x2="1"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#10B981"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1000" height="125" rx="18" fill="#0A101F" stroke="#273449"/>
+<text x="30" y="38" fill="#E0E7FF" font-family="Arial,sans-serif" font-size="18" font-weight="700">DEVELOPER MOMENTUM</text>
+<text x="30" y="60" fill="#94A3B8" font-family="Arial,sans-serif" font-size="12">A live snapshot generated from GitHub contribution data</text><text x="30" y="102" fill="#A78BFA" font-family="Arial,sans-serif" font-size="25" font-weight="700">🔥 0 day streak</text><text x="300" y="101" fill="#E0E7FF" font-family="Arial,sans-serif" font-size="13">211 commits • 7 PRs • 2 issues in the past year</text></svg>
